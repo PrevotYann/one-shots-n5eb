@@ -29,18 +29,19 @@ Pour une installation manuelle :
 
 1. Téléchargez `n5eb-feux-follets.zip` depuis les [releases GitHub](https://github.com/PrevotYann/one-shots-n5eb/releases) et extrayez son contenu dans `Data/modules/n5eb-feux-follets/`, ou copiez le dossier du même nom depuis le dépôt.
 2. Lancez un monde utilisant le système **N5eB** et activez le module.
-3. Au premier chargement, une fenêtre propose d'**importer le scénario**. Vous pouvez aussi le (ré)importer plus tard via *Paramètres → Configurer les paramètres → Les Feux Follets de Kawabe → Importer / réimporter le scénario*.
+3. Au premier chargement, une fenêtre propose d'**ouvrir l'aventure**, puis cliquez sur **Importer l'aventure**. Vous pouvez aussi l'ouvrir plus tard depuis l'onglet *Compendiums → Les Feux Follets de Kawabe (Aventure)*, ou via *Paramètres → Configurer les paramètres → Les Feux Follets de Kawabe → Importer / réimporter le scénario*.
 4. Ouvrez le journal **00 · Lisez-moi (MJ)**.
 
 Après l'import, donnez à chaque joueur la propriété de son prétiré (clic droit sur l'acteur → *Configurer les droits*).
 
 ## Fonctionnement de l'import
 
-- Les **classes, clans, historiques, techniques, armes et dons** des prétirés sont copiés depuis les compendiums du système `n5eb` au moment de l'import. Les fiches restent donc compatibles avec la version du système installée.
+- Le scénario utilise l'importeur d'aventure standard de Foundry : vous pouvez choisir les types de documents à importer, et réimporter met à jour les documents existants.
+- Juste après l'import, les **classes, clans, historiques, techniques, armes et dons** des prétirés sont copiés depuis les compendiums du système `n5eb`. Les fiches restent donc compatibles avec la version du système installée.
 - Les avancements de niveau 1 sont appliqués automatiquement : maîtrises (sauvegardes, compétences, armes, armures, outils), capacités accordées par la classe, le clan et l'historique, points de vie et de chakra.
 - Les noms sont affichés en français suivi du nom anglais, par exemple « Katon : Boule de feu (Fire Release Fireball) ». Chaque description commence par un résumé « En bref » en français.
-- Tous les documents créés portent un drapeau du module. Réimporter **supprime puis recrée** ces documents.
-- Depuis la console : `game.modules.get("n5eb-feux-follets").api.importAdventure({ replace: true })`.
+- Réimporter remplace les copies faites lors de l'import précédent ; les modifications faites sur les fiches importées sont perdues.
+- Depuis la console : `game.modules.get("n5eb-feux-follets").api.openAdventure()` ouvre l'aventure, et `api.completeActors()` recopie les techniques des prétirés déjà importés.
 
 ## Illustrations finales
 

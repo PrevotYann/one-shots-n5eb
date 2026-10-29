@@ -33,13 +33,16 @@ def main():
     # packaged files, then run the complete final-art contract checks.
     subprocess.run([sys.executable, str(ROOT / "tools/build.py")], cwd=ROOT, check=True)
     subprocess.run([sys.executable, str(ROOT / "tools/validate_art.py")], cwd=ROOT, check=True)
+    subprocess.run(["node", str(ROOT / "tools/build_packs.mjs")], cwd=ROOT, check=True)
     adventure = json.loads((MODULE / "data/adventure.json").read_text(encoding="utf-8"))
     if adventure["version"] != version:
         raise ValueError("Module and adventure versions differ")
     out = ROOT / "output" / tag
     out.mkdir(parents=True, exist_ok=True)
     archive_path = out / archive_name
-    files = sorted(file for file in MODULE.rglob("*") if file.is_file())
+    # data/adventure.json only feeds the Adventure compendium build; it is not read at runtime.
+    files = sorted(file for file in MODULE.rglob("*")
+                   if file.is_file() and file.relative_to(MODULE).parts[0] != "data")
     with zipfile.ZipFile(archive_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         for file in files:
             relative = file.relative_to(MODULE)
@@ -55,7 +58,7 @@ def main():
         if archive.testzip() is not None:
             raise ValueError("Corrupt release ZIP")
         expected = {file.relative_to(MODULE).as_posix() for file in files}
-        if set(archive.namelist()) != expected or "module.json" not in expected:
+        if set(archive.namelist()) != expected or "module.json" not in expected                 or not any(name.startswith("packs/aventure/") for name in expected):
             raise ValueError("Incorrect ZIP layout")
         if archive.read("module.json") != (out / "module.json").read_bytes():
             raise ValueError("Attached manifest differs from packaged manifest")

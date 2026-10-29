@@ -757,7 +757,7 @@ def main():
             a.pop("_build", None)
         actors.append(a)
     data = {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "welcome": journal_id("lisezmoi"),
         "translations": translations(),
         "folders": FOLDERS,

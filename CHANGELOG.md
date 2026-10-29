@@ -1,3 +1,8 @@
+# v1.0.1 — Import via le compendium d'aventure
+
+- Import via l'importeur d'aventure standard de Foundry (compendium « Les Feux Follets de Kawabe (Aventure) »).
+- Correction : l'import échouait avec N5eB 3.x (`buildActor`), dont les avancements de classe sont un objet et non un tableau.
+
 # v1.0.0 — Les Feux Follets de Kawabe
 
 Première publication du module Foundry VTT en français pour N5eB (Naruto 5e).
