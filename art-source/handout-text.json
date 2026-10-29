@@ -1,0 +1,243 @@
+{
+  "ordre-mission": [
+    {
+      "text": "Ordre de mission — Rang D",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "Village Caché de la Feuille — Bureau des missions",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Client : la cheffe Oume, village de Kawabe",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "(au bord du lac Kagami, à un jour et demi à l'est).",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Demande :",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "« Un fantôme hante notre lac chaque nuit. Il fait",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "fuir nos familles. Envoyez-nous des ninjas pour",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "le chasser et rassurer le village. »",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Équipe : Inaba Shûhei (chûnin, chef)",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "Akimichi Bunta · Hibana Kaito · Nara Shizuka",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Fûma Tsumugi · Sakuraba Momo",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Paiement : 15 000 ryôs.",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "Départ immédiat. Bonne chance !",
+      "weight": "normal",
+      "style": "italic"
+    },
+    {
+      "text": "火",
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "legende-kagami": [
+    {
+      "text": "La légende du seigneur Kagami",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "Il y a deux cents ans, quand la guerre approchait,",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "le bon seigneur Kagami rassembla l'or du village",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "et le cacha sur l'île au milieu du lac.",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Sur son sanctuaire, il posa une lanterne de pierre",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "et demanda aux lucioles de veiller sur l'île.",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "« Tant que la lanterne brillera, les lucioles",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "danseront. Et quand Kawabe sera dans le malheur,",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "l'or qui dort sous la lanterne l'aidera. »",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Depuis bien des années, plus personne n'allume",
+      "weight": "normal",
+      "style": "italic"
+    },
+    {
+      "text": "la lanterne… et les lucioles ont disparu.",
+      "weight": "normal",
+      "style": "italic"
+    },
+    {
+      "text": "鏡",
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "registre-kaneda": [
+    {
+      "text": "Registre de Kaneda — dépenses",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "Mois du Héron",
+      "weight": "bold",
+      "style": "normal"
+    },
+    {
+      "text": "3e jour — Pelles (6), cordes (4) .......... 1 200 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "5e jour — U., 1er versement (brouillard) ... 20 000 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "9e jour — Terres de la famille Hoshi ...... 8 000 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "11e jour — U., 2e versement (brouillard) .. 20 000 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "12e jour — Terres des familles Mori, Ida .. 15 000 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "14e jour — Brigands de G. (la Gorge) ...... 1 500 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "15e jour — Terres des familles Sato, Ueno 12 000 ryôs",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Dans la marge, d'une écriture pressée :",
+      "weight": "normal",
+      "style": "italic"
+    },
+    {
+      "text": "« U. dit qu'il faut encore trois nuits.",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "Le coffre est sous la lanterne. Ne rien dire",
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "text": "à Mosuke. » — et un dessin de l'île.",
+      "weight": "normal",
+      "style": "normal"
+    }
+  ]
+}

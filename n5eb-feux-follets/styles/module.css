@@ -1,0 +1,60 @@
+/* Les Feux Follets de Kawabe : mise en forme des journaux */
+
+.ffk-subtitle {
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: -0.4em;
+}
+
+.ffk-box {
+  border-left: 5px solid #8a6a3a;
+  border-radius: 6px;
+  padding: 0.4em 0.9em;
+  margin: 0.8em 0;
+  background: rgba(138, 106, 58, 0.10);
+}
+.ffk-box-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  margin: 0.3em 0;
+}
+.ffk-read   { border-color: #3a6ea5; background: rgba(58, 110, 165, 0.12); font-style: italic; }
+.ffk-read .ffk-box-title { font-style: normal; color: #3a6ea5; }
+.ffk-tip    { border-color: #2d6a4f; background: rgba(45, 106, 79, 0.12); }
+.ffk-tip .ffk-box-title { color: #2d6a4f; }
+.ffk-clue   { border-color: #b8962e; background: rgba(184, 150, 46, 0.14); }
+.ffk-clue .ffk-box-title { color: #8a6a10; }
+.ffk-fight  { border-color: #b4231e; background: rgba(180, 35, 30, 0.10); }
+.ffk-fight .ffk-box-title { color: #b4231e; }
+.ffk-rule   { border-color: #5a4a8a; background: rgba(90, 74, 138, 0.12); }
+.ffk-rule .ffk-box-title { color: #5a4a8a; }
+.ffk-secret { border-color: #333333; background: rgba(0, 0, 0, 0.08); }
+
+.ffk-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6em 0;
+}
+.ffk-table th,
+.ffk-table td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.25em 0.5em;
+  vertical-align: top;
+  text-align: left;
+}
+.ffk-table thead th {
+  background: rgba(138, 106, 58, 0.25);
+}
+
+.ffk-summary {
+  border: 1px dashed #8a6a3a;
+  border-radius: 6px;
+  padding: 0.2em 0.7em;
+  background: rgba(184, 150, 46, 0.12);
+}
+
+.ffk-warning {
+  color: #b4231e;
+}

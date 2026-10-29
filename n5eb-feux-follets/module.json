@@ -1,0 +1,41 @@
+{
+  "id": "n5eb-feux-follets",
+  "title": "N5eB One-Shot : Les Feux Follets de Kawabe",
+  "description": "Scénario one-shot pour le système N5eB (Naruto 5e) : une mission de rang C pour 5 genin débutants. Contient 5 prétirés, PNJ, cartes, journaux MJ et joueurs, aides de jeu et objets. Un bouton d'import installe tout dans votre monde.",
+  "version": "1.0.0",
+  "url": "https://github.com/PrevotYann/one-shots-n5eb",
+  "manifest": "https://github.com/PrevotYann/one-shots-n5eb/releases/latest/download/module.json",
+  "download": "https://github.com/PrevotYann/one-shots-n5eb/releases/download/v1.0.0/n5eb-feux-follets.zip",
+  "authors": [
+    {
+      "name": "shinobi4719"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "n5eb",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [],
+  "flags": {
+    "n5eb-feux-follets": {
+      "dataVersion": 1
+    }
+  }
+}

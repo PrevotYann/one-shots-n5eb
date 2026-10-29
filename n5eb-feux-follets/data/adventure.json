@@ -1,0 +1,4491 @@
+{
+ "version": "1.0.0",
+ "welcome": "50RuS0XPjlJAIYDW",
+ "translations": {
+  "Ipg5bKh1zS3Yfn2I": {
+   "name": "Spécialiste du taijutsu",
+   "summary": "Le maître du combat à mains nues : beaucoup de PV, des coups puissants et des taijutsu à coût fixe."
+  },
+  "n5ebNinSpec00001": {
+   "name": "Spécialiste du ninjutsu",
+   "summary": "Le spécialiste des techniques de chakra : beaucoup de chakra, peu de PV."
+  },
+  "6TxLk91QYckjBOY8": {
+   "name": "Ninja éclaireur",
+   "summary": "Le ninja polyvalent : exploration, pistage, armes et quelques techniques."
+  },
+  "jBWRb3PE7vc3fiH5": {
+   "name": "Spécialiste des armes",
+   "summary": "Le maître des armes ninja : précision, techniques d'armes (bukijutsu)."
+  },
+  "55ZGaTkWJHT0mQmp": {
+   "name": "Ninja médecin",
+   "summary": "Le soigneur de l'équipe : techniques médicales, trousse de médecine, soins pendant les repos."
+  },
+  "V9y2Nb2LH8qpEVyB": {
+   "name": "Clan Akimichi",
+   "summary": "Clan noble de Konoha qui transforme les calories en chakra et peut faire grossir son corps."
+  },
+  "oO0kK6HZshBbz7YP": {
+   "name": "Clan Nara",
+   "summary": "Clan de stratèges de Konoha qui manipule les ombres."
+  },
+  "2QbtB7Qvz6uOOZVW": {
+   "name": "Clan Fûma",
+   "summary": "Clan voyageur du Pays du Feu, maître des armes de lancer et du fûma-shuriken."
+  },
+  "YWIfpZ862Gc9GfSA": {
+   "name": "Sans clan",
+   "summary": "Pas de technique héréditaire, mais un potentiel sans limite et beaucoup de travail."
+  },
+  "n5ebHardWork0001": {
+   "name": "Travailleur acharné",
+   "summary": "Tu t'es entraîné plus que tout le monde."
+  },
+  "JfooXW5qno1hSYX0": {
+   "name": "Fauteur de troubles",
+   "summary": "Les bêtises, c'est ta spécialité."
+  },
+  "n5ebGenius000001": {
+   "name": "Génie",
+   "summary": "Tu apprends tout plus vite que les autres."
+  },
+  "C0QdlDm3fhlaRFOV": {
+   "name": "Voyageuse",
+   "summary": "Tu as parcouru le pays avant de t'installer à Konoha."
+  },
+  "n5ebStudent00001": {
+   "name": "Élève",
+   "summary": "Tu as été formée par un maître dont le nom ouvre des portes."
+  },
+  "ITK8bVvZelagkGvm": {
+   "name": "Défense martiale",
+   "summary": "Sans armure, ta CA = 10 + bonus de maîtrise + modificateur de Dextérité."
+  },
+  "Nz7RMFTPquBcxxSX": {
+   "name": "Technique à mains nues",
+   "summary": "Avec tes poings ou des armes de taijutsu (brassards, griffes…), tu peux utiliser la Force ou la Dextérité, et tes coups font au moins 1d6."
+  },
+  "S1TglFLRvVSLZHNL": {
+   "name": "Technique martiale",
+   "summary": "Tes taijutsu ont un coût fixe : rang D = 3 chakra, rang C = 5 chakra (sans autre réduction possible)."
+  },
+  "n5ebChakraRec001": {
+   "name": "Récupération de chakra",
+   "summary": "Une fois par repos court, divise par deux le coût d'un ninjutsu que tu lances."
+  },
+  "n5ebRefinedNin01": {
+   "name": "Ninjutsu raffiné",
+   "summary": "Choisis 2 ninjutsu connus (conseil : Boule de feu et Trait de flamme). Quand tu les lances : +1 dé de dégâts OU +1 au DD de sauvegarde."
+  },
+  "n5ebJutsuCast001": {
+   "name": "Lancer de jutsu",
+   "summary": "DD et attaque des jutsu : ninjutsu = Intelligence, genjutsu = Sagesse, taijutsu = Force (8 + maîtrise + modificateur)."
+  },
+  "Soj9dv9tqNAqOEJa": {
+   "name": "Posture de combat",
+   "summary": "Tu choisis une posture de combat (déjà ajoutée à ta fiche : Posture de lancer)."
+  },
+  "Lu39Nfrk9EucVw0H": {
+   "name": "Explorateur habile",
+   "summary": "Tu es à l'aise partout. Au niveau 1, tu gagnes « Avisé »."
+  },
+  "7K90kY2uxXjw0baT": {
+   "name": "Avisé",
+   "summary": "Tu gagnes la maîtrise d'une compétence (Survie)."
+  },
+  "K0bKAkvwDWznmQcf": {
+   "name": "Arme de prédilection",
+   "summary": "Ton arme fétiche (le fûma-shuriken) gagne +1 à l'attaque et aux dégâts, y compris pour tes bukijutsu."
+  },
+  "ujnh7kWBDywvfMWl": {
+   "name": "Ninjutsu médical",
+   "summary": "Tu peux apprendre les techniques médicales et utiliser la Sagesse pour elles. Tes tests de Médecine peuvent utiliser l'Intelligence ou la Sagesse."
+  },
+  "7Z1YQpJRuycomV2w": {
+   "name": "Repos régénérant",
+   "summary": "Quand toi ou un allié que tu peux toucher regagnez des PV à la fin d'un repos, ajoutez 1d6 PV."
+  },
+  "WFtHgPA6CAdIV8W0": {
+   "name": "Calories",
+   "summary": "Tu as des Calories (niveau + modificateur de Constitution = 4). Tu peux les dépenser pour activer des techniques et capacités de ton clan. Tu en récupères pendant les repos."
+  },
+  "DV3Bhzvj8VS0H37O": {
+   "name": "Techniques du clan Akimichi",
+   "summary": "Tu as accès aux techniques secrètes du clan Akimichi."
+  },
+  "D26xtOUO4g9qbaWw": {
+   "name": "Pause déjeuner",
+   "summary": "Pendant un repos court, tu regagnes des PV en plus : deux fois tes Calories restantes."
+  },
+  "85tRdNGxWhIe2dGp": {
+   "name": "Coordination",
+   "summary": "Quand tu lances l'initiative, utilise ta réaction pour coordonner tes alliés : ils gagnent l'état Coordonné jusqu'à la fin du combat. 2 fois par repos long."
+  },
+  "lqbvjUEk5ktcuOkx": {
+   "name": "Technique préparée",
+   "summary": "Tu connais une technique Nara de rang D en plus (Possession de l'ombre), gratuitement."
+  },
+  "8sqcPPmPlxJ122FM": {
+   "name": "Techniques des ombres",
+   "summary": "Tu as accès aux techniques secrètes du clan Nara."
+  },
+  "vMR5vcJeBP0NTVxY": {
+   "name": "Maison des dagues volantes",
+   "summary": "Tu as accès aux techniques secrètes du clan Fûma."
+  },
+  "WP0zEQzpdnxK9uL8": {
+   "name": "Outils spécialisés",
+   "summary": "Tu peux attacher des parchemins explosifs à n'importe quelle arme de lancer, pas seulement aux kunai."
+  },
+  "uMVSdxivIZJlmAEA": {
+   "name": "Précision immaculée",
+   "summary": "Pour tes attaques d'armes à distance et tes bukijutsu à distance, tu utilises la Dextérité au lieu de la Force."
+  },
+  "rn1jqlhChIc4yGLV": {
+   "name": "Culture générale",
+   "summary": "Les scores minimum pour apprendre les techniques sont réduits de 2 pour toi."
+  },
+  "Fnxo89RdbJoWu6HX": {
+   "name": "Héritage ordinaire",
+   "summary": "Tu ne peux pas prendre de dons de clan."
+  },
+  "9GmvKDPSCV6AhlWt": {
+   "name": "Autodidacte",
+   "summary": "Tu gagnes la maîtrise d'une compétence au choix (déjà appliquée)."
+  },
+  "HbufUByLUsGAYYu3": {
+   "name": "Concentration inébranlable",
+   "summary": "Tu gagnes un don au choix (déjà ajouté à ta fiche)."
+  },
+  "vBFiBGjqhfiusygI": {
+   "name": "Bosseur",
+   "summary": "Tu gagnes plus d'argent de ton historique et ses deux bonus."
+  },
+  "kgBQltygakR8Z1sT": {
+   "name": "Concentration et ténacité",
+   "summary": "Tu sympathises vite avec les gens aussi travailleurs que toi et tu connais plein de livres d'entraînement."
+  },
+  "Zuxrk9eVPuDUV7uD": {
+   "name": "Pitoyable",
+   "summary": "Les gens te pardonnent tes maladresses… par pitié."
+  },
+  "120D3JmCjUL6lRIZ": {
+   "name": "À la hauteur",
+   "summary": "Après une première tentative face à un défi (réussie ou ratée), le MJ te donne un indice sur la manière de le surmonter."
+  },
+  "GpzJzxYe9vZAEHac": {
+   "name": "L'étrangère",
+   "summary": "Ton accent et tes manières intriguent : les curieux veulent entendre tes histoires, ce qui t'ouvre des portes."
+  },
+  "Rl80ezLojwOsoWCj": {
+   "name": "Le nom du maître",
+   "summary": "Le nom de ton maître (l'hôpital de Konoha) t'ouvre des portes auprès des ninjas et des temples."
+  },
+  "IAEgy6JAlOt7zaIo": {
+   "name": "Posture du poing de fer",
+   "summary": "Tes coups à mains nues font 1d6, et 1d8 avec des brassards de combat si tu utilises la Force. Dégâts doublés contre les objets et structures."
+  },
+  "W1TUDekIuPnH3ytk": {
+   "name": "Posture de lancer",
+   "summary": "Tes armes de lancer reviennent dans ta main, et tu tires à longue portée sans désavantage. Après un tir réussi, avantage au corps à corps contre la même cible."
+  },
+  "sRoQ7vCFNbEleJDX": {
+   "name": "Vigilant",
+   "summary": "+5 à l'initiative, tu ne peux pas être surpris, et tu sens les signes des mains lancés à moins de 18 m."
+  },
+  "Yeh4JFD3KNNC57po": {
+   "name": "Coup de main",
+   "summary": "Tu peux utiliser l'action Aider en action bonus, de plus loin, et aider deux alliés à la fois."
+  },
+  "q2WQkOpq8aKFxlko": {
+   "name": "Expansion partielle",
+   "summary": "Ton bras grossit : tes coups à mains nues portent à 2 cases (3 m) et font 1d8. Payable en Calories."
+  },
+  "8eUQXRxm0FUtrfQS": {
+   "name": "Boulet humain",
+   "summary": "Tu roules en boule sur 6 cases en ligne droite : 2d12 + Force à la cible, et 4d6 (sauvegarde de Dextérité pour moitié) aux créatures sur ton chemin."
+  },
+  "l0QX3psUUpyGVwi5": {
+   "name": "Poing de fer",
+   "summary": "Attaque de taijutsu : dégâts à mains nues + 2d6, et la cible est projetée en arrière si elle rate une sauvegarde de Force."
+  },
+  "chWVfsHZGnobmVkF": {
+   "name": "Tourbillon de la feuille",
+   "summary": "Balayage : sauvegarde de Dextérité ou la cible tombe à terre."
+  },
+  "n5ebCloneTech001": {
+   "name": "Technique du clonage",
+   "summary": "Deux copies de toi apparaissent. En réaction, l'attaquant retire 1d6 à son jet (un clone disparaît)."
+  },
+  "n5ebTransform001": {
+   "name": "Technique de transformation",
+   "summary": "Tu prends une autre apparence. +4 (ou +2 sans changement de voix) pour tromper quelqu'un."
+  },
+  "LCYW9NuTbdNEwNPQ": {
+   "name": "Katon : Boule de feu",
+   "summary": "Boule de feu de 4,5 m de rayon à 18 m : 4d6+4 de feu, sauvegarde de Dextérité pour moitié."
+  },
+  "4nltiAgOOWDNDrxj": {
+   "name": "Katon : Trait de flamme",
+   "summary": "Attaque de ninjutsu à distance : 3d10+3 de feu."
+  },
+  "K3rH0D6QyGgjQVvZ": {
+   "name": "Projectile de chakra",
+   "summary": "Attaque de ninjutsu à distance : 3d6 de force (ou de feu pour un utilisateur de Katon)."
+  },
+  "n5ebJutsuSubst01": {
+   "name": "Technique de substitution",
+   "summary": "Réaction quand tu vas subir des dégâts : +3 CA jusqu'à ton prochain tour ; si l'attaque rate, tu te déplaces de la moitié de ta vitesse."
+  },
+  "kxjJzHLePuiaDd6e": {
+   "name": "Possession de l'ombre",
+   "summary": "Sauvegarde de Dextérité ou la cible est entravée et imite tes mouvements. Elle peut se libérer avec une sauvegarde de Force à son tour. Portée réduite dans la pénombre, impossible dans le noir."
+  },
+  "tiapKIdzyFd6Iew7": {
+   "name": "Silhouette d'ombre",
+   "summary": "Ton ombre se dresse et prend ta forme pour faire diversion, même quand tu es caché."
+  },
+  "Odgir3CfeTCO2Ygp": {
+   "name": "Libération (Kai)",
+   "summary": "Brise un genjutsu sur toi ou une cible : test d'Illusions avec avantage contre le DD du genjutsu."
+  },
+  "rJGBb5PfcuUcvhWf": {
+   "name": "Détection du chakra",
+   "summary": "Pendant la durée, action bonus : test de Perception pour sentir le chakra des créatures à moins de 9 m."
+  },
+  "YKL7T1VtNVrJI7WB": {
+   "name": "Pluie céleste",
+   "summary": "Tes armes retombent en pluie sur une zone : dégâts de l'arme + 1d10 et Saignement, sauvegarde de Constitution pour moitié."
+  },
+  "KrbXs6WAaGbjjq2L": {
+   "name": "Fente céleste",
+   "summary": "Une ligne d'armes transperce tout : dégâts de l'arme + 2d8, sauvegarde de Dextérité pour moitié."
+  },
+  "IBwhzXtrBqVXsNv6": {
+   "name": "Tir double",
+   "summary": "Ta prochaine attaque à distance ce tour-ci est doublée : une seconde attaque sur une autre cible."
+  },
+  "WonJOQgBwx9lGWIC": {
+   "name": "Piège à fil",
+   "summary": "Piège dans une zone de 4,5 m : la créature qui entre fait une sauvegarde de Dextérité ou est entravée (sauvegarde de Force à chaque tour pour se libérer)."
+  },
+  "PPoAeuRgMFcZ5tFE": {
+   "name": "Iryô : Soin habile",
+   "summary": "Action : 3d8 PV à une créature touchée. Action bonus : 8 PV à tous les alliés choisis à moins de 4,5 m. Tour complet : 3d8+5 PV à tous à moins de 9 m."
+  },
+  "xu4zHFDk38yJIy3L": {
+   "name": "Iryô : Vitalité",
+   "summary": "Une créature touchée gagne 1d4 + ton modificateur en PV temporaires jusqu'à la fin de son prochain tour."
+  },
+  "OGpiNPXJvzamIOZA": {
+   "name": "Iryô : Élixir de soin",
+   "summary": "Crée une fiole : boire (une action) rend 3d4+3 PV et soigne le poison ou 2 rangs de Saignement."
+  },
+  "32N0GDKp7H9HjA2N": {
+   "name": "Suiton : Brume cachée",
+   "summary": "Un brouillard épais : on ne voit pas à plus de 1,5 m, désavantage pour attaquer. Le lanceur voit toujours la créature « marquée »."
+  },
+  "kWnb8fhy4e6N3tSh": {
+   "name": "Suiton : Shuriken d'eau",
+   "summary": "Attaque de ninjutsu à distance : 4d4 de froid. Près d'un lac : une seconde attaque sur une autre cible."
+  },
+  "tC0Im49BgM14w91E": {
+   "name": "Suiton : Fouet d'eau",
+   "summary": "Attaque de ninjutsu au corps à corps : 2d6 de froid, la cible est tirée de 3 m vers le lanceur."
+  },
+  "RbcM59vdQ9ZgYBKV": {
+   "name": "Kunai",
+   "summary": "Couteau ninja : corps à corps ou lancer (9 m / 18 m), 1d4 perforants."
+  },
+  "YReiEBmBtKhLaoxF": {
+   "name": "Shuriken",
+   "summary": "Étoile de lancer ninja."
+  },
+  "AqeyHEGdWCFAqWP0": {
+   "name": "Senbon",
+   "summary": "Fines aiguilles de lancer, idéales pour viser les points vitaux."
+  },
+  "HbrlOL6HWNiuNaiU": {
+   "name": "Tantô",
+   "summary": "Petit sabre."
+  },
+  "TXvRdUiQQuxwTgyF": {
+   "name": "Fûma-shuriken",
+   "summary": "Grand shuriken pliable du clan Fûma : gros dégâts à distance."
+  },
+  "7JdFwOiRWfq35OWT": {
+   "name": "Brassards de combat",
+   "summary": "Protections d'avant-bras pour frapper plus fort à mains nues."
+  },
+  "uKuifTHmF5GNrmI3": {
+   "name": "Fil de combat",
+   "summary": "Fil d'acier ninja pour attacher, piéger ou tirer."
+  },
+  "UGGW1wNtVXUSj9vL": {
+   "name": "Kusarigama",
+   "summary": "Faucille reliée à une chaîne lestée."
+  },
+  "DSk0IwDZwsVVOMW0": {
+   "name": "Veste de combat",
+   "summary": "Le gilet protecteur des ninjas (armure intermédiaire)."
+  },
+  "PXA5xkWhB5D1y2ZL": {
+   "name": "Tissu matelassé",
+   "summary": "Vêtements renforcés (armure légère)."
+  },
+  "DiHt2oXGIiOv0VNf": {
+   "name": "Bombe fumigène",
+   "summary": "Action : lance-la à 9 m, la fumée masque complètement une zone de 7,5 m de rayon."
+  },
+  "oNAY6p1RBBrDSaBH": {
+   "name": "Parchemin éclair",
+   "summary": "Action : lance-le à 9 m, sauvegarde de Sagesse ou aveuglé jusqu'à la fin de son tour (3 m de rayon)."
+  },
+  "geBv2yJWYcICS06g": {
+   "name": "Pilule de sang",
+   "summary": "Action bonus : regagne des PV."
+  },
+  "gsidqkpuoeCo7OCj": {
+   "name": "Pilule de chakra",
+   "summary": "Action bonus : regagne du chakra."
+  },
+  "NijK86qNzaHagxIh": {
+   "name": "Trousse de médecine",
+   "summary": "Pour stabiliser un blessé et soigner sans chakra."
+  },
+  "hJoSys7R14ImfKOs": {
+   "name": "Parchemin de jutsu (rang D)"
+  },
+  "pkQ0PqJ3pPmphWBU": {
+   "name": "Jeu de poids d'entraînement"
+  },
+  "JwGv4iXrtcoKT7Ak": {
+   "name": "Livres de stratégie d'entraînement"
+  },
+  "jC6LbSiISA80tw54": {
+   "name": "Tenue d'entraînement"
+  },
+  "n5ebWalletBasic0": {
+   "name": "Bourse"
+  },
+  "xHE6XKVR38rZZeLV": {
+   "name": "Vêtements simples"
+  },
+  "4tZVWFVUJyOMxQQU": {
+   "name": "Kit de faussaire"
+  },
+  "mY7BwUCBHWmJkcrr": {
+   "name": "Bingo Book (carnet des ninjas recherchés)"
+  },
+  "Xopd9t8Hlz7iJtW9": {
+   "name": "Parchemin vierge"
+  },
+  "2tKNVlG8vOhOham6": {
+   "name": "Carte mal dessinée"
+  },
+  "fCbwEbwS1LaS2qfq": {
+   "name": "Petit bijou"
+  },
+  "0eMzz4NG8lzaDRJl": {
+   "name": "Parchemin explosif",
+   "summary": "Un parchemin qui explose : à lancer, à poser en piège ou à attacher à une arme de lancer."
+  },
+  "uRGWwZOZgtHeKBbF": {
+   "name": "Livres d'enseignement"
+  },
+  "hT4Gdr2lbrkoQpq9": {
+   "name": "Dernière lettre du maître"
+  },
+  "bikW2HKpo0Bv77fZ": {
+   "name": "Rouleau"
+  }
+ },
+ "folders": [
+  {
+   "_id": "52CkjzWhzWxuhoSf",
+   "name": "Feux Follets de Kawabe",
+   "type": "Actor",
+   "color": "#7a2b1d",
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "Iq64aX4kYva7UAjU",
+   "name": "Prétirés",
+   "type": "Actor",
+   "color": "#2d6a4f",
+   "folder": "52CkjzWhzWxuhoSf",
+   "sort": 1,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "udKtUo8QqKy9ZeGg",
+   "name": "Alliés et villageois",
+   "type": "Actor",
+   "color": "#3a6ea5",
+   "folder": "52CkjzWhzWxuhoSf",
+   "sort": 2,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "1xWdSTm2fg38LGd0",
+   "name": "Adversaires",
+   "type": "Actor",
+   "color": "#8b1e1e",
+   "folder": "52CkjzWhzWxuhoSf",
+   "sort": 3,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "kAizrankXgnLESlS",
+   "name": "Feux Follets de Kawabe",
+   "type": "Item",
+   "color": "#7a2b1d",
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "UPvhYtChD46nlVkc",
+   "name": "Feux Follets de Kawabe",
+   "type": "JournalEntry",
+   "color": "#7a2b1d",
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "vacPJF6NBkbT6Oih",
+   "name": "Feux Follets de Kawabe",
+   "type": "Scene",
+   "color": "#7a2b1d",
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "PDzc1PAXiiOZkdQV",
+   "name": "Feux Follets de Kawabe",
+   "type": "RollTable",
+   "color": "#7a2b1d",
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "oedD537DjEKtdwCl",
+   "name": "Onigiri de Sachi",
+   "type": "consumable",
+   "img": "modules/n5eb-feux-follets/assets/items/onigiri.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Une boule de riz encore tiède, avec une prune salée au milieu. Préparée par Sachi, l'aubergiste de Kawabe.</p><p><strong>Action bonus :</strong> on mange l'onigiri et on regagne 1d4+1 PV. Pour Bunta, l'onigiri rend aussi 1 Calorie.</p>",
+     "chat": ""
+    },
+    "quantity": 5,
+    "type": {
+     "value": "food",
+     "subtype": ""
+    },
+    "uses": {
+     "max": "1",
+     "spent": 0,
+     "recovery": [],
+     "autoDestroy": true
+    },
+    "activities": {
+     "FcDMqUrjh8yUDJn7": {
+      "_id": "FcDMqUrjh8yUDJn7",
+      "type": "heal",
+      "sort": 0,
+      "name": "Manger",
+      "activation": {
+       "type": "bonus",
+       "value": 1
+      },
+      "consumption": {
+       "targets": [
+        {
+         "type": "itemUses",
+         "value": "1",
+         "target": ""
+        }
+       ]
+      },
+      "healing": {
+       "number": 1,
+       "denomination": 4,
+       "bonus": "1",
+       "types": [
+        "healing"
+       ]
+      },
+      "target": {
+       "affects": {
+        "type": "self"
+       }
+      }
+     }
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "1vydtdkS329FAIEl",
+   "name": "Talismans de luciole",
+   "type": "consumable",
+   "img": "modules/n5eb-feux-follets/assets/items/talisman.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Trois bandes de papier sacré couvertes d'écritures dorées, confiées par Ayame, la gardienne du sanctuaire.</p><p><strong>Action :</strong> on lève le talisman et on le déchire. Une lumière douce de lucioles se répand à 6 m (4 cases) autour de soi : le brouillard (Brume cachée) se dissipe dans cette zone et tous les genjutsu sur les créatures de son choix dans la zone prennent fin (Effrayé par le Fantôme, par exemple).</p><p>Un talisman peut aussi servir à <strong>rallumer la lanterne du sanctuaire</strong> de l'île des Lucioles.</p>",
+     "chat": ""
+    },
+    "quantity": 1,
+    "type": {
+     "value": "trinket",
+     "subtype": ""
+    },
+    "uses": {
+     "max": "3",
+     "spent": 0,
+     "recovery": [],
+     "autoDestroy": true
+    },
+    "activities": {
+     "PFkyyTHrukXNRpLU": {
+      "_id": "PFkyyTHrukXNRpLU",
+      "type": "utility",
+      "sort": 0,
+      "name": "Déchirer un talisman",
+      "activation": {
+       "type": "action",
+       "value": 1
+      },
+      "consumption": {
+       "targets": [
+        {
+         "type": "itemUses",
+         "value": "1",
+         "target": ""
+        }
+       ]
+      }
+     }
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "XP7ATDKru9utSRfm",
+   "name": "Senbon empoisonnés",
+   "type": "consumable",
+   "img": "modules/n5eb-feux-follets/assets/items/poison.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Trois fines aiguilles enduites d'un poison verdâtre, récupérées sur les brigands de la Gorge.</p><p><strong>Action :</strong> enduire une arme ou lancer une aiguille. La prochaine créature touchée fait une sauvegarde de Constitution DD 12 ou est <strong>Empoisonnée</strong> pendant 1 heure.</p>",
+     "chat": ""
+    },
+    "quantity": 3,
+    "type": {
+     "value": "poison",
+     "subtype": ""
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "BOPWLOtsfV0ugNrI",
+   "name": "Morceau de bandeau rayé",
+   "type": "loot",
+   "img": "modules/n5eb-feux-follets/assets/items/bandeau.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Un morceau de bandeau frontal bleu foncé avec une plaque de métal. Le symbole (trois vagues) est celui de <strong>Kiri</strong>, le Village Caché de la Brume, rayé d'un grand trait : la marque d'un déserteur.</p><p>Aide de jeu : @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.Nd294iYdeX2jvkj4]{Bandeau rayé}</p>",
+     "chat": ""
+    },
+    "quantity": 1
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "t0p7GyET5VgMKBi8",
+   "name": "Registre de Kaneda",
+   "type": "loot",
+   "img": "modules/n5eb-feux-follets/assets/items/registre.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Un registre de comptes relié de cuir. Une page montre des paiements réguliers à un certain « U. » pour du « brouillard », et des achats de pelles et de cordes.</p><p>Aide de jeu : @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.KI3iRBP2rte3KKql]{Page du registre}</p>",
+     "chat": ""
+    },
+    "quantity": 1
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "k1U6gC76wDnOdKsn",
+   "name": "Plan de l'île",
+   "type": "loot",
+   "img": "modules/n5eb-feux-follets/assets/items/carte_ile.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Un plan grossier de l'île des Lucioles, avec une croix rouge près du vieux sanctuaire.</p><p>Aide de jeu : @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.9G95o4yf0nHViUP1]{Plan de l'île}</p>",
+     "chat": ""
+    },
+    "quantity": 1
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "RlZa4oxlWt8ZulCZ",
+   "name": "Trésor du seigneur Kagami",
+   "type": "loot",
+   "img": "modules/n5eb-feux-follets/assets/items/tresor.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Un coffre rempli de vieilles pièces d'or (l'équivalent de 50 000 ryôs) et un rouleau scellé : « Ce trésor appartient à Kawabe. Qu'il serve à reconstruire quand le malheur viendra. »</p><p>Il doit être rendu à la cheffe Oume.</p>",
+     "chat": ""
+    },
+    "quantity": 1,
+    "price": {
+     "value": 50000,
+     "denomination": "ryo"
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  },
+  {
+   "_id": "8MtSWjpK51y8kBTC",
+   "name": "Insigne de Kawabe",
+   "type": "loot",
+   "img": "modules/n5eb-feux-follets/assets/items/insigne.svg",
+   "folder": "kAizrankXgnLESlS",
+   "system": {
+    "description": {
+     "value": "<p>Une petite luciole de bois sculpté, offerte par les habitants de Kawabe aux genin qui ont sauvé leur village.</p><p>Tant que vous la portez, les habitants de Kawabe vous accueilleront toujours comme des héros.</p>",
+     "chat": ""
+    },
+    "quantity": 1
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   }
+  }
+ ],
+ "actors": [
+  {
+   "_id": "CUsHqPuaEwiFRxPb",
+   "name": "Akimichi Bunta",
+   "type": "character",
+   "img": "modules/n5eb-feux-follets/assets/tokens/bunta.webp",
+   "folder": "Iq64aX4kYva7UAjU",
+   "ownership": {
+    "default": 2
+   },
+   "prototypeToken": {
+    "name": "Bunta",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/bunta.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 16
+     },
+     "dex": {
+      "value": 13
+     },
+     "con": {
+      "value": 16
+     },
+     "int": {
+      "value": 8
+     },
+     "wis": {
+      "value": 12
+     },
+     "cha": {
+      "value": 10
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 15
+     },
+     "chakra": {
+      "value": 9
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     },
+     "ac": {
+      "calc": "custom",
+      "formula": "10 + @prof + @abilities.dex.mod"
+     }
+    },
+    "details": {
+     "biography": {
+      "value": "<p>13 ans. Le plus grand et le plus large de sa promotion. Sa grand-mère tient un petit restaurant à Konoha ; il rêve de devenir le premier ninja-cuisinier célèbre du pays.</p><p>Calme, lent à parler, jamais lent à agir quand un ami est en danger. Il partage toujours sa nourriture.</p><p><em>« Ventre plein, cœur vaillant ! »</em></p><p>Fiche de présentation : @UUID[JournalEntry.OqZzgPs6NYfYyfoB.JournalEntryPage.4FWzWgPy77HARbEq]{Akimichi Bunta}</p>",
+      "public": "<p>13 ans. Le plus grand et le plus large de sa promotion. Sa grand-mère tient un petit restaurant à Konoha ; il rêve de devenir le premier ninja-cuisinier célèbre du pays.</p><p>Calme, lent à parler, jamais lent à agir quand un ami est en danger. Il partage toujours sa nourriture.</p><p><em>« Ventre plein, cœur vaillant ! »</em></p>"
+     },
+     "age": "13 ans",
+     "gender": "Garçon",
+     "hair": "Châtains, en épis",
+     "eyes": "Marron",
+     "height": "1,70 m",
+     "trait": "Calme et protecteur, partage toujours sa nourriture.",
+     "ideal": "Protéger les plus petits.",
+     "bond": "Sa grand-mère et ses recettes.",
+     "flaw": "Ne supporte pas qu'on gaspille la nourriture."
+    },
+    "currency": {
+     "ryo": 50
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [],
+   "_build": {
+    "level": 1,
+    "class": "Compendium.n5eb.class.Item.Ipg5bKh1zS3Yfn2I",
+    "race": "Compendium.n5eb.clan.Item.V9y2Nb2LH8qpEVyB",
+    "background": "Compendium.n5eb.backgrounds.Item.n5ebHardWork0001",
+    "choices": [
+     "skills:ccl",
+     "skills:prc",
+     "skills:ins"
+    ],
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.clan.Item.q2WQkOpq8aKFxlko"
+     },
+     {
+      "uuid": "Compendium.n5eb.clan.Item.8eUQXRxm0FUtrfQS"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.l0QX3psUUpyGVwi5"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.chWVfsHZGnobmVkF"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebCloneTech001"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebTransform001"
+     },
+     {
+      "uuid": "Compendium.n5eb.feats.Item.IAEgy6JAlOt7zaIo"
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.7JdFwOiRWfq35OWT",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 5
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.geBv2yJWYcICS06g",
+      "quantity": 1
+     }
+    ]
+   }
+  },
+  {
+   "_id": "Za9ob2Y11qth33sO",
+   "name": "Hibana Kaito",
+   "type": "character",
+   "img": "modules/n5eb-feux-follets/assets/tokens/kaito.webp",
+   "folder": "Iq64aX4kYva7UAjU",
+   "ownership": {
+    "default": 2
+   },
+   "prototypeToken": {
+    "name": "Kaito",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/kaito.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 8
+     },
+     "dex": {
+      "value": 14
+     },
+     "con": {
+      "value": 14
+     },
+     "int": {
+      "value": 17
+     },
+     "wis": {
+      "value": 10
+     },
+     "cha": {
+      "value": 12
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 8
+     },
+     "chakra": {
+      "value": 14
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "biography": {
+      "value": "<p>12 ans. Sans clan, élevé par la boulangère de son quartier. Le meilleur de sa promotion en ninjutsu, maître du feu.</p><p>Bavard, fanfaron, fonce d'abord et réfléchit après. Au fond, il a peur de ne jamais être reconnu.</p><p><em>« Une seule étincelle suffit pour allumer un grand feu. »</em></p><p>Fiche de présentation : @UUID[JournalEntry.OqZzgPs6NYfYyfoB.JournalEntryPage.tGWeUV1ON4roYerX]{Hibana Kaito}</p>",
+      "public": "<p>12 ans. Sans clan, élevé par la boulangère de son quartier. Le meilleur de sa promotion en ninjutsu, maître du feu.</p><p>Bavard, fanfaron, fonce d'abord et réfléchit après. Au fond, il a peur de ne jamais être reconnu.</p><p><em>« Une seule étincelle suffit pour allumer un grand feu. »</em></p>"
+     },
+     "age": "12 ans",
+     "gender": "Garçon",
+     "hair": "Rouges, ébouriffés",
+     "eyes": "Ambre",
+     "height": "1,48 m",
+     "trait": "Bavard et fanfaron.",
+     "ideal": "Être reconnu par tout le village.",
+     "bond": "La boulangère qui l'a élevé.",
+     "flaw": "Fonce sans réfléchir."
+    },
+    "currency": {
+     "ryo": 50
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [],
+   "_build": {
+    "level": 1,
+    "class": "Compendium.n5eb.class.Item.n5ebNinSpec00001",
+    "race": "Compendium.n5eb.clan.Item.YWIfpZ862Gc9GfSA",
+    "background": "Compendium.n5eb.backgrounds.Item.JfooXW5qno1hSYX0",
+    "choices": [
+     "skills:ccl",
+     "skills:prc",
+     "skills:ste",
+     "skills:inv",
+     "skills:acr",
+     "skills:itm",
+     "skills:ath"
+    ],
+    "equip": [
+     "PXA5xkWhB5D1y2ZL"
+    ],
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.LCYW9NuTbdNEwNPQ"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.4nltiAgOOWDNDrxj"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.K3rH0D6QyGgjQVvZ"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebJutsuSubst01"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebCloneTech001"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebTransform001"
+     },
+     {
+      "uuid": "Compendium.n5eb.feats.Item.sRoQ7vCFNbEleJDX"
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.HbrlOL6HWNiuNaiU",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 5
+     }
+    ]
+   }
+  },
+  {
+   "_id": "m3PJne40l3LGZFqO",
+   "name": "Nara Shizuka",
+   "type": "character",
+   "img": "modules/n5eb-feux-follets/assets/tokens/shizuka.webp",
+   "folder": "Iq64aX4kYva7UAjU",
+   "ownership": {
+    "default": 2
+   },
+   "prototypeToken": {
+    "name": "Shizuka",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/shizuka.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 10
+     },
+     "dex": {
+      "value": 14
+     },
+     "con": {
+      "value": 12
+     },
+     "int": {
+      "value": 17
+     },
+     "wis": {
+      "value": 13
+     },
+     "cha": {
+      "value": 9
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 9
+     },
+     "chakra": {
+      "value": 11
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "biography": {
+      "value": "<p>13 ans. Du clan Nara, célèbre pour ses stratèges et ses techniques d'ombre. Première aux examens écrits de l'Académie.</p><p>Calme, posée, un peu distante. Elle déteste se presser et les plans improvisés.</p><p><em>« Laisse-moi réfléchir trois secondes. »</em></p><p>Fiche de présentation : @UUID[JournalEntry.OqZzgPs6NYfYyfoB.JournalEntryPage.URvfXZInGdDTilhq]{Nara Shizuka}</p>",
+      "public": "<p>13 ans. Du clan Nara, célèbre pour ses stratèges et ses techniques d'ombre. Première aux examens écrits de l'Académie.</p><p>Calme, posée, un peu distante. Elle déteste se presser et les plans improvisés.</p><p><em>« Laisse-moi réfléchir trois secondes. »</em></p>"
+     },
+     "age": "13 ans",
+     "gender": "Fille",
+     "hair": "Noirs, en queue de cheval haute",
+     "eyes": "Gris",
+     "height": "1,55 m",
+     "trait": "Observe tout, parle peu.",
+     "ideal": "Un bon plan évite les blessures.",
+     "bond": "Son grand-père, qui lui a appris le shôgi.",
+     "flaw": "Paralysée quand il faut improviser."
+    },
+    "currency": {
+     "ryo": 50
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [],
+   "_build": {
+    "level": 1,
+    "class": "Compendium.n5eb.class.Item.6TxLk91QYckjBOY8",
+    "race": "Compendium.n5eb.clan.Item.oO0kK6HZshBbz7YP",
+    "background": "Compendium.n5eb.backgrounds.Item.n5ebGenius000001",
+    "choices": [
+     "skills:prc",
+     "skills:ste",
+     "skills:ccl",
+     "skills:nat",
+     "skills:ill",
+     "skills:nsh",
+     "skills:sur"
+    ],
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.clan.Item.kxjJzHLePuiaDd6e"
+     },
+     {
+      "uuid": "Compendium.n5eb.clan.Item.tiapKIdzyFd6Iew7"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.Odgir3CfeTCO2Ygp"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.rJGBb5PfcuUcvhWf"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebCloneTech001"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebTransform001"
+     },
+     {
+      "uuid": "Compendium.n5eb.feats.Item.W1TUDekIuPnH3ytk"
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.DSk0IwDZwsVVOMW0",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 5,
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.YReiEBmBtKhLaoxF",
+      "quantity": 10
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.DiHt2oXGIiOv0VNf",
+      "quantity": 1
+     }
+    ]
+   }
+  },
+  {
+   "_id": "DsHcPfzIOHkWwOpF",
+   "name": "Fûma Tsumugi",
+   "type": "character",
+   "img": "modules/n5eb-feux-follets/assets/tokens/tsumugi.webp",
+   "folder": "Iq64aX4kYva7UAjU",
+   "ownership": {
+    "default": 2
+   },
+   "prototypeToken": {
+    "name": "Tsumugi",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/tsumugi.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 14
+     },
+     "dex": {
+      "value": 17
+     },
+     "con": {
+      "value": 13
+     },
+     "int": {
+      "value": 10
+     },
+     "wis": {
+      "value": 13
+     },
+     "cha": {
+      "value": 8
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 11
+     },
+     "chakra": {
+      "value": 9
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "biography": {
+      "value": "<p>13 ans. Du clan Fûma, des ninjas voyageurs. Installée à Konoha depuis un an seulement, elle est encore « la nouvelle ».</p><p>Curieuse, souriante, raconte sans cesse des histoires de voyage. Elle collectionne les grelots et déteste rater une cible.</p><p><em>« Je ne rate jamais. Enfin… presque jamais. »</em></p><p>Fiche de présentation : @UUID[JournalEntry.OqZzgPs6NYfYyfoB.JournalEntryPage.cahB7O05GlrnZXS2]{Fûma Tsumugi}</p>",
+      "public": "<p>13 ans. Du clan Fûma, des ninjas voyageurs. Installée à Konoha depuis un an seulement, elle est encore « la nouvelle ».</p><p>Curieuse, souriante, raconte sans cesse des histoires de voyage. Elle collectionne les grelots et déteste rater une cible.</p><p><em>« Je ne rate jamais. Enfin… presque jamais. »</em></p>"
+     },
+     "age": "13 ans",
+     "gender": "Fille",
+     "hair": "Brun clair, deux tresses avec des grelots",
+     "eyes": "Verts",
+     "height": "1,52 m",
+     "trait": "Curieuse et conteuse.",
+     "ideal": "Trouver un endroit où elle se sent chez elle.",
+     "bond": "Le fûma-shuriken offert par sa mère.",
+     "flaw": "Trop fière de sa précision."
+    },
+    "currency": {
+     "ryo": 50
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [],
+   "_build": {
+    "level": 1,
+    "class": "Compendium.n5eb.class.Item.jBWRb3PE7vc3fiH5",
+    "race": "Compendium.n5eb.clan.Item.2QbtB7Qvz6uOOZVW",
+    "background": "Compendium.n5eb.backgrounds.Item.C0QdlDm3fhlaRFOV",
+    "choices": [
+     "skills:acr",
+     "skills:ste",
+     "skills:sur"
+    ],
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.clan.Item.YKL7T1VtNVrJI7WB"
+     },
+     {
+      "uuid": "Compendium.n5eb.clan.Item.KrbXs6WAaGbjjq2L"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.IBwhzXtrBqVXsNv6"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.WonJOQgBwx9lGWIC"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebCloneTech001"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebTransform001"
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.DSk0IwDZwsVVOMW0",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.TXvRdUiQQuxwTgyF",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.YReiEBmBtKhLaoxF",
+      "quantity": 10,
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 5
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.uKuifTHmF5GNrmI3"
+     }
+    ]
+   }
+  },
+  {
+   "_id": "Q72wyQUnnUzmeWBD",
+   "name": "Sakuraba Momo",
+   "type": "character",
+   "img": "modules/n5eb-feux-follets/assets/tokens/momo.webp",
+   "folder": "Iq64aX4kYva7UAjU",
+   "ownership": {
+    "default": 2
+   },
+   "prototypeToken": {
+    "name": "Momo",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/momo.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 10
+     },
+     "dex": {
+      "value": 12
+     },
+     "con": {
+      "value": 14
+     },
+     "int": {
+      "value": 13
+     },
+     "wis": {
+      "value": 17
+     },
+     "cha": {
+      "value": 10
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 10
+     },
+     "chakra": {
+      "value": 12
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "biography": {
+      "value": "<p>12 ans. Fille d'une infirmière de l'hôpital de Konoha, elle veut devenir ninja médecin. Secret : elle a peur du sang.</p><p>Douce et timide, mais têtue comme une mule quand il s'agit de soigner.</p><p><em>« Personne ne meurt pendant ma garde. »</em></p><p>Fiche de présentation : @UUID[JournalEntry.OqZzgPs6NYfYyfoB.JournalEntryPage.70HFqtEhRCv4XZD0]{Sakuraba Momo}</p>",
+      "public": "<p>12 ans. Fille d'une infirmière de l'hôpital de Konoha, elle veut devenir ninja médecin. Secret : elle a peur du sang.</p><p>Douce et timide, mais têtue comme une mule quand il s'agit de soigner.</p><p><em>« Personne ne meurt pendant ma garde. »</em></p>"
+     },
+     "age": "12 ans",
+     "gender": "Fille",
+     "hair": "Roses, coupés au carré",
+     "eyes": "Noisette",
+     "height": "1,45 m",
+     "trait": "Douce, timide, têtue.",
+     "ideal": "Sauver tout le monde.",
+     "bond": "Sa mère infirmière.",
+     "flaw": "A peur du sang (et le cache)."
+    },
+    "currency": {
+     "ryo": 50
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [],
+   "_build": {
+    "level": 1,
+    "class": "Compendium.n5eb.class.Item.55ZGaTkWJHT0mQmp",
+    "race": "Compendium.n5eb.clan.Item.YWIfpZ862Gc9GfSA",
+    "background": "Compendium.n5eb.backgrounds.Item.n5ebStudent00001",
+    "choices": [
+     "skills:ins",
+     "skills:prc",
+     "skills:per",
+     "skills:ani",
+     "skills:nat",
+     "skills:ill"
+    ],
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.PPoAeuRgMFcZ5tFE"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.xu4zHFDk38yJIy3L"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.OGpiNPXJvzamIOZA"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.Odgir3CfeTCO2Ygp"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebCloneTech001"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebTransform001"
+     },
+     {
+      "uuid": "Compendium.n5eb.feats.Item.Yeh4JFD3KNNC57po"
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.DSk0IwDZwsVVOMW0",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.AqeyHEGdWCFAqWP0",
+      "quantity": 10,
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 3
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.geBv2yJWYcICS06g",
+      "quantity": 3
+     }
+    ]
+   }
+  },
+  {
+   "_id": "lcBvktDbwojBdFRG",
+   "name": "Inaba Shûhei",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/shuhei.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Inaba Shûhei",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/shuhei.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 12
+     },
+     "dex": {
+      "value": 15
+     },
+     "con": {
+      "value": 14
+     },
+     "int": {
+      "value": 14
+     },
+     "wis": {
+      "value": 12
+     },
+     "cha": {
+      "value": 13
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 38,
+      "max": 38,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 14
+     },
+     "chakra": {
+      "value": 30,
+      "max": 30
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 3,
+     "biography": {
+      "value": "<p>Chûnin de Konoha, 24 ans, chef d'escouade de la mission. Optimiste, rate tous ses proverbes.</p><p>Empoisonné à l'acte 1, il reste à l'auberge de Kawabe et sert de « joker » au MJ (conseils, renfort d'urgence).</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "prc": {
+      "value": 1
+     },
+     "nsh": {
+      "value": 1
+     },
+     "ccl": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [
+    {
+     "_id": "NumYRHuhlhlNZ7lV",
+     "name": "Empoisonné (acte 1)",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>Depuis l'embuscade du pont, Shûhei est empoisonné : il ne peut pas combattre normalement.</p><p>Renfort d'urgence (voir « Ajuster la difficulté ») : une seule fois, il peut lancer une Boule de feu avant de s'évanouir.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    }
+   ],
+   "_build": {
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 5,
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.LCYW9NuTbdNEwNPQ"
+     }
+    ]
+   }
+  },
+  {
+   "_id": "E8tcLvlzTURNPk8N",
+   "name": "Grand-mère Oume",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/oume.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Grand-mère Oume",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/oume.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 6
+     },
+     "dex": {
+      "value": 8
+     },
+     "con": {
+      "value": 10
+     },
+     "int": {
+      "value": 14
+     },
+     "wis": {
+      "value": 16
+     },
+     "cha": {
+      "value": 14
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 6,
+      "max": 6,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 10
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Cheffe du village de Kawabe, 74 ans. Autoritaire, fume la pipe, tape sa canne par terre quand elle s'énerve.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ins": {
+      "value": 1
+     },
+     "his": {
+      "value": 1
+     },
+     "per": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "q88yT4KLyfVHEXE0",
+   "name": "Sachi",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/sachi.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Sachi",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/sachi.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 11
+     },
+     "dex": {
+      "value": 12
+     },
+     "con": {
+      "value": 12
+     },
+     "int": {
+      "value": 11
+     },
+     "wis": {
+      "value": 13
+     },
+     "cha": {
+      "value": 14
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 8,
+      "max": 8,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 10
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Aubergiste du Héron, 40 ans. Bavarde, débrouillarde, connaît tous les ragots.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ins": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "QcFSOb3YvKlQnBMc",
+   "name": "Tetsu",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/tetsu.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Tetsu",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/tetsu.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 7
+     },
+     "dex": {
+      "value": 14
+     },
+     "con": {
+      "value": 10
+     },
+     "int": {
+      "value": 10
+     },
+     "wis": {
+      "value": 12
+     },
+     "cha": {
+      "value": 12
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 4,
+      "max": 4,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 11
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 25,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>8 ans, fils de pêcheur. Seul témoin à avoir vu le fantôme sans masque. Veut devenir ninja.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ste": {
+      "value": 1
+     },
+     "prc": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "zONbwkCYk9lvkfOD",
+   "name": "Le vieux Genji",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/genji.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Le vieux Genji",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/genji.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 12
+     },
+     "dex": {
+      "value": 10
+     },
+     "con": {
+      "value": 12
+     },
+     "int": {
+      "value": 10
+     },
+     "wis": {
+      "value": 13
+     },
+     "cha": {
+      "value": 8
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 9,
+      "max": 9,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 10
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Pêcheur, 65 ans. Bourru, honnête. On lui a volé deux barques.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "sur": {
+      "value": 1
+     },
+     "nat": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "UFpXLHiy6CxfvZ7c",
+   "name": "Ayame",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/ayame.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Ayame",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/ayame.webp"
+    },
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 9
+     },
+     "dex": {
+      "value": 12
+     },
+     "con": {
+      "value": 10
+     },
+     "int": {
+      "value": 12
+     },
+     "wis": {
+      "value": 15
+     },
+     "cha": {
+      "value": 13
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 6,
+      "max": 6,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 10
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Gardienne du petit sanctuaire, 16 ans. Douce et rêveuse, connaît la légende du seigneur Kagami.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "his": {
+      "value": 1
+     },
+     "ins": {
+      "value": 1
+     },
+     "ill": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "r7DvJUj8SDV5hCno",
+   "name": "Kaneda Jûbei",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/kaneda.webp",
+   "folder": "1xWdSTm2fg38LGd0",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Kaneda Jûbei",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/kaneda.webp"
+    },
+    "actorLink": true,
+    "disposition": 0,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 9
+     },
+     "dex": {
+      "value": 10
+     },
+     "con": {
+      "value": 10
+     },
+     "int": {
+      "value": 14
+     },
+     "wis": {
+      "value": 11
+     },
+     "cha": {
+      "value": 15
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 9,
+      "max": 9,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 10
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Marchand de riz de Sakaimachi. Sourire mielleux, bagues à tous les doigts. Le commanditaire du « fantôme ». Ne combat pas.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "dec": {
+      "value": 1
+     },
+     "per": {
+      "value": 1
+     },
+     "ins": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "rpmXIc5btUQnD4y5",
+   "name": "Mosuke",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/mosuke.webp",
+   "folder": "udKtUo8QqKy9ZeGg",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Mosuke",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/mosuke.webp"
+    },
+    "actorLink": true,
+    "disposition": 0,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 8
+     },
+     "dex": {
+      "value": 11
+     },
+     "con": {
+      "value": 10
+     },
+     "int": {
+      "value": 13
+     },
+     "wis": {
+      "value": 10
+     },
+     "cha": {
+      "value": 9
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 5,
+      "max": 5,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 10
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Commis de Kaneda. Peureux, honteux, avoue tout à la première menace.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "inv": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": []
+  },
+  {
+   "_id": "7zCcQjQH7qXo9Y4l",
+   "name": "Brigand de la Gorge",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/brigand.webp",
+   "folder": "1xWdSTm2fg38LGd0",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Brigand de la Gorge",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/brigand.webp"
+    },
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 20,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 12
+     },
+     "dex": {
+      "value": 14
+     },
+     "con": {
+      "value": 12
+     },
+     "int": {
+      "value": 9
+     },
+     "wis": {
+      "value": 10
+     },
+     "cha": {
+      "value": 9
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 13,
+      "max": 13,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 12
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0.25,
+     "biography": {
+      "value": "<p>Un voyou engagé par Gonza. Lâche : s'enfuit souvent quand il est à moitié de ses PV.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ste": {
+      "value": 1
+     },
+     "itm": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [
+    {
+     "_id": "Je8plK6qvihxdjlr",
+     "name": "Lâche",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>Quand il tombe à 6 PV ou moins, ou quand son chef s'enfuit, le brigand essaie de fuir. S'il est coincé, il se rend.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    }
+   ],
+   "_build": {
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.items.Item.HbrlOL6HWNiuNaiU",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 3,
+      "equipped": true
+     }
+    ]
+   }
+  },
+  {
+   "_id": "vxty0iSagVjFG1Wl",
+   "name": "Tonbi Gonza",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/gonza.webp",
+   "folder": "1xWdSTm2fg38LGd0",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Tonbi Gonza",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/gonza.webp"
+    },
+    "actorLink": true,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 13
+     },
+     "dex": {
+      "value": 15
+     },
+     "con": {
+      "value": 14
+     },
+     "int": {
+      "value": 10
+     },
+     "wis": {
+      "value": 11
+     },
+     "cha": {
+      "value": 10
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 30,
+      "max": 30,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 13
+     },
+     "chakra": {
+      "value": 10,
+      "max": 10
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 1,
+     "biography": {
+      "value": "<p>Chef des brigands, « le Milan ». Ancien élève de l'Académie qui n'a jamais réussi l'examen de genin. Ricane, se croit malin, fuit quand ça tourne mal.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ste": {
+      "value": 1
+     },
+     "prc": {
+      "value": 1
+     },
+     "dec": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [
+    {
+     "_id": "9s16l0gx72eVk4xH",
+     "name": "Attaques multiples",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>Gonza fait deux attaques : deux avec sa kusarigama, ou deux senbon empoisonnés.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    },
+    {
+     "_id": "Weo3S0pnlkzo3tPC",
+     "name": "Senbon empoisonnés",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/poison.svg",
+     "system": {
+      "description": {
+       "value": "<p><strong>Attaque à distance :</strong> +4 au toucher, portée 9 m (6 cases). 1d4+2 perforants.</p><p>La cible fait une sauvegarde de Constitution DD 12 ou elle est <strong>Empoisonnée</strong> jusqu'à la fin du combat.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      },
+      "activities": {
+       "UpXjeHUP27zPm3xH": {
+        "_id": "UpXjeHUP27zPm3xH",
+        "type": "attack",
+        "sort": 0,
+        "name": "Lancer un senbon",
+        "activation": {
+         "type": "action",
+         "value": 1
+        },
+        "attack": {
+         "ability": "dex",
+         "bonus": "",
+         "flat": false,
+         "type": {
+          "value": "ranged",
+          "classification": "weapon"
+         }
+        },
+        "damage": {
+         "includeBase": false,
+         "parts": [
+          {
+           "number": 1,
+           "denomination": 4,
+           "bonus": "@mod",
+           "types": [
+            "piercing"
+           ]
+          }
+         ]
+        },
+        "range": {
+         "override": true,
+         "value": "30",
+         "units": "ft"
+        }
+       },
+       "XZ3HMepdTLT7MKq6": {
+        "_id": "XZ3HMepdTLT7MKq6",
+        "type": "save",
+        "sort": 0,
+        "name": "Poison (sauvegarde)",
+        "activation": {
+         "type": "special",
+         "value": 1
+        },
+        "save": {
+         "ability": [
+          "con"
+         ],
+         "dc": {
+          "calculation": "",
+          "formula": "12"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "_id": "vDbuxGi1BChYbKzd",
+     "name": "Fuite du Milan",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>Quand ses brigands sont hors de combat ou qu'il tombe à 10 PV ou moins, Gonza lance sa bombe fumigène (action bonus) et s'enfuit en courant sur les parois grâce au chakra.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    }
+   ],
+   "_build": {
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.items.Item.UGGW1wNtVXUSj9vL",
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.items.Item.DiHt2oXGIiOv0VNf",
+      "quantity": 1
+     }
+    ]
+   }
+  },
+  {
+   "_id": "1XHFCrnkyr2PfVeQ",
+   "name": "Clone d'eau",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/clone.webp",
+   "folder": "1xWdSTm2fg38LGd0",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Clone d'eau",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/clone.webp"
+    },
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 20,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 12
+     },
+     "dex": {
+      "value": 14
+     },
+     "con": {
+      "value": 10
+     },
+     "int": {
+      "value": 10
+     },
+     "wis": {
+      "value": 10
+     },
+     "cha": {
+      "value": 10
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 1,
+      "max": 1,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 12
+     },
+     "chakra": {
+      "value": 0,
+      "max": 0
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 0,
+     "biography": {
+      "value": "<p>Une copie d'Uramaru faite d'eau. Elle éclate en une gerbe d'eau au premier coup reçu.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ath": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [
+    {
+     "_id": "RxyVs4Hwd6bymMud",
+     "name": "Sbire",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/eau.svg",
+     "system": {
+      "description": {
+       "value": "<p>Le clone a 1 PV : n'importe quelle attaque réussie ou sauvegarde ratée le détruit. Il ne peut pas lancer de techniques.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    },
+    {
+     "_id": "PvICmP1Dn78In6V8",
+     "name": "Saisir",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/eau.svg",
+     "system": {
+      "description": {
+       "value": "<p><strong>Action :</strong> le clone attrape une créature de taille moyenne ou plus petite à côté de lui. Deux clones ensemble peuvent emporter un enfant (4 cases par tour). Toucher un des clones libère la victime.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    }
+   ],
+   "_build": {
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 1,
+      "equipped": true
+     }
+    ]
+   }
+  },
+  {
+   "_id": "PLzBuf5pOPnmq8xh",
+   "name": "Uramaru Hisame",
+   "type": "npc",
+   "img": "modules/n5eb-feux-follets/assets/tokens/uramaru.webp",
+   "folder": "1xWdSTm2fg38LGd0",
+   "ownership": {
+    "default": 0
+   },
+   "prototypeToken": {
+    "name": "Uramaru Hisame",
+    "texture": {
+     "src": "modules/n5eb-feux-follets/assets/tokens/uramaru.webp"
+    },
+    "actorLink": true,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 40,
+    "bar1": {
+     "attribute": "attributes.hp"
+    },
+    "bar2": {
+     "attribute": "attributes.chakra"
+    },
+    "sight": {
+     "enabled": false
+    }
+   },
+   "system": {
+    "abilities": {
+     "str": {
+      "value": 12
+     },
+     "dex": {
+      "value": 16
+     },
+     "con": {
+      "value": 14
+     },
+     "int": {
+      "value": 15
+     },
+     "wis": {
+      "value": 13
+     },
+     "cha": {
+      "value": 12
+     }
+    },
+    "attributes": {
+     "hp": {
+      "value": 60,
+      "max": 60,
+      "formula": ""
+     },
+     "ac": {
+      "calc": "flat",
+      "flat": 14
+     },
+     "chakra": {
+      "value": 30,
+      "max": 30
+     },
+     "movement": {
+      "walk": 30,
+      "units": "ft"
+     }
+    },
+    "details": {
+     "cr": 3,
+     "biography": {
+      "value": "<p>Ancien chûnin de Kiri, déserteur, 30 ans. Cheveux gris-bleu, cicatrice au menton, masque blanc et cape claire pour jouer le « Fantôme du Lac ».</p><p>Calme et méprisant. Il veut l'or du trésor et compte se débarrasser de Kaneda.</p>",
+      "public": ""
+     },
+     "type": {
+      "value": "humanoid",
+      "subtype": ""
+     }
+    },
+    "traits": {
+     "size": "med",
+     "languages": {
+      "value": [
+       "common"
+      ]
+     }
+    },
+    "skills": {
+     "ste": {
+      "value": 1
+     },
+     "dec": {
+      "value": 1
+     },
+     "ccl": {
+      "value": 1
+     },
+     "ill": {
+      "value": 1
+     },
+     "nsh": {
+      "value": 1
+     }
+    },
+    "currency": {
+     "ryo": 0
+    }
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "items": [
+    {
+     "_id": "CMtqD8w4njsny6Ph",
+     "name": "Attaques multiples",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>Uramaru fait deux attaques de kunai, <strong>ou</strong> une attaque de kunai et lance une technique.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    },
+    {
+     "_id": "aMlEe7DCeSFp3nMZ",
+     "name": "Clones d'eau (Mizu Bunshin)",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/eau.svg",
+     "system": {
+      "description": {
+       "value": "<p><strong>Action bonus (recharge 5-6) :</strong> deux clones d'eau sortent de l'eau ou du brouillard à côté d'Uramaru (utilisez l'acteur « Clone d'eau »). Jamais plus de 4 clones en même temps. Au premier round du combat final, la technique est disponible.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    },
+    {
+     "_id": "4STGWXFg3KdxgWcY",
+     "name": "Genjutsu des feux follets",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/lumiere.svg",
+     "system": {
+      "description": {
+       "value": "<p><strong>Action (une fois par nuit) :</strong> toutes les créatures de son choix qui le voient, à moins de 18 m, font une sauvegarde de Sagesse DD 12 ou sont <strong>Effrayées</strong> pendant 1 minute (nouvelle sauvegarde à la fin de chacun de leurs tours). La technique Libération (Kai) ou un talisman de luciole met fin à l'effet.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      },
+      "activities": {
+       "IHbed5UAvLciH6kz": {
+        "_id": "IHbed5UAvLciH6kz",
+        "type": "save",
+        "sort": 0,
+        "name": "Terreur du lac",
+        "activation": {
+         "type": "action",
+         "value": 1
+        },
+        "save": {
+         "ability": [
+          "wis"
+         ],
+         "dc": {
+          "calculation": "",
+          "formula": "12"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "_id": "wCKNFgRUD2wbgobx",
+     "name": "Marche sur l'eau",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>Uramaru marche sur l'eau comme sur la terre ferme.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    },
+    {
+     "_id": "MHQOEilysdxK6cAT",
+     "name": "Déserteur prudent",
+     "type": "feat",
+     "img": "modules/n5eb-feux-follets/assets/items/capacite.svg",
+     "system": {
+      "description": {
+       "value": "<p>À 20 PV ou moins, Uramaru attrape le sac d'or et court vers le lac pour s'enfuir. Il ne se bat jusqu'au bout que s'il est coincé.</p>",
+       "chat": ""
+      },
+      "type": {
+       "value": "monster",
+       "subtype": ""
+      }
+     }
+    }
+   ],
+   "_build": {
+    "items": [
+     {
+      "uuid": "Compendium.n5eb.items.Item.RbcM59vdQ9ZgYBKV",
+      "quantity": 6,
+      "equipped": true
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.32N0GDKp7H9HjA2N"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.kWnb8fhy4e6N3tSh"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.tC0Im49BgM14w91E"
+     },
+     {
+      "uuid": "Compendium.n5eb.jutsus.Item.n5ebJutsuSubst01"
+     }
+    ]
+   }
+  }
+ ],
+ "journals": [
+  {
+   "_id": "50RuS0XPjlJAIYDW",
+   "name": "00 · Lisez-moi (MJ)",
+   "folder": "UPvhYtChD46nlVkc",
+   "sort": 100,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "pages": [
+    {
+     "_id": "VdgWZlAjJ2sc71KA",
+     "name": "Bienvenue, MJ !",
+     "type": "text",
+     "sort": 100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Les Feux Follets de Kawabe</h1>\n<p class=\"ffk-subtitle\">One-shot N5eB · 5 genin de niveau 1 · 3 à 4 heures · idéal pour débuter</p>\n<p>Ce module contient <strong>tout ce qu'il faut</strong> pour faire jouer une mission ninja complète, même si c'est votre première fois derrière l'écran : histoire, cartes, personnages prêts à jouer, adversaires, aides de jeu et objets.</p>\n<h2>L'histoire en deux phrases</h2>\n<p>Le petit village de pêcheurs de Kawabe est hanté chaque nuit par un « fantôme du lac ». Les jeunes genin découvrent que le fantôme est en réalité un <strong>ninja déserteur</strong> payé par un <strong>marchand avide</strong> pour faire fuir les habitants et s'emparer d'un trésor caché sur une île.</p>\n<h2>Avant la partie (15 minutes)</h2>\n<ol><li>Lisez la page @UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.4LfGM1oUXXNbFj0t]{Résumé de l'histoire} : c'est la seule page à connaître par cœur.</li><li>Parcourez rapidement les actes 1 à 4. Les encadrés colorés vous disent quoi lire, quoi faire et quand lancer les dés.</li><li>Faites choisir un prétiré à chaque joueur (le journal <em>05 · Fiches des prétirés</em> est visible par les joueurs), puis donnez-leur la propriété de leur personnage : clic droit sur l'acteur → <em>Configurer les droits</em> → Propriétaire.</li><li>Ouvrez la scène @UUID[Scene.l6cLiAlOFmz2sM3W]{Carte du voyage} pour commencer. Les autres scènes sont prêtes, avec les PNJ déjà placés (les adversaires sont cachés jusqu'au bon moment).</li><li>Gardez sous la main le journal @UUID[JournalEntry.yGG4coW1734EFRRD.JournalEntryPage.VbJ2HFLGh9kcSqIG]{02 · Personnages non-joueurs} et la table @UUID[RollTable.6qdVnhQICyKW81tX]{Rumeurs de Kawabe}.</li></ol>\n<h2>Contenu du module</h2>\n<table class=\"ffk-table\"><thead><tr><th>Type</th><th>Contenu</th></tr></thead><tbody><tr><td>Prétirés</td><td>5 genin de Konoha, niveau 1, fiches complètes (classe, clan, historique, techniques, équipement)</td></tr><tr><td>PNJ</td><td>Le chûnin Inaba Shûhei, les villageois de Kawabe, le marchand Kaneda</td></tr><tr><td>Adversaires</td><td>Brigands, Tonbi Gonza, les clones d'eau et Uramaru « le Fantôme du Lac »</td></tr><tr><td>Scènes</td><td>Carte du voyage · Le Pont de la Gorge · Le village de Kawabe · L'île des Lucioles</td></tr><tr><td>Journaux</td><td>Lisez-moi · Scénario · PNJ · Aides de jeu · Guide du joueur · Fiches des prétirés</td></tr><tr><td>Objets</td><td>Indices, talismans de luciole, onigiri, récompenses</td></tr><tr><td>Table</td><td>Rumeurs de Kawabe (1d8)</td></tr></tbody></table>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Les noms des techniques et des capacités venant du système sont affichés en <strong>français suivi de l'anglais</strong>, par exemple « Katon : Boule de feu (Fire Release Fireball) ». Chaque description commence par un résumé « En bref » en français, suivi du texte officiel en anglais.</p></div>\n<div class=\"ffk-box ffk-rule\"><p class=\"ffk-box-title\">Règle</p><p>Le système N5eB est basé sur D&amp;D 5e. Les fiches affichent donc les compétences en anglais : la page @UUID[JournalEntry.50RuS0XPjlJAIYDW.JournalEntryPage.XQRkNZmJTCEtrrzb]{Le jeu en 5 minutes} donne la traduction.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "XQRkNZmJTCEtrrzb",
+     "name": "Le jeu en 5 minutes",
+     "type": "text",
+     "sort": 200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Le jeu en 5 minutes</h1>\n<h2>Le principe : 1d20 + bonus</h2>\n<p>Quand un personnage tente quelque chose de difficile, il lance <strong>un dé à 20 faces</strong> et ajoute le bonus indiqué sur sa fiche. S'il atteint ou dépasse le <strong>DD</strong> (degré de difficulté), c'est réussi.</p>\n<table class=\"ffk-table\"><thead><tr><th>Difficulté</th><th>DD</th></tr></thead><tbody><tr><td>Facile</td><td>10</td></tr><tr><td>Moyenne</td><td>12-13</td></tr><tr><td>Difficile</td><td>15</td></tr><tr><td>Très difficile</td><td>18</td></tr></tbody></table>\n<p><strong>Avantage</strong> : on lance deux d20 et on garde le meilleur. <strong>Désavantage</strong> : on garde le pire. Donnez l'avantage quand les joueurs ont une bonne idée !</p>\n<h2>Les compétences (anglais → français)</h2>\n<table class=\"ffk-table\"><thead><tr><th>Sur la fiche</th><th>En français</th><th>Exemple</th></tr></thead><tbody><tr><td>Perception</td><td>Perception</td><td>repérer un ennemi caché</td></tr><tr><td>Investigation</td><td>Investigation</td><td>fouiller un bureau, analyser des traces</td></tr><tr><td>Insight</td><td>Intuition</td><td>savoir si quelqu'un ment</td></tr><tr><td>Stealth</td><td>Discrétion</td><td>se faufiler sans bruit</td></tr><tr><td>Persuasion / Intimidation / Deception</td><td>Persuasion / Intimidation / Tromperie</td><td>convaincre, menacer, mentir</td></tr><tr><td>Athletics / Acrobatics</td><td>Athlétisme / Acrobaties</td><td>nager, grimper / garder l'équilibre</td></tr><tr><td>Chakra Control</td><td>Contrôle du chakra</td><td>marcher sur l'eau, résister à l'épuisement</td></tr><tr><td>Ninshou</td><td>Ninshō</td><td>connaissances sur les ninjas et les techniques</td></tr><tr><td>Illusions</td><td>Illusions</td><td>reconnaître ou briser un genjutsu</td></tr><tr><td>Martial Arts</td><td>Arts martiaux</td><td>prises, projections, combat à mains nues</td></tr><tr><td>Medicine / Survival / History</td><td>Médecine / Survie / Histoire</td><td>soigner / pister / se souvenir d'une légende</td></tr></tbody></table>\n<h2>Le combat</h2>\n<ol><li>Tout le monde lance l'<strong>initiative</strong> (bouton dans le Combat Tracker). On joue dans l'ordre, du plus haut au plus bas.</li><li>À son tour, un personnage peut <strong>se déplacer</strong> (6 cases en général), faire <strong>une action</strong> (attaquer, lancer une technique, aider, se cacher…) et parfois une <strong>action bonus</strong>.</li><li>Une <strong>réaction</strong> par round permet de répondre au tour d'un autre (exemple : la Technique de substitution).</li><li>Pour toucher : 1d20 + bonus d'attaque contre la <strong>CA</strong> (classe d'armure) de la cible.</li><li>À 0 points de vie (PV), un personnage tombe inconscient et fait des <strong>jets contre la mort</strong>. Un soin le relève immédiatement.</li></ol>\n<h2>Le chakra et les techniques</h2>\n<p>Chaque technique (jutsu) coûte des <strong>points de chakra</strong>, indiqués sur sa fiche. Le système les déduit automatiquement quand on l'utilise. À court de chakra, on se bat avec ses armes et sa tête !</p><p>Les techniques ont un <strong>rang</strong> : E (très simple), D (genin), C, B, A, S (légendaire). Nos héros connaissent des techniques de rang E et D.</p><p><strong>Repos court</strong> (1 heure) : on peut dépenser des dés de vie (PV) et des dés de chakra pour récupérer. <strong>Repos long</strong> (une nuit) : on récupère tout.</p>\n<h2>Les états les plus utilisés dans ce scénario</h2>\n<table class=\"ffk-table\"><thead><tr><th>Sur la fiche</th><th>En français</th><th>Effet simple</th></tr></thead><tbody><tr><td>Restrained</td><td>Entravé</td><td>vitesse 0, désavantage pour attaquer, on l'attaque avec avantage</td></tr><tr><td>Prone</td><td>À terre</td><td>il faut utiliser du mouvement pour se relever</td></tr><tr><td>Frightened</td><td>Effrayé</td><td>désavantage tant que la source de la peur est visible, ne peut pas s'en approcher</td></tr><tr><td>Poisoned</td><td>Empoisonné</td><td>désavantage aux attaques et aux tests</td></tr><tr><td>Blinded</td><td>Aveuglé</td><td>rate automatiquement ce qui demande la vue, désavantage pour attaquer</td></tr><tr><td>Bleeding</td><td>Saignement</td><td>perd des PV à chaque tour jusqu'à être soigné</td></tr></tbody></table>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>La <strong>Volonté du Feu</strong> (le système l'affiche à la place de l'Inspiration) : quand un joueur fait quelque chose de courageux, drôle ou très « ninja », donnez-lui un point. Il pourra le dépenser pour obtenir l'avantage sur un jet. Maximum 3.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "Bx6okmJFCCfNNwLX",
+     "name": "Conseils pour débuter",
+     "type": "text",
+     "sort": 300000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Conseils pour un premier MJ</h1>\n<ul><li><strong>Vous n'avez pas besoin de tout savoir.</strong> En cas de doute sur une règle, décidez vite et gardez le rythme. Notez la question pour plus tard.</li><li><strong>Dites oui aux bonnes idées.</strong> Un genin qui se transforme en marchand pour entrer dans l'entrepôt ? Excellent ! Donnez un bonus ou l'avantage.</li><li><strong>Faites parler les PNJ.</strong> Chaque PNJ a une petite manie (voir le journal PNJ). Une voix, un geste, ça suffit.</li><li><strong>Partagez la lumière.</strong> Chaque prétiré a un moment où il brille (voir ci-dessous). Demandez souvent : « Et toi, que fais-tu ? »</li><li><strong>Personne n'est obligé de mourir.</strong> C'est une première mission : si un personnage tombe, il est assommé, pas tué (sauf si votre table préfère le danger).</li><li><strong>Les indices ne doivent jamais bloquer.</strong> Si les joueurs passent à côté d'un indice, un PNJ le leur donne. Voir @UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.U572RSR5zf2TxmMh]{Les indices}.</li></ul>\n<h2>Le moment de gloire de chaque prétiré</h2>\n<table class=\"ffk-table\"><thead><tr><th>Prétiré</th><th>Il / elle brille quand…</th></tr></thead><tbody><tr><td>@UUID[Actor.CUsHqPuaEwiFRxPb]{Akimichi Bunta}</td><td>il protège les autres en combat, il soulève, pousse, enfonce une porte</td></tr><tr><td>@UUID[Actor.Za9ob2Y11qth33sO]{Hibana Kaito}</td><td>il faut des dégâts : ses techniques de feu sont redoutables</td></tr><tr><td>@UUID[Actor.m3PJne40l3LGZFqO]{Nara Shizuka}</td><td>il faut immobiliser un ennemi (Possession de l'ombre) ou réfléchir à un plan</td></tr><tr><td>@UUID[Actor.DsHcPfzIOHkWwOpF]{Fûma Tsumugi}</td><td>il faut toucher de loin, poser un piège, repérer un détail</td></tr><tr><td>@UUID[Actor.Q72wyQUnnUzmeWBD]{Sakuraba Momo}</td><td>quelqu'un est blessé, empoisonné, ou sous l'effet d'une illusion</td></tr></tbody></table>\n<h2>Rythme conseillé</h2>\n<table class=\"ffk-table\"><thead><tr><th>Partie</th><th>Durée</th><th>Contenu</th></tr></thead><tbody><tr><td>Prologue</td><td>15 min</td><td>Présentation des personnages, ordre de mission</td></tr><tr><td>Acte 1</td><td>40 min</td><td>Voyage et embuscade au pont (combat d'apprentissage)</td></tr><tr><td>Acte 2</td><td>60 min</td><td>Enquête au village (indices, PNJ)</td></tr><tr><td>Acte 3</td><td>30 min</td><td>La nuit des feux follets (genjutsu, clones d'eau)</td></tr><tr><td>Acte 4</td><td>50 min</td><td>L'île des Lucioles (combat final)</td></tr><tr><td>Épilogue</td><td>10 min</td><td>La fête des lanternes</td></tr></tbody></table>\n",
+      "format": 1
+     }
+    }
+   ]
+  },
+  {
+   "_id": "f7omoimuFdhzr2Jm",
+   "name": "01 · Scénario — Les Feux Follets de Kawabe",
+   "folder": "UPvhYtChD46nlVkc",
+   "sort": 200,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "pages": [
+    {
+     "_id": "4LfGM1oUXXNbFj0t",
+     "name": "Résumé de l'histoire",
+     "type": "text",
+     "sort": 100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Résumé de l'histoire</h1>\n<div class=\"ffk-box ffk-secret\"><p class=\"ffk-box-title\">Secret du MJ</p><p><strong>Ce qui se passe vraiment.</strong> Il y a deux cents ans, le seigneur Kagami a caché le trésor du village de Kawabe sous le vieux sanctuaire de l'<strong>île des Lucioles</strong>, au milieu du lac. Depuis, les villageois respectent l'île et n'y vont jamais.</p><p>Il y a un mois, <strong>Kaneda Jûbei</strong>, un riche marchand de riz de la ville voisine, a trouvé un vieux plan de l'île. Il veut le trésor… et toutes les terres du village, qui sont les meilleures rizières de la région. Pour ça, il faut que les habitants partent.</p><p>Il a engagé <strong>Uramaru Hisame</strong>, un ninja déserteur du Village Caché de la Brume (Kiri). Chaque nuit, Uramaru fait monter un brouillard magique, allume de faux feux follets bleus et plonge les villageois dans un genjutsu de terreur : c'est le « Fantôme du Lac ». Terrifiées, six familles ont déjà vendu leurs terres à Kaneda pour presque rien.</p><p>La cheffe du village a envoyé une demande d'aide à Konoha. Uramaru l'a appris : il a payé des brigands, menés par <strong>Tonbi Gonza</strong>, pour arrêter les ninjas en chemin.</p><p>Ce que Kaneda ignore : Uramaru compte bien <strong>garder le trésor pour lui</strong> et se débarrasser du marchand dès que le coffre sera sorti de terre.</p></div>\n<h2>Le déroulé</h2>\n<table class=\"ffk-table\"><thead><tr><th></th><th>Où</th><th>Ce qui se passe</th><th>Scène</th></tr></thead><tbody><tr><td>Prologue</td><td>Konoha</td><td>Le chûnin Inaba Shûhei confie la mission : « chasser un fantôme » (rang D).</td><td>@UUID[Scene.l6cLiAlOFmz2sM3W]{Carte du voyage}</td></tr><tr><td>Acte 1</td><td>Le Pont de la Gorge</td><td>Embuscade de brigands. Shûhei est empoisonné : les genin sont seuls aux commandes.</td><td>@UUID[Scene.YMVeu1xSOnuP14U7]{Le Pont de la Gorge}</td></tr><tr><td>Acte 2</td><td>Kawabe</td><td>Enquête : le fantôme est un ninja, un déserteur de Kiri, payé par Kaneda.</td><td>@UUID[Scene.cUKDHsUXncdNAPzZ]{Le village de Kawabe}</td></tr><tr><td>Acte 3</td><td>Kawabe, la nuit</td><td>Le brouillard et les feux follets attaquent. Les genin brisent l'illusion et repoussent les clones d'eau.</td><td>@UUID[Scene.cUKDHsUXncdNAPzZ]{Le village de Kawabe}</td></tr><tr><td>Acte 4</td><td>L'île des Lucioles</td><td>Uramaru trahit Kaneda et s'empare du trésor. Combat final.</td><td>@UUID[Scene.LHhxoaiZJ6XmyIdn]{L'île des Lucioles}</td></tr><tr><td>Épilogue</td><td>Kawabe</td><td>La fête des lanternes : le village est sauvé.</td><td></td></tr></tbody></table>\n<h2>L'objectif des personnages</h2>\n<ol><li>Découvrir qui est le Fantôme du Lac.</li><li>Protéger les villageois.</li><li>Arrêter le déserteur et rendre le trésor au village.</li></ol>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Si vous ne retenez qu'une chose : <strong>le fantôme est un ninja, le marchand est le commanditaire, le trésor est sur l'île.</strong> Tout le reste peut s'improviser.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "VvPF19leTtWfkvPk",
+     "name": "Prologue : l'ordre de mission",
+     "type": "text",
+     "sort": 200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Prologue : l'ordre de mission</h1>\n<p><em>Konoha, le Village Caché de la Feuille. Un matin de fin d'été.</em></p>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Le soleil n'est levé que depuis une heure, mais le bureau des missions est déjà plein de bruit : des ninjas pressés, des piles de rouleaux, l'odeur du thé trop infusé.</p><p>Vos senseis sont tous partis en mission longue. Alors, ce matin, on vous a réunis — cinq genin qui ne se connaissent pas tous très bien — devant un jeune chûnin aux cheveux en bataille et au gilet vert mal fermé.</p><p>« Salut, les petits ! Je suis Inaba Shûhei, et pour les prochains jours, c'est moi votre chef. On a une mission de rang D : un village de pêcheurs, Kawabe, dit qu'il est hanté par un fantôme. Sûrement des gamins qui font des farces… Mais un client est un client ! Allez, présentez-vous. »</p></div>\n<h2>1. Les présentations</h2>\n<p>Demandez à chaque joueur de présenter son personnage en trois phrases : son nom, son apparence, et une chose qu'il veut prouver. Les fiches des prétirés donnent des idées. Shûhei réagit à chacun avec bonne humeur et un proverbe un peu raté (« Comme on dit : qui va lentement… arrive en retard ! »).</p>\n<h2>2. L'ordre de mission</h2>\n<p>Shûhei tend l'ordre de mission. Montrez l'aide de jeu @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.1AoYFC7mfU1AEI3q]{Ordre de mission} aux joueurs (bouton <em>Montrer aux joueurs</em> en haut de la page).</p>\n<h2>3. Questions des joueurs</h2>\n<table class=\"ffk-table\"><thead><tr><th>Si les joueurs demandent…</th><th>Shûhei répond…</th></tr></thead><tbody><tr><td>Où est Kawabe ?</td><td>« À un jour et demi de marche vers l'est, au bord du lac Kagami. On passe par le Pont de la Gorge. »</td></tr><tr><td>C'est dangereux ?</td><td>« Un fantôme ? Pff. Les fantômes, ça n'existe pas. Enfin… je crois. »</td></tr><tr><td>Combien ça paie ?</td><td>« 15 000 ryôs pour l'équipe. C'est une mission de rang D, ne rêvez pas. »</td></tr><tr><td>Qui a envoyé la demande ?</td><td>« La cheffe du village, une certaine grand-mère Oume. Elle a payé avec les économies du village. »</td></tr></tbody></table>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Montrez ensuite la scène @UUID[Scene.l6cLiAlOFmz2sM3W]{Carte du voyage} et passez à l'acte 1. Le prologue ne doit pas durer plus d'un quart d'heure.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "MEOrKqiCLWngnUh5",
+     "name": "Acte 1 : Le Pont de la Gorge",
+     "type": "text",
+     "sort": 300000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Acte 1 : Le Pont de la Gorge</h1>\n<h2>La route (5 minutes)</h2>\n<p>Le premier jour se passe sans problème. Le soir, autour du feu de camp, demandez à chaque joueur : <em>« Qu'est-ce que ton personnage raconte aux autres ce soir ? »</em> C'est l'occasion de jouer les liens entre personnages (voir les fiches des prétirés).</p>\n<h2>L'embuscade</h2>\n<p>Ouvrez la scène @UUID[Scene.YMVeu1xSOnuP14U7]{Le Pont de la Gorge}. Placez les jetons des personnages à gauche de la carte, sur la route.</p>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Le deuxième jour, vers midi, la route plonge dans une forêt épaisse et s'arrête net au bord d'une gorge profonde. Tout en bas, une rivière gronde. Un vieux pont de cordes et de planches se balance doucement au-dessus du vide.</p><p>« Bon, un par un, et on ne regarde pas en bas ! » lance Shûhei en s'avançant sur le pont. Il n'a pas fait trois pas qu'un sifflement fend l'air. Shûhei porte la main à son cou, arrache une fine aiguille… et s'effondre à genoux sur les planches.</p><p>De l'autre côté de la gorge, un homme maigre au long manteau gris se dresse sur un rocher. « Désolé, les mioches. Personne ne va à Kawabe. »</p></div>\n<div class=\"ffk-box ffk-fight\"><p class=\"ffk-box-title\">Combat</p><p><strong>Adversaires :</strong> @UUID[Actor.vxty0iSagVjFG1Wl]{Tonbi Gonza} (de l'autre côté du pont) et deux @UUID[Actor.7zCcQjQH7qXo9Y4l]{brigands} : l'un caché derrière un rocher côté Kawabe, l'autre caché dans les arbres <em>derrière</em> les personnages (il surgit au premier round). Les jetons sont déjà placés et cachés : révélez-les au bon moment (clic droit → icône œil).</p><p><strong>Shûhei</strong> est empoisonné et à genoux au milieu du pont : il ne combat pas.</p><p><strong>Difficulté :</strong> facile. C'est le combat d'apprentissage : prenez le temps d'expliquer le tour de jeu (déplacement, action, action bonus).</p></div>\n<h3>Tactique des ennemis</h3>\n<ul><li><strong>Round 1 :</strong> Gonza lance ses senbon empoisonnés sur le personnage le plus proche du pont. Le brigand caché dans les arbres attaque le personnage le plus isolé (souvent celui qui soigne ou qui lance des techniques).</li><li><strong>Ensuite :</strong> les brigands frappent au tanto. Gonza utilise sa kusarigama (portée 3 cases) depuis le bout du pont.</li><li><strong>Fuite :</strong> quand les deux brigands sont hors de combat <em>ou</em> que Gonza tombe à 10 PV ou moins, il lance une bombe fumigène, saute dans la gorge en courant sur la paroi grâce au chakra, et crie : « Vous ne savez pas dans quoi vous mettez les pieds ! » Il reviendra à l'acte 4.</li></ul>\n<h3>Le pont</h3>\n<ul><li>Traverser le pont en courant : <strong>Acrobaties (Acrobatics)</strong> DD 10 [[/skill skill=acr dc=10]]. En cas d'échec, le personnage tombe à terre sur les planches (pas dans le vide).</li><li>Un personnage poussé ou projeté hors du pont peut se rattraper aux cordes avec une <strong>sauvegarde de Dextérité</strong> DD 12 [[/save ability=dex dc=12]]. Sinon, il tombe dans la rivière : 3d6 dégâts, puis <strong>Athlétisme (Athletics)</strong> DD 12 [[/skill skill=ath dc=12]] pour nager jusqu'à la rive (il revient au combat 2 rounds plus tard).</li><li>Couper les cordes du pont est une très mauvaise idée : Shûhei est dessus !</li></ul>\n<h2>Après le combat</h2>\n<p>Shûhei est pâle, en sueur, et son cou a gonflé. Un test de <strong>Médecine (Medicine)</strong> DD 12 [[/skill skill=med dc=12]] (ou une technique de soin de Momo) permet de ralentir le poison : il pourra marcher, lentement. Sans soin, il faut le porter (Bunta s'en charge sans problème).</p>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>« Ce n'étaient pas… des voleurs ordinaires, souffle Shûhei. Ils nous attendaient. Votre mission vient de changer, les enfants. Si quelqu'un paie des brigands pour arrêter des ninjas… ce fantôme n'est pas une farce. Vous allez devoir prendre la tête. Moi… je vais faire une petite sieste. »</p></div>\n<h3>Interroger un brigand</h3>\n<p>Un brigand capturé parle facilement : <strong>Intimidation</strong> DD 10 [[/skill skill=itm dc=10]] ou <strong>Persuasion</strong> DD 10 [[/skill skill=per dc=10]]. Il sait que :</p>\n<ul><li>« Un type nous a payés 300 ryôs chacun pour arrêter les ninjas de Konoha qui iraient à Kawabe. »</li><li>« Gonza le connaît bien. Le type a un bandeau de ninja, mais avec le symbole rayé. Il ne parle que de l'île. »</li><li>« Il fait froid quand il est là. Et il y a toujours du brouillard. »</li></ul>\n<p><strong>Butin :</strong> 60 ryôs et l'objet @UUID[Item.XP7ATDKru9utSRfm]{Senbon empoisonnés} (3 aiguilles).</p>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Shûhei devient votre <strong>joker</strong> : installé à l'auberge de Kawabe, il peut donner un conseil quand les joueurs sont bloqués. Il ne participe plus aux combats (sauf si vous avez besoin d'un coup de main, voir @UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.U3n1Jir2O7spc5QZ]{Ajuster la difficulté}).</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "wAJwd44MUWr9V8m5",
+     "name": "Acte 2 : Kawabe, le village qui se vide",
+     "type": "text",
+     "sort": 400000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Acte 2 : Kawabe, le village qui se vide</h1>\n<p>Ouvrez la scène @UUID[Scene.cUKDHsUXncdNAPzZ]{Le village de Kawabe}. Les numéros sur la carte correspondent aux lieux décrits dans les pages suivantes (double-cliquez sur une épingle de la carte pour ouvrir la page).</p>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>En fin d'après-midi, la forêt s'ouvre sur un grand lac aussi lisse qu'un miroir. Au bord, un village de maisons basses aux toits de tuiles rouges, des rizières vertes et un petit ponton de bois.</p><p>Mais quelque chose cloche. La moitié des maisons ont leurs volets cloués. Pas un enfant ne joue dehors. Sur la place, une petite vieille appuyée sur une canne vous regarde arriver en tirant sur sa longue pipe.</p><p>« Konoha ? Enfin ! Je suis Oume, la cheffe de ce village. Ou de ce qu'il en reste… »</p></div>\n<h2>Ce que raconte la cheffe Oume</h2>\n<ul><li>« Depuis deux semaines, chaque nuit, un brouillard monte du lac. Des lumières bleues dansent au-dessus de l'eau. Puis le fantôme apparaît : une silhouette blanche, avec un masque, qui marche sur le lac. »</li><li>« Il dit : <em>Partez, ou le lac vous engloutira.</em> Et ceux qui le regardent voient des choses horribles. Ils se réveillent le matin en pleurant. »</li><li>« Six familles sont déjà parties. Elles ont toutes vendu leurs terres au même homme : Kaneda Jûbei, un marchand de riz. Il est si gentil… il paie même nos dettes. »</li><li>« On a aussi volé deux barques au vieux Genji. »</li></ul>\n<h2>L'arrivée de Kaneda</h2>\n<p>Pendant la discussion, @UUID[Actor.r7DvJUj8SDV5hCno]{Kaneda Jûbei} arrive « par hasard », en souriant de toutes ses dents. Il est très aimable, offre des gâteaux de riz, et glisse : « Ce fantôme est dangereux, vous savez. Vous êtes si jeunes… Vous devriez rentrer chez vous. Moi, je ne fais qu'aider ces pauvres gens en rachetant leurs terres. » Un test d'<strong>Intuition (Insight)</strong> DD 12 [[/skill skill=ins dc=12]] révèle qu'il est nerveux et qu'il regarde souvent l'île au milieu du lac.</p>\n<h2>L'enquête</h2>\n<p>Les joueurs sont libres d'aller où ils veulent. Ils peuvent se séparer en petits groupes : c'est même conseillé, chacun aura son moment. Les lieux sont décrits dans les pages <em>Lieu 1</em> à <em>Lieu 8</em>, et le tableau @UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.U572RSR5zf2TxmMh]{Les indices} résume ce qu'on peut trouver.</p>\n<table class=\"ffk-table\"><thead><tr><th>N°</th><th>Lieu</th><th>PNJ</th><th>Indice</th></tr></thead><tbody><tr><td>1</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.YwQI2fyGFcgqV8JY]{L'auberge du Héron}</td><td>Sachi, Shûhei</td><td>Rumeurs</td></tr><tr><td>2</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.GF9eWQtp0YxvDqmh]{La maison de la cheffe}</td><td>Oume</td><td>Toutes les terres vendues à Kaneda</td></tr><tr><td>3</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.6OBd3ETY7WP9bLG4]{La place et le puits}</td><td>Tetsu</td><td>A : le fantôme est un homme</td></tr><tr><td>4</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.gI8P8gTUab1RXr4K]{L'entrepôt de Kaneda}</td><td>Mosuke</td><td>C : le registre et la carte</td></tr><tr><td>5</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.eq1EqNZ5JKfTJlNr]{Le ponton de Genji}</td><td>Genji</td><td>A : traces de chakra sur l'eau</td></tr><tr><td>6</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.x1bNGb8DfeXGRZhb]{Le petit sanctuaire}</td><td>Ayame</td><td>D : la légende, les talismans</td></tr><tr><td>7</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.RrtdAdkoWe7KJNBe]{Les rizières}</td><td>—</td><td>B : le bandeau de Kiri</td></tr><tr><td>8</td><td>@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.eVyIN2utuB5sJ3N1]{Les maisons abandonnées}</td><td>—</td><td>E : les fausses lanternes</td></tr></tbody></table>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Quand les joueurs ont trouvé 2 ou 3 indices, ou après environ une heure de jeu, la nuit tombe : passez à l'@UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.LxAKMyhtPSuC3NRr]{acte 3}. Pas besoin d'avoir tout découvert !</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "YwQI2fyGFcgqV8JY",
+     "name": "Lieu 1 : L'auberge du Héron",
+     "type": "text",
+     "sort": 500000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 1 : L'auberge du Héron</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Une grande salle sombre qui sent le poisson grillé et la soupe miso. Des tables vides. Derrière le comptoir, une femme aux manches retroussées essuie le même bol depuis cinq minutes.</p></div>\n<p>@UUID[Actor.q88yT4KLyfVHEXE0]{Sachi}, l'aubergiste, est la seule à ne pas avoir peur… ou presque. Elle offre une chambre gratuite aux ninjas (« Vous êtes mes seuls clients depuis dix jours ! ») et installe Shûhei dans un lit.</p>\n<ul><li><strong>Rumeurs :</strong> Sachi connaît tous les ragots. Lancez sur la table @UUID[RollTable.6qdVnhQICyKW81tX]{Rumeurs de Kawabe} une ou deux fois.</li><li><strong>Ce qu'elle a vu :</strong> « Le fantôme ne vient jamais jusqu'ici, toujours du côté du lac. Et vous savez quoi ? Le brouillard sent le sel. Comme la mer. Alors que notre lac est d'eau douce. » (Un test de <strong>Ninshō (Ninshou)</strong> DD 12 [[/skill skill=nsh dc=12]] : les ninjas de Kiri, le Village de la Brume, sont célèbres pour leurs techniques de brouillard.)</li><li><strong>Repos :</strong> c'est ici que les personnages peuvent faire un repos court ou long.</li></ul>\n<p>Sachi offre à l'équipe des @UUID[Item.oedD537DjEKtdwCl]{onigiri de Sachi} pour la route (un par personnage).</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "GF9eWQtp0YxvDqmh",
+     "name": "Lieu 2 : La maison de la cheffe",
+     "type": "text",
+     "sort": 600000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 2 : La maison de la cheffe Oume</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>La plus grande maison du village. Des tatamis usés, un autel familial, une odeur de tabac. Sur la table basse, un grand registre du village est ouvert.</p></div>\n<p>@UUID[Actor.E8tcLvlzTURNPk8N]{La grand-mère Oume} montre volontiers le registre du village : il reste 9 familles sur 15. Les six familles parties ont toutes vendu à Kaneda, et toujours <strong>le lendemain d'une nuit de fantôme</strong>.</p>\n<ul><li>Un test d'<strong>Investigation</strong> DD 10 [[/skill skill=inv dc=10]] : toutes les terres vendues entourent le ponton et donnent sur l'île. Kaneda achète les terres les plus proches de l'île en premier.</li><li>« L'île des Lucioles ? Personne n'y va. C'est un lieu sacré. Le vieux sanctuaire du seigneur Kagami est là-bas. Demandez à la petite Ayame, au sanctuaire du village. »</li><li>Si on lui parle du bandeau de Kiri ou du registre de Kaneda, elle tape sa canne par terre : « Ce serpent ! Il a payé un ninja pour nous faire peur ? »</li></ul>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "6OBd3ETY7WP9bLG4",
+     "name": "Lieu 3 : La place et le puits",
+     "type": "text",
+     "sort": 700000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 3 : La place du village et le puits</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Une place de terre battue autour d'un vieux puits de pierre. Un petit garçon, seul, lance des cailloux dans le seau. Il sursaute en vous voyant.</p></div>\n<p>@UUID[Actor.QcFSOb3YvKlQnBMc]{Tetsu}, 8 ans, est le seul témoin à avoir vu le fantôme de près. Personne ne le croit, alors il ne veut plus en parler. Il faut gagner sa confiance : <strong>Persuasion</strong> DD 10 [[/skill skill=per dc=10]], ou une bonne idée (un tour de Transformation, un bonbon, jouer avec lui) fonctionne automatiquement.</p>\n<div class=\"ffk-box ffk-clue\"><p class=\"ffk-box-title\">Indice</p><p><strong>Indice A — le fantôme est un homme.</strong> « Je l'ai vu ! Il marchait sur l'eau, puis il a trébuché et son masque est tombé. Il avait un visage normal ! Avec une cicatrice ici (il montre son menton). Après, il est monté dans la barque de papi Genji et il a ramé vers l'île. »</p></div>\n<p>Tetsu est important pour l'acte 3 : le fantôme sait qu'il l'a vu sans masque et voudra l'enlever.</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "gI8P8gTUab1RXr4K",
+     "name": "Lieu 4 : L'entrepôt de Kaneda",
+     "type": "text",
+     "sort": 800000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 4 : L'entrepôt de riz de Kaneda</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Un long bâtiment neuf, avec un petit quai sur le lac. Des sacs de riz s'empilent devant la porte. Un jeune homme maigre à lunettes fait les cent pas en se rongeant les ongles.</p></div>\n<p>@UUID[Actor.rpmXIc5btUQnD4y5]{Mosuke}, le commis de Kaneda, garde l'entrée. Kaneda lui-même est souvent à l'intérieur, dans son bureau, ou se promène dans le village.</p>\n<h2>Entrer dans le bureau</h2>\n<ul><li><strong>Par la ruse :</strong> se transformer en Kaneda (Technique de transformation) et entrer : <strong>Tromperie (Deception)</strong> DD 12 [[/skill skill=dec dc=12]] (le bonus de +4 de la Transformation s'applique).</li><li><strong>En douce :</strong> passer par la fenêtre arrière pendant que quelqu'un occupe Mosuke : <strong>Discrétion (Stealth)</strong> DD 13 [[/skill skill=ste dc=13]]. Ouvrir le tiroir fermé : <strong>Escamotage (Sleight of Hand)</strong> DD 12 [[/skill skill=slt dc=12]] (ou le forcer bruyamment).</li><li><strong>Par la peur :</strong> Mosuke est terrifié par le fantôme et par son patron. <strong>Intimidation</strong> DD 12 [[/skill skill=itm dc=12]] ou <strong>Persuasion</strong> DD 13 [[/skill skill=per dc=13]] : il craque et apporte lui-même le registre. « Je ne voulais pas ! Le patron a dit que personne ne serait blessé ! »</li></ul>\n<div class=\"ffk-box ffk-clue\"><p class=\"ffk-box-title\">Indice</p><p><strong>Indice C — le registre et la carte.</strong> Dans le tiroir, le @UUID[Item.t0p7GyET5VgMKBi8]{registre de Kaneda} (voir l'aide de jeu @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.KI3iRBP2rte3KKql]{Page du registre}) montre des paiements réguliers à un certain « U. » pour du « brouillard », ainsi que l'achat de pelles et de cordes. Glissé dedans, un @UUID[Item.k1U6gC76wDnOdKsn]{plan de l'île} avec une croix près du sanctuaire (aide de jeu @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.9G95o4yf0nHViUP1]{Plan de l'île}).</p></div>\n<p>Si les personnages se font prendre, Kaneda les met dehors en criant au scandale… et prévient Uramaru, qui sera plus méfiant à l'acte 4 (pas d'effet de surprise possible).</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "eq1EqNZ5JKfTJlNr",
+     "name": "Lieu 5 : Le ponton de Genji",
+     "type": "text",
+     "sort": 900000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 5 : Le ponton et la maison de Genji</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Un ponton de bois qui avance sur le lac. Au bout, une seule barque est attachée. Assis sur un tonneau, un vieil homme ridé recoud un filet en grognant.</p></div>\n<p>@UUID[Actor.zONbwkCYk9lvkfOD]{Le vieux Genji} est bourru mais honnête. « Mes deux barques ! Volées par le fantôme ! Il ne me reste que celle-là. »</p>\n<div class=\"ffk-box ffk-clue\"><p class=\"ffk-box-title\">Indice</p><p><strong>Indice A — traces sur l'eau.</strong> Au bout du ponton, <strong>Perception</strong> DD 12 [[/skill skill=prc dc=12]] : des empreintes de pieds mouillées s'arrêtent au bord… et de légers ronds sur l'eau continuent vers l'île, comme si quelqu'un avait marché dessus.</p><p>Un test de <strong>Contrôle du chakra (Chakra Control)</strong> DD 12 [[/skill skill=ccl dc=12]] ou de <strong>Ninshō (Ninshou)</strong> DD 10 [[/skill skill=nsh dc=10]] confirme : c'est la technique de la <strong>marche sur l'eau</strong>. Le fantôme est un ninja !</p></div>\n<p>Genji accepte de prêter sa dernière barque pour aller sur l'île si on lui promet de lui ramener les deux autres.</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "x1bNGb8DfeXGRZhb",
+     "name": "Lieu 6 : Le petit sanctuaire",
+     "type": "text",
+     "sort": 1000000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 6 : Le petit sanctuaire</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Sur une petite colline, un portail rouge (un torii) et un minuscule sanctuaire de bois. Une jeune fille en habit blanc et rouge balaie des feuilles qui n'existent pas, juste pour s'occuper les mains.</p></div>\n<p>@UUID[Actor.UFpXLHiy6CxfvZ7c]{Ayame}, 16 ans, est la gardienne du sanctuaire. Elle connaît la légende du seigneur Kagami (montrez l'aide de jeu @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.pKOQeYhw0tKdYd1o]{La légende du seigneur Kagami}). Un test d'<strong>Histoire (History)</strong> DD 10 [[/skill skill=his dc=10]] permet aussi de se souvenir de cette histoire.</p>\n<div class=\"ffk-box ffk-clue\"><p class=\"ffk-box-title\">Indice</p><p><strong>Indice D — la légende.</strong> « Le seigneur Kagami a caché le trésor du village sur l'île, sous la lanterne de son sanctuaire. Quand le village est en danger, le trésor doit l'aider. Mais depuis des années, plus personne n'allume la lanterne… et les lucioles ont disparu de l'île. »</p></div>\n<h2>Les talismans de luciole</h2>\n<p>Si les personnages promettent de protéger le village, Ayame leur confie trois @UUID[Item.1vydtdkS329FAIEl]{talismans de luciole}, des papiers sacrés de son grand-père. « Ils chassent la brume et les mauvais rêves. »</p>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Les talismans sont la <strong>solution</strong> au brouillard d'Uramaru. Si les joueurs ne viennent pas au sanctuaire, Ayame peut les trouver à l'auberge, ou les donner après l'acte 3.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "RrtdAdkoWe7KJNBe",
+     "name": "Lieu 7 : Les rizières",
+     "type": "text",
+     "sort": 1100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 7 : Les rizières</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>De grands carrés d'eau où pousse le riz, séparés par de petits talus de terre. Côté lac, les roseaux sont hauts et couchés par endroits, comme si quelqu'un y était passé souvent.</p></div>\n<div class=\"ffk-box ffk-clue\"><p class=\"ffk-box-title\">Indice</p><p><strong>Indice B — le bandeau de Kiri.</strong> En suivant le chemin écrasé dans les roseaux (<strong>Survie (Survival)</strong> DD 12 [[/skill skill=sur dc=12]] ou <strong>Investigation</strong> DD 12 [[/skill skill=inv dc=12]]), on trouve accroché à une branche un @UUID[Item.BOPWLOtsfV0ugNrI]{morceau de bandeau frontal} (aide de jeu @UUID[JournalEntry.Hry1ok3T0qPfQOYh.JournalEntryPage.Nd294iYdeX2jvkj4]{Bandeau rayé}).</p><p>Un test de <strong>Ninshō (Ninshou)</strong> DD 10 [[/skill skill=nsh dc=10]] : le symbole (trois vagues) est celui de Kiri, le Village Caché de la Brume. Le grand trait qui le raye signifie que son propriétaire est un <strong>déserteur</strong>, un ninja qui a trahi son village.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "eVyIN2utuB5sJ3N1",
+     "name": "Lieu 8 : Les maisons abandonnées",
+     "type": "text",
+     "sort": 1200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Lieu 8 : Les maisons abandonnées</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Les maisons des familles parties. Volets cloués, jardins envahis d'herbes. Dans l'une d'elles, la porte n'est pas fermée.</p></div>\n<div class=\"ffk-box ffk-clue\"><p class=\"ffk-box-title\">Indice</p><p><strong>Indice E — les fausses lanternes.</strong> <strong>Investigation</strong> DD 10 [[/skill skill=inv dc=10]] : dans le grenier, quelqu'un a laissé des lanternes de papier bleu, des cerfs-volants noirs et un pot d'huile qui brûle avec une flamme bleue. Les « feux follets » sont des lanternes accrochées à des cerfs-volants, tirés depuis des barques !</p><p>Des traces de bottes et des restes de repas : les brigands de Gonza ont dormi ici.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "U572RSR5zf2TxmMh",
+     "name": "Les indices",
+     "type": "text",
+     "sort": 1300000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Les indices</h1>\n<p>Les joueurs n'ont pas besoin de tout trouver. Voici ce qu'il faut absolument qu'ils comprennent avant l'acte 4, et comment les aider s'ils passent à côté.</p>\n<table class=\"ffk-table\"><thead><tr><th>Indice</th><th>Ce que ça prouve</th><th>Où</th><th>Si les joueurs le ratent…</th></tr></thead><tbody><tr><td>A</td><td>Le fantôme est un homme, un ninja</td><td>Tetsu (3), le ponton (5)</td><td>L'acte 3 le montre de toute façon : le fantôme lance des techniques ninja.</td></tr><tr><td>B</td><td>C'est un déserteur de Kiri</td><td>Les rizières (7)</td><td>Shûhei reconnaît le brouillard de Kiri quand on lui décrit l'acte 3.</td></tr><tr><td>C</td><td>Kaneda le paie ; ils fouillent l'île</td><td>L'entrepôt (4)</td><td>À l'acte 3, on voit Kaneda ramer en secret vers l'île.</td></tr><tr><td>D</td><td>Le trésor est sous la lanterne de l'île</td><td>Le sanctuaire (6)</td><td>Ayame vient trouver les héros à l'auberge.</td></tr><tr><td>E</td><td>Les feux follets sont des lanternes</td><td>Maisons abandonnées (8)</td><td>Pas indispensable, c'est un bonus.</td></tr></tbody></table>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>La règle d'or : <strong>un indice raté ne bloque jamais l'histoire</strong>. Il devient juste plus tard, ou c'est un PNJ qui l'apporte.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "LxAKMyhtPSuC3NRr",
+     "name": "Acte 3 : La nuit des feux follets",
+     "type": "text",
+     "sort": 1400000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Acte 3 : La nuit des feux follets</h1>\n<p>Restez sur la scène @UUID[Scene.cUKDHsUXncdNAPzZ]{Le village de Kawabe}. Baissez la lumière de la scène pour faire nuit (configuration de la scène → <em>Éclairage</em> → Obscurité vers 0,6).</p>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>La nuit est tombée. Les villageois se sont enfermés chez eux. Seuls les grillons chantent… puis se taisent d'un coup.</p><p>Un brouillard blanc et froid monte du lac et avance sur le village comme une vague lente. Au-dessus de l'eau, des lumières bleues s'allument une à une et se mettent à danser.</p><p>Une voix glaciale semble venir de partout à la fois : « Partez… ou le lac vous engloutira tous. »</p><p>Et là-bas, sur la surface noire du lac, une silhouette blanche au visage masqué avance… en marchant sur l'eau.</p></div>\n<h2>1. Le genjutsu de terreur</h2>\n<p>Chaque personnage qui voit le fantôme doit faire une <strong>sauvegarde de Sagesse</strong> DD 12 [[/save ability=wis dc=12]]. En cas d'échec, il est <strong>Effrayé</strong> (Frightened) : il voit le lac se transformer en une gueule géante pleine de dents.</p>\n<ul><li>À la fin de chacun de ses tours, un personnage effrayé peut refaire la sauvegarde pour se libérer.</li><li>Un allié peut le secouer (une action, en le touchant) : il refait la sauvegarde avec l'avantage.</li><li>La technique <strong>Libération (Release)</strong> ou un @UUID[Item.1vydtdkS329FAIEl]{talisman de luciole} brise l'illusion immédiatement.</li><li>Un personnage qui dit « c'est une illusion ! » et réussit un test d'<strong>Illusions</strong> DD 12 [[/skill skill=ill dc=12]] peut refaire la sauvegarde avec l'avantage.</li></ul>\n<h2>2. Les clones d'eau attaquent</h2>\n<div class=\"ffk-box ffk-fight\"><p class=\"ffk-box-title\">Combat</p><p>Lancez l'initiative. Quatre @UUID[Actor.1XHFCrnkyr2PfVeQ]{clones d'eau} sortent du lac (jetons cachés au bord de l'eau, à révéler). Ils ressemblent au fantôme. Leur but : <strong>attraper Tetsu</strong>, qui est sorti de chez lui en entendant les ninjas (placez son jeton sur la place, ou près des personnages).</p><p><strong>Règle des sbires :</strong> un clone d'eau a 1 PV. Le premier coup qui le touche le fait éclater en une gerbe d'eau.</p><p><strong>Enlèvement :</strong> si deux clones finissent leur tour à côté de Tetsu, ils l'attrapent et l'emportent vers le lac (4 cases par tour). Touchez un des deux clones pour le libérer.</p><p>Au round 2, @UUID[Actor.PLzBuf5pOPnmq8xh]{le Fantôme} (jeton caché sur le lac) lance une fois sa technique de shuriken d'eau sur le personnage le plus menaçant, puis reste à distance.</p></div>\n<h2>3. Le fantôme s'en va</h2>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Le dernier clone éclate. Sur le lac, le fantôme éclate d'un rire froid. « Des gamins de Konoha… Rentrez chez vous, petits. Avant l'aube, ce lac sera à moi. »</p><p>Il fait un signe de la main, et le brouillard l'avale. Quand il se dissipe, il n'y a plus rien que le lac noir et, au loin, la silhouette sombre de l'île des Lucioles.</p></div>\n<ul><li><strong>Si Tetsu a été enlevé</strong>, il est emmené au camp de l'île : les héros doivent y aller tout de suite.</li><li><strong>Si Tetsu est sauvé</strong>, il se jette dans les bras de ses sauveurs. Un test de <strong>Perception</strong> DD 12 [[/skill skill=prc dc=12]] permet de voir une barque partir en silence du quai de l'entrepôt : Kaneda rame vers l'île !</li><li>« Avant l'aube » : les personnages ont le temps de faire un <strong>repos court</strong> (1 heure) à l'auberge avant de partir. Shûhei leur souhaite bonne chance : « Je suis fier de vous. Comme on dit… le poisson pourrit par la tête. Allez attraper la tête ! »</li></ul>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "AAZT3KcMOhU8eLg3",
+     "name": "Acte 4 : L'île des Lucioles",
+     "type": "text",
+     "sort": 1500000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Acte 4 : L'île des Lucioles</h1>\n<h2>La traversée</h2>\n<p>L'île est à environ 800 mètres du ponton. Deux façons d'y aller :</p>\n<ul><li><strong>La barque de Genji :</strong> deux personnages rament. Test de groupe d'<strong>Athlétisme (Athletics)</strong> DD 10 [[/skill skill=ath dc=10]] : si la moitié réussit, la barque avance vite et en silence.</li><li><strong>Marcher sur l'eau :</strong> c'est fatigant pour des genin ! <strong>Contrôle du chakra (Chakra Control)</strong> DD 12 [[/skill skill=ccl dc=12]]. En cas d'échec, le personnage tombe à l'eau plusieurs fois et arrive trempé et essoufflé (il commence le combat avec 2 PV de moins).</li></ul>\n<p>Pour approcher sans être vus : test de groupe de <strong>Discrétion (Stealth)</strong> DD 12 [[/skill skill=ste dc=12]]. Si la moitié du groupe réussit (et que Kaneda n'a pas été alerté), les personnages ont un <strong>round de surprise</strong> : ils agissent avant que les ennemis ne réagissent.</p>\n<h2>Sur l'île</h2>\n<p>Ouvrez la scène @UUID[Scene.LHhxoaiZJ6XmyIdn]{L'île des Lucioles}. Placez les personnages sur la plage, à l'ouest. Les lieux numérotés sont décrits dans les pages <em>Île 1</em> à <em>Île 5</em>.</p>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>La barque glisse sur la plage. L'île est silencieuse, noyée dans une brume légère. Un chemin de pierres plates mène vers un vieux portail rouge, puis vers les ruines d'un sanctuaire.</p><p>Plus loin, une lueur de lanterne et le bruit des pelles. Puis un grincement de bois : un coffre qu'on ouvre.</p><p>« De l'or… tout cet or… » La voix tremblante de Kaneda. Puis une autre voix, plus froide : « Merci pour ton aide, Kaneda-san. Ta part ? Le fond du trou. »</p><p>Un cri, un bruit sourd : quelqu'un vient d'être poussé dans la fosse.</p></div>\n<h2>Le combat final</h2>\n<div class=\"ffk-box ffk-fight\"><p class=\"ffk-box-title\">Combat</p><p><strong>Adversaires :</strong> @UUID[Actor.PLzBuf5pOPnmq8xh]{Uramaru Hisame, le Fantôme du Lac} et deux @UUID[Actor.7zCcQjQH7qXo9Y4l]{brigands} près de la fosse. Si Gonza s'est enfui à l'acte 1, @UUID[Actor.vxty0iSagVjFG1Wl]{Tonbi Gonza} monte la garde au camp (jeton caché) avec les PV qu'il lui restait (ou 20 PV).</p><p><strong>Kaneda</strong> est au fond de la fosse, la jambe tordue. Il ne combat pas et supplie qu'on l'aide.</p><p><strong>Difficulté :</strong> difficile mais juste. Voir @UUID[JournalEntry.f7omoimuFdhzr2Jm.JournalEntryPage.U3n1Jir2O7spc5QZ]{Ajuster la difficulté} si le combat tourne mal (ou trop bien).</p></div>\n<h3>Tactique d'Uramaru</h3>\n<ol><li><strong>Round 1 :</strong> il lance <em>Suiton : Brume cachée</em> (Hidden Mist) sur la zone et marque le personnage le plus dangereux. Il appelle deux clones d'eau (action bonus).</li><li><strong>Ensuite :</strong> il attaque les personnages fragiles (ceux qui lancent des techniques ou soignent) avec <em>Shuriken d'eau</em>, et utilise le <em>Fouet d'eau</em> pour tirer un personnage vers la fosse ou le lac.</li><li><strong>Réaction :</strong> une fois par combat, il utilise la Technique de substitution quand il va être touché (il est remplacé par une bûche).</li><li><strong>À 20 PV ou moins :</strong> il attrape le sac d'or et court vers le lac pour s'enfuir en marchant sur l'eau. Il faut l'arrêter avant qu'il atteigne l'eau (Possession de l'ombre, piège à fil, croc-en-jambe, Akimichi qui lui barre la route…).</li></ol>\n<h3>La lanterne du sanctuaire</h3>\n<p>Un personnage qui atteint la grande lanterne de pierre devant le sanctuaire (lieu 4) et l'allume (avec du feu, une technique Katon ou un talisman de luciole) déclenche le miracle de la légende : des centaines de lucioles s'envolent et la brume disparaît de l'île pour le reste de la nuit. <strong>Uramaru ne peut plus utiliser la Brume cachée.</strong></p>\n<h2>La fin du combat</h2>\n<ul><li><strong>Uramaru vaincu :</strong> il est ligoté. « Konoha… Je m'en souviendrai, petits. » Shûhei enverra un message au village pour qu'une équipe vienne le chercher.</li><li><strong>Uramaru s'enfuit :</strong> il laisse tomber le sac d'or dans sa fuite. La mission est quand même réussie, mais le danger n'est pas écarté (une bonne idée pour une prochaine aventure !).</li><li><strong>Kaneda :</strong> s'il est sauvé de la fosse, il fond en larmes et avoue tout. Il promet d'annuler les ventes et de rendre les terres. Les personnages peuvent le ramener à la cheffe Oume.</li></ul>\n<p><strong>Le trésor :</strong> le coffre contient le @UUID[Item.RlZa4oxlWt8ZulCZ]{trésor du seigneur Kagami} : de vieilles pièces d'or et un rouleau scellé. Sur le rouleau, une seule phrase : « Ce trésor appartient à Kawabe. Qu'il serve à reconstruire quand le malheur viendra. »</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "NTbcXINfD2p2MBfs",
+     "name": "Île 1 : La plage",
+     "type": "text",
+     "sort": 1600000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Île 1 : La plage d'accostage</h1>\n<p>Une petite plage de sable gris. Les deux barques volées de Genji sont tirées sur le sable, cachées sous des branches. <strong>Perception</strong> DD 10 [[/skill skill=prc dc=10]] : de nombreuses traces de pas vont et viennent vers l'est.</p>\n<p>Les personnages peuvent saboter les barques (Uramaru ne pourra plus fuir avec), ou les récupérer pour Genji.</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "BbYbdyj3n2kY9v8G",
+     "name": "Île 2 : Le torii",
+     "type": "text",
+     "sort": 1700000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Île 2 : Le portail rouge (torii)</h1>\n<p>Un vieux portail rouge écaillé, couvert de mousse. Entre ses piliers, Uramaru a tendu un fil presque invisible, relié à des clochettes.</p>\n<ul><li>Repérer le fil : <strong>Perception</strong> DD 13 [[/skill skill=prc dc=13]]. Tsumugi (spécialiste des fils et des armes) a l'avantage.</li><li>Si le fil est touché, les clochettes sonnent : plus de surprise possible, et les brigands viennent voir.</li><li>Contourner le torii par les buissons évite le piège, mais Ayame dirait que c'est très impoli envers les esprits…</li></ul>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "278CyLN5KizxbWUh",
+     "name": "Île 3 : Le camp",
+     "type": "text",
+     "sort": 1800000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Île 3 : Le camp des brigands</h1>\n<p>Deux tentes, un feu de camp, des sacs de riz volés et des cerfs-volants noirs avec des lanternes bleues (les « feux follets »).</p>\n<ul><li>Si Gonza s'est enfui à l'acte 1, il est ici, assis près du feu, en train de soigner ses blessures. Il rejoint le combat dès qu'il entend du bruit.</li><li>Si Tetsu a été enlevé, il est attaché près d'une tente, bâillonné mais indemne. Le libérer prend une action.</li><li>Dans une tente : 120 ryôs, une @UUID[Item.oedD537DjEKtdwCl]{boîte d'onigiri} et une bouteille de saké.</li></ul>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "qTdcH58qqZomiCwq",
+     "name": "Île 4 : Le vieux sanctuaire",
+     "type": "text",
+     "sort": 1900000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Île 4 : Le vieux sanctuaire du seigneur Kagami</h1>\n<p>Un sanctuaire de bois noirci, à moitié écroulé. Devant les marches, une grande lanterne de pierre couverte de mousse : la lanterne de la légende.</p>\n<p><strong>Rallumer la lanterne</strong> (une action, à côté de la lanterne) avec du feu, une technique de feu ou un talisman de luciole : des centaines de lucioles s'envolent. La brume disparaît de l'île jusqu'au matin et Uramaru ne peut plus lancer sa Brume cachée. Tous les alliés à moins de 6 cases regagnent 1d4 PV, émerveillés.</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "L4IYGt7rs0dz3xxx",
+     "name": "Île 5 : La fosse au trésor",
+     "type": "text",
+     "sort": 2000000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Île 5 : La fosse au trésor</h1>\n<p>Un trou de deux mètres de profondeur, creusé à côté du sanctuaire. Une échelle de corde descend au fond. Le coffre du seigneur Kagami est ouvert, rempli de vieilles pièces d'or.</p>\n<ul><li>Tomber dans la fosse : 1d6 dégâts. En sortir sans l'échelle : <strong>Athlétisme (Athletics)</strong> DD 10 [[/skill skill=ath dc=10]].</li><li>Kaneda est au fond, la jambe tordue. Le remonter demande une action et un test d'<strong>Athlétisme (Athletics)</strong> DD 10 [[/skill skill=ath dc=10]] (Bunta réussit automatiquement).</li></ul>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "Gpejh0hyCzJdIdb9",
+     "name": "Épilogue : la fête des lanternes",
+     "type": "text",
+     "sort": 2100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Épilogue : la fête des lanternes</h1>\n<div class=\"ffk-box ffk-read\"><p class=\"ffk-box-title\">À lire ou paraphraser à voix haute</p><p>Le lendemain soir, pour la première fois depuis deux semaines, tout le village de Kawabe est dehors. Les familles qui étaient parties ont reçu un message et commencent à revenir.</p><p>La grand-mère Oume a décidé d'organiser une fête. Chacun pose sur le lac une petite lanterne de papier avec une bougie, et des centaines de petites lumières dérivent vers l'île des Lucioles. Cette fois, ce sont de vraies lucioles qui dansent au-dessus de l'eau pour les accueillir.</p><p>Shûhei, encore un peu pâle, lève son bol de thé : « À la meilleure équipe de genin que j'aie jamais eue ! Bon, c'est la seule… mais quand même ! »</p></div>\n<h2>Les récompenses</h2>\n<ul><li>La cheffe Oume insiste : la mission sera payée comme une <strong>mission de rang C</strong> grâce au trésor retrouvé. 30 000 ryôs pour l'équipe.</li><li>Chaque personnage reçoit un @UUID[Item.8MtSWjpK51y8kBTC]{insigne de Kawabe} : une petite luciole de bois sculpté.</li><li>Ayame offre à chacun une pilule de chakra.</li><li>Accordez un point de <strong>Volonté du Feu</strong> à chaque joueur.</li></ul>\n<h2>Le mot de la fin</h2>\n<p>Pour terminer, faites un tour de table : <em>« Qu'est-ce que ton personnage a appris pendant cette mission ? »</em> C'est le moment où chacun trouve un bout de son <strong>nindô</strong>, sa voie du ninja.</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "U3n1Jir2O7spc5QZ",
+     "name": "Ajuster la difficulté",
+     "type": "text",
+     "sort": 2200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Ajuster la difficulté</h1>\n<p>Les dés peuvent être cruels. Voici comment adapter les combats sans que les joueurs ne le remarquent.</p>\n<h2>Si c'est trop dur</h2>\n<ul><li>Les brigands sont lâches : ils s'enfuient quand ils sont à moitié de leurs PV.</li><li>Uramaru se moque, parle beaucoup, et perd son tour à faire un discours.</li><li>Gonza ne revient pas à l'acte 4.</li><li>Uramaru s'enfuit dès 30 PV au lieu de 20.</li><li><strong>La cavalerie :</strong> au round 3, Shûhei arrive en titubant sur l'île et lance une boule de feu sur les brigands. « Je ne pouvais pas… rater ça ! » Puis il s'évanouit.</li><li>Ayame, venue en cachette, rallume la lanterne du sanctuaire à la place des héros.</li></ul>\n<h2>Si c'est trop facile</h2>\n<ul><li>Uramaru appelle deux clones d'eau supplémentaires à chaque round.</li><li>Gonza arrive en renfort même s'il avait été capturé (ses complices l'ont libéré).</li><li>Uramaru utilise le Fouet d'eau pour jeter un personnage dans le lac (<strong>Athlétisme (Athletics)</strong> DD 12 [[/skill skill=ath dc=12]] pour regagner la rive).</li></ul>\n<h2>Et si un personnage tombe à 0 PV ?</h2>\n<p>Il fait des jets contre la mort comme prévu par les règles. Mais pour une première partie, nous conseillons : un personnage à 0 PV est simplement <strong>assommé</strong> jusqu'à la fin du combat ou jusqu'à ce qu'on le soigne. Il se réveille avec 1 PV et une bonne bosse.</p>\n",
+      "format": 1
+     }
+    }
+   ]
+  },
+  {
+   "_id": "yGG4coW1734EFRRD",
+   "name": "02 · Personnages non-joueurs",
+   "folder": "UPvhYtChD46nlVkc",
+   "sort": 300,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "pages": [
+    {
+     "_id": "VbJ2HFLGh9kcSqIG",
+     "name": "Tous les PNJ en un coup d'œil",
+     "type": "text",
+     "sort": 100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Tous les PNJ en un coup d'œil</h1>\n<table class=\"ffk-table\"><thead><tr><th>PNJ</th><th>Qui ?</th><th>Le jouer en une phrase</th></tr></thead><tbody><tr><td>@UUID[Actor.lcBvktDbwojBdFRG]{Inaba Shûhei}</td><td>Chûnin de Konoha, chef d'escouade</td><td>Optimiste, rate tous ses proverbes, devient le grand frère des héros.</td></tr><tr><td>@UUID[Actor.E8tcLvlzTURNPk8N]{Grand-mère Oume}</td><td>Cheffe de Kawabe, 74 ans</td><td>Autoritaire, tape sa canne par terre quand elle s'énerve, fume la pipe.</td></tr><tr><td>@UUID[Actor.q88yT4KLyfVHEXE0]{Sachi}</td><td>Aubergiste</td><td>Bavarde, débrouillarde, connaît tous les ragots.</td></tr><tr><td>@UUID[Actor.QcFSOb3YvKlQnBMc]{Tetsu}</td><td>Petit garçon de 8 ans</td><td>Méfiant puis collant ; veut devenir ninja.</td></tr><tr><td>@UUID[Actor.zONbwkCYk9lvkfOD]{Le vieux Genji}</td><td>Pêcheur, 65 ans</td><td>Grogne tout le temps, mais a un cœur d'or.</td></tr><tr><td>@UUID[Actor.UFpXLHiy6CxfvZ7c]{Ayame}</td><td>Gardienne du sanctuaire, 16 ans</td><td>Douce, rêveuse, parle aux esprits comme à des voisins.</td></tr><tr><td>@UUID[Actor.r7DvJUj8SDV5hCno]{Kaneda Jûbei}</td><td>Marchand de riz</td><td>Sourire mielleux, se frotte les mains, transpire quand on le soupçonne.</td></tr><tr><td>@UUID[Actor.rpmXIc5btUQnD4y5]{Mosuke}</td><td>Commis de Kaneda</td><td>Se ronge les ongles, prêt à tout avouer au moindre froncement de sourcils.</td></tr><tr><td>@UUID[Actor.vxty0iSagVjFG1Wl]{Tonbi Gonza}</td><td>Chef des brigands</td><td>Ricane, se croit plus malin que tout le monde, fuit dès que ça tourne mal.</td></tr><tr><td>@UUID[Actor.PLzBuf5pOPnmq8xh]{Uramaru Hisame}</td><td>Déserteur de Kiri, le « Fantôme du Lac »</td><td>Calme, méprisant, parle doucement comme un professeur ennuyé.</td></tr></tbody></table>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "YLMaLmFZYHySbWSq",
+     "name": "Inaba Shûhei",
+     "type": "text",
+     "sort": 200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>@UUID[Actor.lcBvktDbwojBdFRG]{Inaba Shûhei} — le chef d'escouade</h1>\n<p><strong>Apparence :</strong> 24 ans, cheveux en bataille, gilet de chûnin mal fermé, un bandeau de Konoha un peu de travers.</p><p><strong>Caractère :</strong> joyeux, confiant, un peu tête en l'air. Il adore les proverbes mais se trompe toujours (« L'habit ne fait pas le… poisson ? »).</p><p><strong>Rôle :</strong> empoisonné dès l'acte 1, il laisse les genin prendre les décisions. Au lit à l'auberge, il peut donner un conseil si les joueurs sont perdus.</p><p><strong>Ce qu'il sait :</strong> il reconnaît le brouillard de Kiri si on le lui décrit (« Brouillard salé, voix de partout… C'est une technique de la Brume. Faites attention : les ninjas de Kiri sont des tueurs silencieux. »).</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "SpCsmrH30xEMMIYo",
+     "name": "Les habitants de Kawabe",
+     "type": "text",
+     "sort": 300000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Les habitants de Kawabe</h1>\n<h2>@UUID[Actor.E8tcLvlzTURNPk8N]{Grand-mère Oume}</h2>\n<p>Toute petite, toute ridée, mais tout le monde lui obéit. Elle se sent coupable d'avoir laissé partir six familles. Elle fait confiance aux ninjas, mais pas aux marchands. <em>Tic :</em> tape sa canne par terre. <em>Phrase :</em> « De mon temps, les fantômes avaient la politesse de rester morts ! »</p>\n<h2>@UUID[Actor.q88yT4KLyfVHEXE0]{Sachi}</h2>\n<p>40 ans, manches retroussées, rire sonore. Elle gère l'auberge seule depuis la mort de son mari. Elle nourrit tout le monde, même ceux qui ne peuvent pas payer. <em>Phrase :</em> « Mangez d'abord, vous aurez peur après ! »</p>\n<h2>@UUID[Actor.QcFSOb3YvKlQnBMc]{Tetsu}</h2>\n<p>8 ans, genoux écorchés, un bandeau en tissu qu'il a fabriqué lui-même. Son père est pêcheur. Il a vu le fantôme sans masque mais personne ne le croit. Il veut devenir ninja et s'attache vite aux héros.</p>\n<h2>@UUID[Actor.zONbwkCYk9lvkfOD]{Le vieux Genji}</h2>\n<p>65 ans, peau tannée par le soleil, toujours un filet à la main. Il est furieux qu'on lui ait volé ses barques. <em>Phrase :</em> « Fantôme ou pas, je veux mes barques ! »</p>\n<h2>@UUID[Actor.UFpXLHiy6CxfvZ7c]{Ayame}</h2>\n<p>16 ans, gardienne du petit sanctuaire depuis la mort de son grand-père. Elle croit sincèrement aux esprits et à la légende du seigneur Kagami. Elle confie les talismans de luciole aux héros.</p>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "fbp057eGBQZDBWKK",
+     "name": "Kaneda, Gonza et Uramaru",
+     "type": "text",
+     "sort": 400000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Les responsables</h1>\n<h2>@UUID[Actor.r7DvJUj8SDV5hCno]{Kaneda Jûbei} — le commanditaire</h2>\n<p>Un homme rond en kimono de soie, des bagues à tous les doigts. Il n'est pas méchant comme un monstre : il est <strong>avide</strong>. Il s'est convaincu que « ces pauvres gens seront mieux ailleurs ». Il a peur d'Uramaru, mais il est trop tard pour reculer. S'il est sauvé par les héros, il regrette sincèrement.</p>\n<h2>@UUID[Actor.rpmXIc5btUQnD4y5]{Mosuke} — le commis</h2>\n<p>Jeune homme maigre à lunettes. Il sait que son patron paie quelqu'un pour « le brouillard », mais pas plus. Il a honte et avoue tout à la première menace.</p>\n<h2>@UUID[Actor.vxty0iSagVjFG1Wl]{Tonbi Gonza} — le chef des brigands</h2>\n<p>Un ancien élève de l'Académie qui n'a jamais réussi l'examen de genin. Il déteste les ninjas « officiels ». Long manteau gris, kusarigama à la ceinture, aiguilles empoisonnées dans la manche. Lâche : il fuit dès qu'il est en difficulté.</p>\n<h2>@UUID[Actor.PLzBuf5pOPnmq8xh]{Uramaru Hisame} — le Fantôme du Lac</h2>\n<p>Un ancien chûnin de Kiri, 30 ans, cheveux gris-bleu, une cicatrice sur le menton. Il a déserté son village après avoir volé des rouleaux de techniques. Il porte un masque blanc et une cape claire pour jouer le fantôme.</p><p><strong>Ce qu'il veut :</strong> l'or du trésor, pour disparaître loin d'ici. Kaneda n'est pour lui qu'un outil.</p><p><strong>Comment le jouer :</strong> il ne crie jamais. Il parle lentement, comme un professeur ennuyé par de mauvais élèves. Il sous-estime les genin… jusqu'à ce qu'ils le blessent vraiment. Alors il perd son calme.</p>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseil au MJ</p><p>Uramaru est dangereux pour des genin de niveau 1. N'hésitez pas à le faire parler pendant le combat : chaque réplique laisse un peu de répit aux joueurs.</p></div>\n",
+      "format": 1
+     }
+    }
+   ]
+  },
+  {
+   "_id": "Hry1ok3T0qPfQOYh",
+   "name": "03 · Aides de jeu (à montrer aux joueurs)",
+   "folder": "UPvhYtChD46nlVkc",
+   "sort": 400,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "pages": [
+    {
+     "_id": "1AoYFC7mfU1AEI3q",
+     "name": "Ordre de mission",
+     "type": "image",
+     "sort": 100000,
+     "src": "modules/n5eb-feux-follets/assets/handouts/ordre-mission.svg",
+     "title": {
+      "show": true,
+      "level": 1
+     },
+     "image": {
+      "caption": "Montrez cette aide de jeu pendant le prologue."
+     }
+    },
+    {
+     "_id": "C5HVlwuakVvX1BkH",
+     "name": "Carte du voyage",
+     "type": "image",
+     "sort": 200000,
+     "src": "modules/n5eb-feux-follets/assets/maps/carte-voyage.webp",
+     "title": {
+      "show": true,
+      "level": 1
+     },
+     "image": {
+      "caption": "La route de Konoha à Kawabe."
+     }
+    },
+    {
+     "_id": "pKOQeYhw0tKdYd1o",
+     "name": "La légende du seigneur Kagami",
+     "type": "image",
+     "sort": 300000,
+     "src": "modules/n5eb-feux-follets/assets/handouts/legende-kagami.svg",
+     "title": {
+      "show": true,
+      "level": 1
+     },
+     "image": {
+      "caption": "Remise par Ayame au petit sanctuaire (lieu 6)."
+     }
+    },
+    {
+     "_id": "Nd294iYdeX2jvkj4",
+     "name": "Bandeau rayé",
+     "type": "image",
+     "sort": 400000,
+     "src": "modules/n5eb-feux-follets/assets/handouts/bandeau-kiri.webp",
+     "title": {
+      "show": true,
+      "level": 1
+     },
+     "image": {
+      "caption": "Trouvé dans les roseaux des rizières (lieu 7)."
+     }
+    },
+    {
+     "_id": "KI3iRBP2rte3KKql",
+     "name": "Page du registre de Kaneda",
+     "type": "image",
+     "sort": 500000,
+     "src": "modules/n5eb-feux-follets/assets/handouts/registre-kaneda.svg",
+     "title": {
+      "show": true,
+      "level": 1
+     },
+     "image": {
+      "caption": "Trouvée dans le bureau de l'entrepôt (lieu 4)."
+     }
+    },
+    {
+     "_id": "9G95o4yf0nHViUP1",
+     "name": "Plan de l'île",
+     "type": "image",
+     "sort": 600000,
+     "src": "modules/n5eb-feux-follets/assets/handouts/plan-ile.svg",
+     "title": {
+      "show": true,
+      "level": 1
+     },
+     "image": {
+      "caption": "Glissé dans le registre de Kaneda (lieu 4)."
+     }
+    }
+   ]
+  },
+  {
+   "_id": "Bx8CpmmOwxhw0B9N",
+   "name": "04 · Guide du joueur",
+   "folder": "UPvhYtChD46nlVkc",
+   "sort": 500,
+   "ownership": {
+    "default": 2
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "pages": [
+    {
+     "_id": "oYESDHSEihJW43ZQ",
+     "name": "Bienvenue, ninja !",
+     "type": "text",
+     "sort": 100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Bienvenue, ninja !</h1>\n<p>Tu incarnes un <strong>genin</strong> de Konoha, le Village Caché de la Feuille. Tu viens de sortir de l'Académie, tu as ton bandeau frontal tout neuf, et aujourd'hui commence ta première vraie mission hors du village.</p><p>Tu n'as pas besoin de connaître les règles pour jouer. Dis simplement au MJ ce que ton personnage veut faire : il te dira quand lancer les dés.</p>\n<h2>Les trois choses à savoir</h2>\n<ol><li><strong>Pour réussir une action</strong> difficile, lance 1d20 et ajoute le bonus de ta fiche. Plus c'est haut, mieux c'est.</li><li><strong>Ton chakra</strong> est l'énergie qui te permet de lancer des techniques (jutsu). Chaque technique en coûte un peu. Quand il n'y en a plus, il faut se reposer.</li><li><strong>Ton équipe</strong> est ta plus grande force. Un ninja seul est un ninja en danger !</li></ol>\n<h2>Choisir son personnage</h2>\n<table class=\"ffk-table\"><thead><tr><th>Personnage</th><th>Style</th><th>Difficulté</th></tr></thead><tbody><tr><td>@UUID[Actor.CUsHqPuaEwiFRxPb]{Akimichi Bunta}</td><td>Costaud, protège ses amis, frappe fort au corps à corps</td><td>★☆☆ facile</td></tr><tr><td>@UUID[Actor.Za9ob2Y11qth33sO]{Hibana Kaito}</td><td>Lance des techniques de feu dévastatrices, mais fragile</td><td>★★☆ moyen</td></tr><tr><td>@UUID[Actor.m3PJne40l3LGZFqO]{Nara Shizuka}</td><td>Stratège, immobilise ses ennemis avec son ombre</td><td>★★☆ moyen</td></tr><tr><td>@UUID[Actor.DsHcPfzIOHkWwOpF]{Fûma Tsumugi}</td><td>Experte des armes de lancer, des pièges et des fils</td><td>★★☆ moyen</td></tr><tr><td>@UUID[Actor.Q72wyQUnnUzmeWBD]{Sakuraba Momo}</td><td>Soigne ses amis et brise les illusions</td><td>★☆☆ facile</td></tr></tbody></table>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "DZ37TlfI5WZUQIYI",
+     "name": "Ton tour en combat",
+     "type": "text",
+     "sort": 200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Ton tour en combat</h1>\n<p>En combat, chacun joue à son tour. Pendant ton tour, tu peux faire <strong>tout ça</strong>, dans l'ordre que tu veux :</p>\n<table class=\"ffk-table\"><thead><tr><th></th><th>Quoi ?</th><th>Exemples</th></tr></thead><tbody><tr><td>🏃</td><td><strong>Te déplacer</strong> (6 cases)</td><td>courir, grimper, sauter, contourner un ennemi</td></tr><tr><td>⚔️</td><td><strong>Une action</strong></td><td>attaquer avec une arme, lancer une technique, aider un allié, te cacher, utiliser un objet</td></tr><tr><td>⚡</td><td><strong>Une action bonus</strong> (si une capacité le permet)</td><td>certaines techniques, avaler une pilule</td></tr><tr><td>🛡️</td><td><strong>Une réaction</strong> (une fois par round, même hors de ton tour)</td><td>Technique de substitution, Technique du clonage</td></tr></tbody></table>\n<h2>Comment attaquer ?</h2>\n<ol><li>Clique sur ton arme ou ta technique dans ta fiche.</li><li>Choisis ta cible (le jeton de l'ennemi).</li><li>Le système lance les dés pour toi : si ton résultat atteint la CA de l'ennemi, tu touches !</li><li>Lance ensuite les dégâts.</li></ol>\n<h2>Quand tu es blessé</h2>\n<p>Tes <strong>points de vie (PV)</strong> baissent quand on te touche. À 0, tu tombes inconscient. Ne panique pas : tes amis peuvent te soigner (Momo !) ou te stabiliser.</p>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Astuce</p><p>Le meilleur conseil : <strong>parle avec ton équipe</strong>. « Shizuka, immobilise-le, je fonce ! » C'est comme ça qu'on gagne.</p></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "tfnxAhdUL4QCszd3",
+     "name": "Le chakra et les techniques",
+     "type": "text",
+     "sort": 300000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>Le chakra et les techniques</h1>\n<p>Le chakra, c'est l'énergie du corps et de l'esprit mélangées. Les ninjas le « malaxent » avec des signes des mains pour créer des techniques.</p>\n<ul><li>Ta réserve de chakra est affichée sur ta fiche et sur ton jeton (la deuxième barre).</li><li>Chaque technique indique son <strong>coût</strong> en chakra et son <strong>rang</strong> (E = très simple, D = niveau genin).</li><li><strong>Ninjutsu</strong> : techniques de chakra (feu, ombre, soins…).</li><li><strong>Genjutsu</strong> : illusions qui trompent l'esprit (clonage, transformation, libération).</li><li><strong>Taijutsu</strong> : techniques de combat au corps à corps.</li><li><strong>Bukijutsu</strong> : techniques d'armes (shuriken, fils…).</li></ul>\n<h2>Se reposer</h2>\n<ul><li><strong>Repos court</strong> (1 heure) : tu peux dépenser des « dés de vie » pour regagner des PV et des « dés de chakra » pour regagner du chakra.</li><li><strong>Repos long</strong> (une nuit de sommeil) : tu récupères tout.</li></ul>\n<h2>Les techniques que tout le monde connaît</h2>\n<p>Tous les genin ont appris à l'Académie :</p>\n<ul><li><strong>Technique du clonage</strong> : deux copies de toi apparaissent. Quand on t'attaque, tu peux faire rater l'ennemi en le trompant (il retire 1d6 à son attaque).</li><li><strong>Technique de transformation</strong> : tu prends l'apparence de quelqu'un ou de quelque chose. Parfait pour tromper un garde (+4 au test de Tromperie).</li></ul>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Astuce</p><p>Les techniques sont affichées « nom français (nom anglais) ». Ouvre une technique pour lire son résumé <strong>« En bref »</strong>.</p></div>\n",
+      "format": 1
+     }
+    }
+   ]
+  },
+  {
+   "_id": "OqZzgPs6NYfYyfoB",
+   "name": "05 · Fiches des prétirés",
+   "folder": "UPvhYtChD46nlVkc",
+   "sort": 600,
+   "ownership": {
+    "default": 2
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "pages": [
+    {
+     "_id": "4FWzWgPy77HARbEq",
+     "name": "Akimichi Bunta",
+     "type": "text",
+     "sort": 100000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>@UUID[Actor.CUsHqPuaEwiFRxPb]{Akimichi Bunta}</h1>\n<p class=\"ffk-subtitle\">13 ans · Clan Akimichi · Spécialiste du taijutsu · « Le Rocher gourmand »</p>\n<blockquote>« Ventre plein, cœur vaillant ! »</blockquote>\n<h2>Qui es-tu ?</h2>\n<p>Tu es le plus grand et le plus large de ta promotion. Ta grand-mère tient un petit restaurant à Konoha, et ton rêve est de devenir le premier ninja-cuisinier dont on chantera les recettes dans tout le pays.</p><p>Comme tous les Akimichi, tu sais transformer les calories en chakra et faire grossir une partie de ton corps pour frapper plus fort.</p>\n<h2>Ta personnalité</h2>\n<ul><li>Calme, lent à parler, mais jamais lent à agir quand un ami est en danger.</li><li>Tu partages toujours ta nourriture (ce qui est une grande preuve d'amitié).</li><li>Tu détestes qu'on gaspille de la nourriture… et qu'on s'en prenne aux plus petits.</li></ul>\n<h2>Ton rôle dans l'équipe</h2>\n<p>Tu es <strong>le rempart</strong>. Tu te places entre les ennemis et tes amis fragiles (Kaito, Momo), tu encaisses les coups et tu frappes fort au corps à corps. Hors combat, tu soulèves, tu pousses, tu enfonces les portes.</p>\n<h2>Tes techniques et capacités, en clair</h2>\n<table class=\"ffk-table\"><thead><tr><th>Nom</th><th>Ce que ça fait</th></tr></thead><tbody><tr><td>Coups de poing (brassards de combat)</td><td>Ton attaque de base. Puissante grâce à ta Posture du poing de fer.</td></tr><tr><td>Expansion partielle</td><td>Ton bras grossit : tu frappes à 2 cases de distance et tes coups font plus mal. Peut se payer en Calories.</td></tr><tr><td>Boulet humain</td><td>Tu te transformes en boule et tu roules sur 6 cases en écrasant tout sur ton passage. Ton attaque la plus forte !</td></tr><tr><td>Poing de fer</td><td>Un coup surpuissant qui peut projeter l'ennemi en arrière.</td></tr><tr><td>Tourbillon de la feuille</td><td>Un balayage qui fait tomber l'ennemi à terre.</td></tr><tr><td>Calories</td><td>Une deuxième réserve d'énergie, propre aux Akimichi. Mange pour la remplir !</td></tr><tr><td>Pause déjeuner</td><td>Pendant un repos court, tu récupères plus de PV.</td></tr></tbody></table>\n<h2>Tes liens avec les autres</h2>\n<ul><li><strong>Kaito</strong> : ton ami d'enfance. Il parle trop et fonce sans réfléchir ; tu es là pour le rattraper.</li><li><strong>Momo</strong> : tu lui gardes toujours une part de dessert. Elle te trouve rassurant.</li></ul>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseils pour bien jouer</p><ul><li>Quand un ami est en danger, dis : « Derrière moi ! » et place-toi devant lui.</li><li>Au début d'un combat difficile, lance l'Expansion partielle.</li><li>Hors combat, propose à manger aux PNJ : ça ouvre bien des portes (et des cœurs).</li></ul></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "tGWeUV1ON4roYerX",
+     "name": "Hibana Kaito",
+     "type": "text",
+     "sort": 200000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>@UUID[Actor.Za9ob2Y11qth33sO]{Hibana Kaito}</h1>\n<p class=\"ffk-subtitle\">12 ans · Sans clan · Spécialiste du ninjutsu · « L'Étincelle »</p>\n<blockquote>« Une seule étincelle suffit pour allumer un grand feu. »</blockquote>\n<h2>Qui es-tu ?</h2>\n<p>Tu n'as pas de clan, pas de famille célèbre, pas de technique secrète. Tu as été élevé par la boulangère de ton quartier, et tu as tout appris à force de travail.</p><p>Ton élément, c'est le feu. Tu es le meilleur de ta promotion en ninjutsu, et tu comptes bien le prouver à tout le monde.</p>\n<h2>Ta personnalité</h2>\n<ul><li>Bavard, fanfaron, toujours une blague (souvent mauvaise) à la bouche.</li><li>Tu fonces d'abord et tu réfléchis après… parfois.</li><li>Au fond, tu as peur de ne jamais être reconnu. Tu veux que les gens se souviennent de ton nom.</li></ul>\n<h2>Ton rôle dans l'équipe</h2>\n<p>Tu es <strong>le canon</strong>. Tes techniques de feu font énormément de dégâts. Mais tu es fragile : reste à distance, derrière Bunta, et vise les ennemis les plus dangereux.</p>\n<h2>Tes techniques et capacités, en clair</h2>\n<table class=\"ffk-table\"><thead><tr><th>Nom</th><th>Ce que ça fait</th></tr></thead><tbody><tr><td>Katon : Boule de feu</td><td>Une grosse boule de feu qui brûle tous les ennemis dans une zone (ils peuvent l'esquiver à moitié).</td></tr><tr><td>Katon : Trait de flamme</td><td>Un jet de feu sur une seule cible. Énormes dégâts !</td></tr><tr><td>Projectile de chakra</td><td>Une bille de chakra pur, moins chère que tes techniques de feu.</td></tr><tr><td>Technique de substitution</td><td>En réaction, quand on va te toucher : +3 à ta CA, et tu t'éloignes si l'attaque rate.</td></tr><tr><td>Ninjutsu raffiné</td><td>Deux de tes ninjutsu (conseil : Boule de feu et Trait de flamme) peuvent faire un dé de dégâts en plus.</td></tr><tr><td>Récupération de chakra</td><td>Une fois par repos court, une de tes techniques coûte moitié moins cher.</td></tr><tr><td>Vigilant</td><td>Tu n'es jamais surpris et tu agis souvent en premier (+5 à l'initiative).</td></tr></tbody></table>\n<h2>Tes liens avec les autres</h2>\n<ul><li><strong>Bunta</strong> : ton meilleur ami depuis toujours. Le seul qui te supporte vraiment.</li><li><strong>Shizuka</strong> : ta rivale. Elle était première aux examens écrits, toi en ninjutsu. Tu veux l'impressionner (mais tu ne l'avoueras jamais).</li></ul>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseils pour bien jouer</p><ul><li>Garde ton chakra pour les combats importants : tes techniques coûtent cher.</li><li>Combine-toi avec Shizuka : un ennemi immobilisé par son ombre ne peut pas esquiver ton feu !</li><li>Ton feu peut aussi servir hors combat : allumer une lanterne, faire peur, éclairer…</li></ul></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "URvfXZInGdDTilhq",
+     "name": "Nara Shizuka",
+     "type": "text",
+     "sort": 300000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>@UUID[Actor.m3PJne40l3LGZFqO]{Nara Shizuka}</h1>\n<p class=\"ffk-subtitle\">13 ans · Clan Nara · Ninja éclaireur · « L'Ombre patiente »</p>\n<blockquote>« Laisse-moi réfléchir trois secondes. »</blockquote>\n<h2>Qui es-tu ?</h2>\n<p>Tu viens du clan Nara, célèbre pour ses stratèges et ses techniques d'ombre. Ton grand-père t'a appris le shôgi avant même que tu saches lire.</p><p>Tu étais première aux examens écrits de l'Académie. Tu observes tout, tu remarques tout, et tu as toujours un plan (même deux).</p>\n<h2>Ta personnalité</h2>\n<ul><li>Calme, posée, un peu distante. Tu parles peu, mais quand tu parles, on t'écoute.</li><li>Tu détestes te presser et tu détestes encore plus les plans improvisés.</li><li>Tu caches ta gentillesse derrière un air blasé.</li></ul>\n<h2>Ton rôle dans l'équipe</h2>\n<p>Tu es <strong>la stratège</strong>. Tu immobilises l'ennemi le plus dangereux avec ta Possession de l'ombre, tu repères les pièges et les indices, et tu proposes les plans.</p>\n<h2>Tes techniques et capacités, en clair</h2>\n<table class=\"ffk-table\"><thead><tr><th>Nom</th><th>Ce que ça fait</th></tr></thead><tbody><tr><td>Possession de l'ombre</td><td>Ton ombre attrape un ennemi : il est entravé et doit copier tes mouvements. Ta meilleure technique ! Attention : ne marche pas dans le noir complet.</td></tr><tr><td>Silhouette d'ombre</td><td>Ton ombre se lève et prend ta forme. Parfait pour faire diversion.</td></tr><tr><td>Libération (Kai)</td><td>Brise un genjutsu (une illusion) sur toi ou un allié. Très utile dans cette mission…</td></tr><tr><td>Détection du chakra</td><td>Tu sens la présence des autres ninjas autour de toi.</td></tr><tr><td>Coordination</td><td>Au début d'un combat, tu donnes des ordres : tes alliés deviennent « Coordonnés » (2 fois par repos long).</td></tr><tr><td>Posture de lancer</td><td>Tes kunai et shuriken reviennent dans ta main, et tu vises loin sans pénalité.</td></tr><tr><td>À la hauteur</td><td>Après une première tentative face à un défi, le MJ te donne un indice sur la manière de le surmonter.</td></tr></tbody></table>\n<h2>Tes liens avec les autres</h2>\n<ul><li><strong>Kaito</strong> : ton rival bruyant. Il t'agace… mais il te fait rire, parfois.</li><li><strong>Tsumugi</strong> : la nouvelle. Elle est aussi précise que toi, ça t'intrigue.</li></ul>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseils pour bien jouer</p><ul><li>Lance la Possession de l'ombre sur l'ennemi le plus fort, puis crie « Maintenant ! » à tes amis.</li><li>Pendant l'enquête, pose des questions. Tu es la meilleure de l'équipe pour relier les indices.</li><li>Dans la nuit et le brouillard, ton ombre est plus faible : allume une lumière !</li></ul></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "cahB7O05GlrnZXS2",
+     "name": "Fûma Tsumugi",
+     "type": "text",
+     "sort": 400000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>@UUID[Actor.DsHcPfzIOHkWwOpF]{Fûma Tsumugi}</h1>\n<p class=\"ffk-subtitle\">13 ans · Clan Fûma · Spécialiste des armes · « Fil d'acier »</p>\n<blockquote>« Je ne rate jamais. Enfin… presque jamais. »</blockquote>\n<h2>Qui es-tu ?</h2>\n<p>Ta famille appartient au clan Fûma, des ninjas voyageurs qui sillonnent le Pays du Feu. Tes parents se sont installés à Konoha il y a un an seulement, et tu es encore « la nouvelle ».</p><p>Tu as un fûma-shuriken (un grand shuriken pliable) que t'a offert ta mère, et tu collectionnes des grelots de tous les villages que tu as traversés.</p>\n<h2>Ta personnalité</h2>\n<ul><li>Curieuse, souriante, tu racontes sans cesse des histoires de voyage (vraies ou presque).</li><li>Un peu fière : tu détestes rater une cible.</li><li>Tu as un accent de la campagne qui fait sourire les gens.</li></ul>\n<h2>Ton rôle dans l'équipe</h2>\n<p>Tu es <strong>la tireuse d'élite</strong>. Tu restes à distance et tu cribles les ennemis de shuriken. Tu poses des pièges avec tes fils, et tu repères les pièges des autres.</p>\n<h2>Tes techniques et capacités, en clair</h2>\n<table class=\"ffk-table\"><thead><tr><th>Nom</th><th>Ce que ça fait</th></tr></thead><tbody><tr><td>Fûma-shuriken</td><td>Ton arme fétiche : un grand shuriken qui fait de gros dégâts à distance.</td></tr><tr><td>Shuriken et kunai</td><td>Pour les attaques rapides. Tu en as plein !</td></tr><tr><td>Pluie céleste</td><td>Tes armes rebondissent en l'air et retombent en pluie sur une zone. Les ennemis touchés saignent.</td></tr><tr><td>Fente céleste</td><td>Une ligne d'armes qui transperce tout sur son passage.</td></tr><tr><td>Tir double</td><td>Ta prochaine attaque à distance devient deux attaques, sur deux cibles différentes.</td></tr><tr><td>Piège à fil</td><td>Tu poses un piège invisible : l'ennemi qui marche dessus est entravé.</td></tr><tr><td>Précision immaculée</td><td>Tu utilises ta Dextérité (ton point fort) pour tes attaques et techniques d'armes à distance.</td></tr></tbody></table>\n<h2>Tes liens avec les autres</h2>\n<ul><li><strong>Momo</strong> : elle t'a soignée le jour de ton arrivée à Konoha. Depuis, vous êtes inséparables.</li><li><strong>Shizuka</strong> : elle t'observe tout le temps. Tu ne sais pas si elle t'aime bien ou si elle te soupçonne de quelque chose.</li></ul>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseils pour bien jouer</p><ul><li>Reste loin des ennemis : tu es plus forte à distance.</li><li>Pose un piège à fil là où l'ennemi va courir (sur le chemin de sa fuite, par exemple !).</li><li>Tes yeux sont excellents : demande souvent au MJ si tu remarques quelque chose.</li></ul></div>\n",
+      "format": 1
+     }
+    },
+    {
+     "_id": "70HFqtEhRCv4XZD0",
+     "name": "Sakuraba Momo",
+     "type": "text",
+     "sort": 500000,
+     "title": {
+      "show": false,
+      "level": 1
+     },
+     "text": {
+      "content": "\n<h1>@UUID[Actor.Q72wyQUnnUzmeWBD]{Sakuraba Momo}</h1>\n<p class=\"ffk-subtitle\">12 ans · Sans clan · Ninja médecin · « Pétale guérisseur »</p>\n<blockquote>« Personne ne meurt pendant ma garde. »</blockquote>\n<h2>Qui es-tu ?</h2>\n<p>Ta mère est infirmière à l'hôpital de Konoha. Depuis toute petite, tu la regardes soigner les ninjas blessés, et tu as décidé de devenir ninja médecin.</p><p>Petit secret : tu as peur du sang. Mais tu as appris à le cacher, parce que tes amis ont besoin de toi.</p>\n<h2>Ta personnalité</h2>\n<ul><li>Douce et timide, mais têtue comme une mule quand il s'agit de soigner.</li><li>Tu grondes tes amis quand ils prennent des risques idiots (surtout Kaito).</li><li>Tu notes tout dans un petit carnet : les plantes, les blessures, les noms.</li></ul>\n<h2>Ton rôle dans l'équipe</h2>\n<p>Tu es <strong>la guérisseuse</strong>. Tu restes près de tes amis pour les soigner, tu brises les illusions, et tu analyses les poisons. Sans toi, l'équipe ne tiendra pas longtemps !</p>\n<h2>Tes techniques et capacités, en clair</h2>\n<table class=\"ffk-table\"><thead><tr><th>Nom</th><th>Ce que ça fait</th></tr></thead><tbody><tr><td>Iryô : Soin habile</td><td>Ta technique de soin principale. En une action : un ami touché regagne beaucoup de PV. En action bonus : tous les amis proches regagnent 8 PV.</td></tr><tr><td>Iryô : Vitalité</td><td>Pour pas cher : un ami gagne quelques PV temporaires (un bouclier de vie).</td></tr><tr><td>Iryô : Élixir de soin</td><td>Tu fabriques une fiole de soin qui guérit aussi le poison. Pratique à donner à l'avance !</td></tr><tr><td>Libération (Kai)</td><td>Brise une illusion sur toi ou un ami.</td></tr><tr><td>Ninjutsu médical</td><td>Tu utilises ta Sagesse (ton point fort) pour tes techniques médicales.</td></tr><tr><td>Repos régénérant</td><td>Pendant les repos, toi et tes amis regagnez 1d6 PV de plus.</td></tr><tr><td>Coup de main</td><td>Tu peux aider un ami (lui donner l'avantage) en action bonus.</td></tr><tr><td>Trousse de médecine</td><td>Pour stabiliser un blessé ou soigner un poison sans dépenser de chakra.</td></tr></tbody></table>\n<h2>Tes liens avec les autres</h2>\n<ul><li><strong>Tsumugi</strong> : ta meilleure amie. Tu l'as soignée le jour de son arrivée.</li><li><strong>Bunta</strong> : il te garde toujours une part de dessert. Tu te sens en sécurité quand il est là.</li></ul>\n<div class=\"ffk-box ffk-tip\"><p class=\"ffk-box-title\">Conseils pour bien jouer</p><ul><li>Garde du chakra pour les soins : c'est ta mission principale.</li><li>N'hésite pas à attaquer avec tes senbon quand personne n'est blessé.</li><li>Dans cette mission, il y aura des illusions et du poison… tu vas être indispensable !</li></ul></div>\n",
+      "format": 1
+     }
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "_id": "6qdVnhQICyKW81tX",
+   "name": "Rumeurs de Kawabe",
+   "folder": "PDzc1PAXiiOZkdQV",
+   "img": "icons/svg/d20-grey.svg",
+   "formula": "1d8",
+   "replacement": true,
+   "displayRoll": true,
+   "description": "Ce que racontent les habitants de Kawabe (et Sachi, l'aubergiste).",
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "results": [
+    {
+     "_id": "wZeK4OlVKlFgaMe6",
+     "type": "text",
+     "name": "Rumeur 1",
+     "description": "« Le fantôme, c'est l'esprit du seigneur Kagami qui protège son trésor ! » (à moitié vrai : il y a bien un trésor)",
+     "range": [
+      1,
+      1
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "KqyUZcmcUPsgcZXb",
+     "type": "text",
+     "name": "Rumeur 2",
+     "description": "« Kaneda achète toutes les terres. Il paraît qu'il paie bien… enfin, pas si bien que ça. » (vrai)",
+     "range": [
+      2,
+      2
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "Kd2kD47RfyWC9bQb",
+     "type": "text",
+     "name": "Rumeur 3",
+     "description": "« Les lumières bleues sentent l'huile brûlée, comme une lampe. » (vrai : ce sont des lanternes)",
+     "range": [
+      3,
+      3
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "nO4bY5dSF7F6jDsM",
+     "type": "text",
+     "name": "Rumeur 4",
+     "description": "« Le vieux Genji jure que le fantôme lui a volé ses barques. Un fantôme qui a besoin d'une barque ? » (vrai)",
+     "range": [
+      4,
+      4
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "y1Rme5OjbwhwJMod",
+     "type": "text",
+     "name": "Rumeur 5",
+     "description": "« Tetsu dit qu'il a vu le fantôme sans masque, mais personne ne le croit. » (vrai)",
+     "range": [
+      5,
+      5
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "17gboMqg6bVTrlSB",
+     "type": "text",
+     "name": "Rumeur 6",
+     "description": "« Le fantôme mange les enfants qui sortent la nuit ! » (faux)",
+     "range": [
+      6,
+      6
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "qgjSAzm7pUAcOyIN",
+     "type": "text",
+     "name": "Rumeur 7",
+     "description": "« Des hommes armés campaient près de la Gorge, la semaine dernière. » (vrai : les brigands de Gonza)",
+     "range": [
+      7,
+      7
+     ],
+     "weight": 1,
+     "drawn": false
+    },
+    {
+     "_id": "R7klX6MNturyKKci",
+     "type": "text",
+     "name": "Rumeur 8",
+     "description": "« La petite Ayame parle aux lucioles. Elle dit qu'elles reviendront quand on rallumera la lanterne. » (vrai, d'une certaine façon…)",
+     "range": [
+      8,
+      8
+     ],
+     "weight": 1,
+     "drawn": false
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "_id": "l6cLiAlOFmz2sM3W",
+   "name": "0 · Carte du voyage",
+   "folder": "vacPJF6NBkbT6Oih",
+   "sort": 1,
+   "navigation": true,
+   "navOrder": 1,
+   "background": {
+    "src": "modules/n5eb-feux-follets/assets/maps/carte-voyage.webp"
+   },
+   "width": 2400,
+   "height": 1600,
+   "padding": 0,
+   "grid": {
+    "type": 0,
+    "size": 100,
+    "distance": 5,
+    "units": "ft",
+    "color": "#000000",
+    "alpha": 0.15
+   },
+   "tokenVision": false,
+   "fog": {
+    "exploration": false
+   },
+   "environment": {
+    "darknessLevel": 0.0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "_tokens": [],
+   "notes": [
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "VvPF19leTtWfkvPk",
+     "x": 240,
+     "y": 640,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-1.svg"
+     },
+     "iconSize": 64,
+     "text": "Prologue : Konoha",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "MEOrKqiCLWngnUh5",
+     "x": 1140,
+     "y": 620,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-2.svg"
+     },
+     "iconSize": 64,
+     "text": "Acte 1 : le pont",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "wAJwd44MUWr9V8m5",
+     "x": 1620,
+     "y": 760,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-3.svg"
+     },
+     "iconSize": 64,
+     "text": "Acte 2 : Kawabe",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "AAZT3KcMOhU8eLg3",
+     "x": 2110,
+     "y": 950,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-4.svg"
+     },
+     "iconSize": 64,
+     "text": "Acte 4 : l'île",
+     "fontSize": 28
+    }
+   ]
+  },
+  {
+   "_id": "YMVeu1xSOnuP14U7",
+   "name": "1 · Le Pont de la Gorge",
+   "folder": "vacPJF6NBkbT6Oih",
+   "sort": 2,
+   "navigation": true,
+   "navOrder": 2,
+   "background": {
+    "src": "modules/n5eb-feux-follets/assets/maps/pont-gorge.webp"
+   },
+   "width": 3000,
+   "height": 2000,
+   "padding": 0,
+   "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 5,
+    "units": "ft",
+    "color": "#000000",
+    "alpha": 0.15
+   },
+   "tokenVision": false,
+   "fog": {
+    "exploration": false
+   },
+   "environment": {
+    "darknessLevel": 0.0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "_tokens": [
+    {
+     "actor": "CUsHqPuaEwiFRxPb",
+     "x": 200,
+     "y": 900,
+     "hidden": false
+    },
+    {
+     "actor": "Za9ob2Y11qth33sO",
+     "x": 300,
+     "y": 900,
+     "hidden": false
+    },
+    {
+     "actor": "m3PJne40l3LGZFqO",
+     "x": 400,
+     "y": 900,
+     "hidden": false
+    },
+    {
+     "actor": "DsHcPfzIOHkWwOpF",
+     "x": 200,
+     "y": 1000,
+     "hidden": false
+    },
+    {
+     "actor": "Q72wyQUnnUzmeWBD",
+     "x": 300,
+     "y": 1000,
+     "hidden": false
+    },
+    {
+     "actor": "lcBvktDbwojBdFRG",
+     "x": 1400,
+     "y": 900,
+     "hidden": false
+    },
+    {
+     "actor": "vxty0iSagVjFG1Wl",
+     "x": 2200,
+     "y": 900,
+     "hidden": true
+    },
+    {
+     "actor": "7zCcQjQH7qXo9Y4l",
+     "x": 1900,
+     "y": 700,
+     "hidden": true
+    },
+    {
+     "actor": "7zCcQjQH7qXo9Y4l",
+     "x": 800,
+     "y": 600,
+     "hidden": true
+    }
+   ],
+   "notes": [
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "MEOrKqiCLWngnUh5",
+     "x": 1500,
+     "y": 1200,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-1.svg"
+     },
+     "iconSize": 64,
+     "text": "L'embuscade",
+     "fontSize": 28
+    }
+   ]
+  },
+  {
+   "_id": "cUKDHsUXncdNAPzZ",
+   "name": "2 · Le village de Kawabe",
+   "folder": "vacPJF6NBkbT6Oih",
+   "sort": 3,
+   "navigation": true,
+   "navOrder": 3,
+   "background": {
+    "src": "modules/n5eb-feux-follets/assets/maps/village-kawabe.webp"
+   },
+   "width": 4000,
+   "height": 3000,
+   "padding": 0,
+   "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 5,
+    "units": "ft",
+    "color": "#000000",
+    "alpha": 0.15
+   },
+   "tokenVision": false,
+   "fog": {
+    "exploration": false
+   },
+   "environment": {
+    "darknessLevel": 0.0
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "_tokens": [
+    {
+     "actor": "CUsHqPuaEwiFRxPb",
+     "x": 100,
+     "y": 1400,
+     "hidden": false
+    },
+    {
+     "actor": "Za9ob2Y11qth33sO",
+     "x": 200,
+     "y": 1400,
+     "hidden": false
+    },
+    {
+     "actor": "m3PJne40l3LGZFqO",
+     "x": 300,
+     "y": 1400,
+     "hidden": false
+    },
+    {
+     "actor": "DsHcPfzIOHkWwOpF",
+     "x": 100,
+     "y": 1500,
+     "hidden": false
+    },
+    {
+     "actor": "Q72wyQUnnUzmeWBD",
+     "x": 200,
+     "y": 1500,
+     "hidden": false
+    },
+    {
+     "actor": "E8tcLvlzTURNPk8N",
+     "x": 1600,
+     "y": 1300,
+     "hidden": false
+    },
+    {
+     "actor": "q88yT4KLyfVHEXE0",
+     "x": 800,
+     "y": 1360,
+     "hidden": false
+    },
+    {
+     "actor": "QcFSOb3YvKlQnBMc",
+     "x": 2000,
+     "y": 1600,
+     "hidden": false
+    },
+    {
+     "actor": "zONbwkCYk9lvkfOD",
+     "x": 3100,
+     "y": 1600,
+     "hidden": false
+    },
+    {
+     "actor": "UFpXLHiy6CxfvZ7c",
+     "x": 800,
+     "y": 2500,
+     "hidden": false
+    },
+    {
+     "actor": "r7DvJUj8SDV5hCno",
+     "x": 2500,
+     "y": 900,
+     "hidden": false
+    },
+    {
+     "actor": "rpmXIc5btUQnD4y5",
+     "x": 2400,
+     "y": 900,
+     "hidden": false
+    },
+    {
+     "actor": "1XHFCrnkyr2PfVeQ",
+     "x": 3100,
+     "y": 2200,
+     "hidden": true
+    },
+    {
+     "actor": "1XHFCrnkyr2PfVeQ",
+     "x": 3200,
+     "y": 2400,
+     "hidden": true
+    },
+    {
+     "actor": "1XHFCrnkyr2PfVeQ",
+     "x": 3300,
+     "y": 2000,
+     "hidden": true
+    },
+    {
+     "actor": "1XHFCrnkyr2PfVeQ",
+     "x": 3100,
+     "y": 2600,
+     "hidden": true
+    },
+    {
+     "actor": "PLzBuf5pOPnmq8xh",
+     "x": 3600,
+     "y": 2300,
+     "hidden": true
+    }
+   ],
+   "notes": [
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "YwQI2fyGFcgqV8JY",
+     "x": 900,
+     "y": 930,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-1.svg"
+     },
+     "iconSize": 64,
+     "text": "1. L'auberge du Héron",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "GF9eWQtp0YxvDqmh",
+     "x": 1850,
+     "y": 580,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-2.svg"
+     },
+     "iconSize": 64,
+     "text": "2. La maison de la cheffe",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "6OBd3ETY7WP9bLG4",
+     "x": 2050,
+     "y": 1320,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-3.svg"
+     },
+     "iconSize": 64,
+     "text": "3. La place et le puits",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "gI8P8gTUab1RXr4K",
+     "x": 2550,
+     "y": 229,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-4.svg"
+     },
+     "iconSize": 64,
+     "text": "4. L'entrepôt de Kaneda",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "eq1EqNZ5JKfTJlNr",
+     "x": 3300,
+     "y": 1540,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-5.svg"
+     },
+     "iconSize": 64,
+     "text": "5. Le ponton de Genji",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "x1bNGb8DfeXGRZhb",
+     "x": 570,
+     "y": 2130,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-6.svg"
+     },
+     "iconSize": 64,
+     "text": "6. Le petit sanctuaire",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "RrtdAdkoWe7KJNBe",
+     "x": 2000,
+     "y": 2330,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-7.svg"
+     },
+     "iconSize": 64,
+     "text": "7. Les rizières",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "eVyIN2utuB5sJ3N1",
+     "x": 350,
+     "y": 229,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-8.svg"
+     },
+     "iconSize": 64,
+     "text": "8. Maisons abandonnées",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "LxAKMyhtPSuC3NRr",
+     "x": 3400,
+     "y": 2500,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-9.svg"
+     },
+     "iconSize": 64,
+     "text": "Acte 3 : la nuit",
+     "fontSize": 28
+    }
+   ]
+  },
+  {
+   "_id": "LHhxoaiZJ6XmyIdn",
+   "name": "3 · L'île des Lucioles (nuit)",
+   "folder": "vacPJF6NBkbT6Oih",
+   "sort": 4,
+   "navigation": true,
+   "navOrder": 4,
+   "background": {
+    "src": "modules/n5eb-feux-follets/assets/maps/ile-lucioles.webp"
+   },
+   "width": 3600,
+   "height": 3000,
+   "padding": 0,
+   "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 5,
+    "units": "ft",
+    "color": "#000000",
+    "alpha": 0.15
+   },
+   "tokenVision": false,
+   "fog": {
+    "exploration": false
+   },
+   "environment": {
+    "darknessLevel": 0.45
+   },
+   "flags": {
+    "n5eb-feux-follets": {
+     "imported": true
+    }
+   },
+   "_tokens": [
+    {
+     "actor": "CUsHqPuaEwiFRxPb",
+     "x": 600,
+     "y": 1300,
+     "hidden": false
+    },
+    {
+     "actor": "Za9ob2Y11qth33sO",
+     "x": 700,
+     "y": 1400,
+     "hidden": false
+    },
+    {
+     "actor": "m3PJne40l3LGZFqO",
+     "x": 600,
+     "y": 1500,
+     "hidden": false
+    },
+    {
+     "actor": "DsHcPfzIOHkWwOpF",
+     "x": 700,
+     "y": 1600,
+     "hidden": false
+    },
+    {
+     "actor": "Q72wyQUnnUzmeWBD",
+     "x": 600,
+     "y": 1700,
+     "hidden": false
+    },
+    {
+     "actor": "PLzBuf5pOPnmq8xh",
+     "x": 2600,
+     "y": 1800,
+     "hidden": false
+    },
+    {
+     "actor": "7zCcQjQH7qXo9Y4l",
+     "x": 2100,
+     "y": 1600,
+     "hidden": false
+    },
+    {
+     "actor": "7zCcQjQH7qXo9Y4l",
+     "x": 2500,
+     "y": 2140,
+     "hidden": false
+    },
+    {
+     "actor": "r7DvJUj8SDV5hCno",
+     "x": 2240,
+     "y": 1920,
+     "hidden": false
+    },
+    {
+     "actor": "vxty0iSagVjFG1Wl",
+     "x": 1600,
+     "y": 860,
+     "hidden": true
+    },
+    {
+     "actor": "QcFSOb3YvKlQnBMc",
+     "x": 1850,
+     "y": 800,
+     "hidden": true
+    }
+   ],
+   "notes": [
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "NTbcXINfD2p2MBfs",
+     "x": 750,
+     "y": 1050,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-1.svg"
+     },
+     "iconSize": 64,
+     "text": "1. La plage",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "BbYbdyj3n2kY9v8G",
+     "x": 1300,
+     "y": 1220,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-2.svg"
+     },
+     "iconSize": 64,
+     "text": "2. Le torii",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "278CyLN5KizxbWUh",
+     "x": 1610,
+     "y": 1160,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-3.svg"
+     },
+     "iconSize": 64,
+     "text": "3. Le camp",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "qTdcH58qqZomiCwq",
+     "x": 2680,
+     "y": 860,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-4.svg"
+     },
+     "iconSize": 64,
+     "text": "4. Le vieux sanctuaire",
+     "fontSize": 28
+    },
+    {
+     "entryId": "f7omoimuFdhzr2Jm",
+     "pageId": "L4IYGt7rs0dz3xxx",
+     "x": 2350,
+     "y": 2200,
+     "texture": {
+      "src": "modules/n5eb-feux-follets/assets/icons/note-5.svg"
+     },
+     "iconSize": 64,
+     "text": "5. La fosse au trésor",
+     "fontSize": 28
+    }
+   ]
+  }
+ ]
+}

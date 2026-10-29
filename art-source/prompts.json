@@ -1,0 +1,245 @@
+[
+  {
+    "key": "handouts/bandeau-kiri",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL illustrated evidence handout for Foundry VTT Naruto adventure Les Feux Follets de Kawabe. One weathered Kirigakure deserter forehead protector lies diagonally on damp mossy earth among flattened lakeside reeds. Landscape 8:5 canvas, target 1600x1000. Close study of the single object, metal plate centered and large, dark navy torn cloth trailing to both sides, frayed woven edges, water droplets, mud flecks and fine scratched metal. Metal plate has exactly THREE simple short PARALLEL HORIZONTAL WAVY LINES, the Hidden Mist symbol, deeply engraved, crossed by ONE long clearly visible DIAGONAL GOUGE marking a deserter. Six small metal rivets at side edges. Very readable silhouette and engraving. Finished Naruto anime prop illustration: precise hand-inked outlines, clean sophisticated cel shading, beautiful painted material textures and moss, muted jade greens, slate-blue shadows, warm ivory steel highlights, soft cinematic daylight. Restrained out-of-focus reeds around edges, no hands or people. No text, no label, no arrows, no UI, no border, no watermark. This is final game art, not a concept sheet.",
+    "source": "masters/handouts/bandeau-kiri.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1983,
+      793
+    ],
+    "source_mode": "RGB"
+  },
+  {
+    "key": "maps/carte-voyage",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL illustrated regional travel map for Foundry VTT Naruto adventure, target 2400x1600 landscape 3:2. Input image is precise layout reference and edit target. Replace all crude shapes with gorgeous Japanese ink-and-watercolor anime cartography on warm ivory washi parchment, fine ink-hatched mountains, tiny cedar and broadleaf trees in forest clusters, winding road, lake shore, symbolic village rooftops. Preserve positions: Konoha walled village near (10%,48%); winding north-south river near x=47%; bridge near (47.5%,48%); small Kawabe fishing village near (67.5%,54%); large jade-blue Lake Kagami in eastern 28% of image; small island near (88%,60%); northern mountain range across upper right. West-to-east road connects Konoha, bridge, Kawabe, one day then half day march. Elaborate but restrained ink compass rose in upper left. Finished Naruto world-map mood, warm parchment, jade forests, cel-shaded blue water, red tile village motifs, fine elegant ink border. ALL TEXT in French and limited to these exact labels placed by features: 'KONOHA', 'Pont de la Gorge', 'KAWABE', 'Lac Kagami', 'Île des Lucioles', 'Montagnes du Nord', 'Forêts du Pays du Feu', '1 jour de marche', '½ jour', and 'N' on compass. No title needed. REMOVE the original '(embuscade)' label: this is a PLAYER MAP, no spoilers, no enemy symbols. No UI, tokens, grid, characters, fake additional places, watermark or tilted perspective.",
+    "source": "masters/maps/carte-voyage.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_mode": "RGB"
+  },
+  {
+    "key": "maps/ile-lucioles",
+    "prompt": "Use case: stylized-concept. Asset type: final Foundry VTT battlemap, Île des Lucioles at night, Naruto shinobi adventure. Input image is edit target and precise layout reference. Completely repaint crude reference as richly detailed finished anime scenery while preserving exact geography, key footprints and walkable clearings. STRICT ORTHOGRAPHIC TOP DOWN, landscape 6:5, target 3600x3000. Oval island centered (53%,50%), bounds x=15-91%,y=13-88%, surrounded by deep navy lake; narrow sand coast, western landing beach x=14-29%,y=37-63%, TWO wooden rowboats just offshore at (11%,44%) and (11%,58%). Stepping-stone path from beach across x=29-68%,y=47-51%; vermilion torii at x=33-39%,y=44-55%. Ruined old Japanese shrine at rectangle x=67-82%,y=32-52%, broken terracotta roof, weathered wood and stone stairs leading south. Excavation pit at x=60-71%,y=57-70%, a small gold-edged treasure chest at (65%,62%), ladder on east edge. TWO small tan tents at (40%,26%) and (49%,23%), small campfire (45%,33%). Scattered stones, dark jade cedar trees, moss and ferns, leave path and encounter spaces open. Lighting: legible blue moonlight, gentle mist only over water, sparse cyan will-o'-wisps and tiny golden fireflies, ember orange campfire, haunting serene mood. Style: polished Naruto anime background art, clean ink contours, cel-shaded depth, beautiful painted textures, tactical clarity. Remove ALL labels, numbers and red circle pins from source. No people, tokens, grid, text, UI, borders, watermark or tilted camera. Do not add extra buildings or bridges.",
+    "source": "masters/maps/ile-lucioles.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1374,
+      1145
+    ],
+    "source_mode": "RGB"
+  },
+  {
+    "key": "maps/pont-gorge",
+    "prompt": "Use case: stylized-concept. Asset type: final production Foundry VTT battlemap, Le Pont de la Gorge, Naruto ninja adventure.\nInput image: the supplied simplified map is an EDIT TARGET and exact spatial layout reference. Completely repaint its crude shapes as beautiful finished Naruto anime background art while preserving the geography, positions, and navigable widths.\nComposition: strictly orthographic top-down, landscape 3:2, full-bleed, target 3000x2000. Forest clearing with dense layered Japanese broadleaf and cedar canopies, moss, ferns, exposed roots and warm sunlit earth. An east-west dirt path lies at y=45-55% of image, meets a deep narrow north-south rocky gorge x=43.3-56.7%, blue river at its bottom. One small wooden rope bridge spans the gorge at x=43.3-56.7%, y=45.5-54.5%. Keep this crossing in this precise position. Four cover boulders east of bridge around (62%,38%),(65%,63%),(72%,39%),(78%,62%). Fallen log barricade across path near x=85%, y=50%. Keep approach path open from both edges.\nStyle: polished hand-painted anime production background, crisp dark ink edges, restrained cel shadows, rich forest jade and ochre, beautiful granular stone and wooden planks, coherent overhead scale and soft sunlight. Detailed professional final art, no prototype geometry.\nConstraints: REMOVE ALL reference text and labels and number markers; no text, no grid, no legend, no characters, no tokens, no perspective tilt, no border, no watermark. Make walking surfaces and obstacles easy to read.",
+    "source": "masters/maps/pont-gorge.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_mode": "RGB"
+  },
+  {
+    "key": "maps/village-kawabe",
+    "prompt": "Use case: stylized-concept. Asset type: final Foundry VTT tactical village map, Kawabe, Naruto anime adventure. Input image is edit target and exact spatial layout reference: repaint completely as finished anime background art preserving ALL building footprints, paths, coastline, dock, well, rice plots and scale. Strict orthographic overhead, landscape 4:3, target 4000x3000. Lake Kagami occupies easternmost 24% with irregular vertical shoreline; fine turquoise water, reeds, mooring ropes. Broad east-west dirt road y=47-53% reaches lakeshore; central circular plaza with stone well centered (46%,52%). Inn with terracotta Japanese tiled roof in rectangle x=15-30%,y=33-45%; chief's traditional wooden house x=39-54%,y=22-37%; large rice warehouse with dark slate roof x=55-73%,y=10-29%, small eastern loading dock x=73-81%,y=17-20%; fisher cottage x=63-72%,y=57-68%; long wooden pier x=74-93%,y=53-57%, rowboat by end. Red-roof shrine x=10-19%,y=73-85% and vermilion torii x=20-25%,y=75-83%. Flooded rectangular rice paddies x=30-70%,y=63-93%. Five abandoned damaged houses at reference positions. Spare trees and vegetation around edges. Style: highest-quality Naruto series hand-painted environment, precise ink contours, layered cel-shaded foliage, sun-warmed ochre paths, jade greens, indigo tile, beautiful weathered wood, morning atmosphere, readable tactical terrain. IMPORTANT remove ALL original labels, circles, numbers and text. No characters, no tokens, no grid, no UI, no legend, no tilted view, no watermark. Keep main roads open and all structures at reference positions.",
+    "source": "masters/maps/village-kawabe.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1448,
+      1086
+    ],
+    "source_mode": "RGB"
+  },
+  {
+    "key": "tokens/ayame",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Ayame: 16-year-old Japanese GIRL, gentle dreamy shrine caretaker, long straight black hair tied back with one modest red ribbon, thoughtful dark brown eyes, kind quiet expression. Modest traditional white shrine maiden kosode with red hakama visible at bottom, simple small paper firefly talisman held near chest. Muted shrine vermilion and soft cedar-green background, dappled light. Civilian, no ninja forehead protector, no magic powers shown.",
+    "source": "masters/tokens/ayame.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/brigand",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Brigand de la Gorge, adult Japanese MAN highway thug, ordinary rough face, untidy short dark hair, dark eyes glancing nervously sideways, several days of stubble, half-confident half-anxious expression. Faded brown headwrap with NO village symbol, patched earth-brown short kimono over charcoal ninja undersuit, modest face-covering cloth pulled DOWN below chin so face is readable. Short tanto scabbard strap across chest. No armor spikes, no supernatural powers. Muted mossy ochre forest and rock backdrop.",
+    "source": "masters/tokens/brigand.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/bunta",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL circular portrait token for Foundry VTT Naruto tabletop adventure, Akimichi Bunta. Square 1024x1024 canvas, genuine transparent background OUTSIDE one perfectly circular narrow brushed antique-brass ring inset 5% from image edges. All character art and background strictly INSIDE circle; no nameplate or writing. Bust centered, whole hairstyle within ring, face large and readable at 100px. Original character in faithful Naruto anime visual language, precise expressive ink linework, confident clean cel shadows, hand-painted subtle texture, professional finished illustration, natural anatomy. Subject: 13-year-old BOY, unusually tall and broad heavyset Akimichi genin, spiky chestnut brown hair, brown eyes, round kind face with Akimichi cheek spiral markings, quiet protective half smile. Burnt-ochre ninja tunic over dark underlayer, metal Konoha Leaf forehead protector, heavy wrist bracers, small tied cloth lunch bundle at lower edge. Age appropriate child proportions and modest practical clothing. Warm forest light, subdued umber and amber background with subtle leaf silhouettes, high silhouette contrast. No canon character likeness, no lettering, no logos except engraved ninja village symbol, no watermark, no square background, no extra faces, no photorealism, no 3D.",
+    "source": "masters/tokens/bunta.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/clone",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL Foundry VTT circular WATER CLONE portrait token for Naruto adventure. Input image is EDIT TARGET and character identity reference: transform Uramaru in the provided token into his Mizu Bunshin water duplicate, keeping exactly the same FACE, grey-blue hairstyle silhouette, pose, cloak shape, forehead plate three waves and diagonal slash, chin scar, circular framing and brushed-brass ring. Remove the white mask beside his head. Change the entire CHARACTER into clearly translucent sculpted BLUE WATER, sharp cel-shaded liquid contours, cyan rims and indigo inner refractions, semi-transparent face still recognizable, flowing watery cloak, several suspended droplets inside the circle, subtle ripples below chest. Muted dark blue lake-mist background inside ring. Preserve highest quality Naruto anime linework; a magical water duplicate, no realistic photograph. The circular ring and outer square corners must retain genuine transparency outside the ring. No text, labels, extra people, grid or watermark. Square output.",
+    "source": "masters/tokens/clone.png",
+    "mode": "built-in image_gen",
+    "reference": "masters/tokens/uramaru.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/genji",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Le vieux Genji: 65-year-old Japanese MAN, deeply sun-tanned weathered skin, silver-grey short scruffy hair and rough grey stubble, stern honest dark eyes, bushy brows, stubborn gruff expression. Worn earth-brown fisherman kimono, rough rope across shoulder, small bundle of fishing net held low at chest. Rustic straw fisherman hat pushed back, entire head inside circle. Subdued lake and reed background. Civilian, no ninja forehead protector.",
+    "source": "masters/tokens/genji.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/gonza",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Tonbi Gonza, adult male bandit chief called the Kite, lean sharp angular face, sly mocking toothy grin, unkempt dark brown hair tied in short messy tail, sun-weathered skin, narrow brown eyes. Worn charcoal-brown ninja clothing, ragged ochre scarf, patched leather shoulder guard, a kusarigama sickle blade and short piece of chain visible near shoulder. Failed ninja student, plain ragged forehead wrap with NO official metal village symbol. Cocky opportunistic expression rather than monstrous. Muted warm rocky forest backdrop.",
+    "source": "masters/tokens/gonza.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/kaito",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Hibana Kaito: 12-year-old BOY, slim young genin, unruly vivid RED hair, amber eyes, mischievous confident grin, rust-red short ninja jacket and dark padded undersuit, Leaf/Konoha metal forehead protector. One hand at chest shaping a small restrained orange flame, lower edge only, do not obscure face. Warm ember palette, subtle dark burnt-red smoky backdrop.",
+    "source": "masters/tokens/kaito.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/kaneda",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Kaneda Jûbei: middle-aged round wealthy Japanese MAN, smooth slicked-back black hair in small merchant topknot, plump face, narrow calculating eyes, ingratiating honeyed smile. Finely patterned ochre-gold SILK KIMONO with dark brown haori, many gold and jade rings on visible fingers of ONE hand resting near chest, no large gestures. Opulent but provincial rice merchant, soft heavy cheeks, carefully groomed thin moustache. Dark golden brown warehouse background. Civilian, no ninja forehead protector.",
+    "source": "masters/tokens/kaneda.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/momo",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Sakuraba Momo: 12-year-old GIRL, short PINK BOB haircut, HAZEL eyes, gentle shy but determined smile. Olive protective shinobi vest over dusty-rose modest medical tunic, Leaf/Konoha forehead protector, small white medical pouch at lower edge. Both hands cupped around a subtle soft green medical chakra glow below chest, correct hands, no injured person or blood. Soft dusty rose and sage-green background.",
+    "source": "masters/tokens/momo.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/mosuke",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Mosuke: young adult Japanese MAN, thin and lanky merchant clerk, short untidy black hair, round wire-frame GLASSES, nervous worried eyes, hunched apologetic posture, small strained smile and subtle sweat at temple. Faded olive-brown simple kimono and plain vest, holding a narrow accounting ledger against chest. Shy ashamed expression rather than evil. Muted sage and brown warehouse interior background. Civilian, no ninja forehead protector.",
+    "source": "masters/tokens/mosuke.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/oume",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Grand-mère Oume: 74-year-old tiny elderly Japanese WOMAN, deeply wrinkled expressive face, grey hair in a small tidy bun, shrewd dark eyes, firm authoritative expression with kind undertone. Lavender muted purple kimono and old indigo shawl. Wood walking cane visible beside shoulder, holds a small traditional long-stem kiseru tobacco pipe low in portrait, no huge smoke. Rustic village background in subdued plum and warm wood tones. Civilian, NO ninja forehead protector.",
+    "source": "masters/tokens/oume.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/sachi",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Sachi: 40-year-old Japanese WOMAN, warm lively innkeeper with broad friendly laughing smile, dark brown hair tied in a practical messy bun, sleeves rolled up, ochre brown kimono under simple cream cooking apron. Holds a bamboo tray with a triangular seaweed-wrapped rice ball low in portrait. Strong kind hardworking presence, rounded natural face, subtle smiling eye wrinkles. Warm amber and wood inn interior backdrop. Civilian, no ninja forehead protector.",
+    "source": "masters/tokens/sachi.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/shizuka",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Nara Shizuka: 13-year-old GIRL, black hair in HIGH PONYTAIL, grey eyes, calm observant thoughtful expression, olive green protective shinobi flak vest over charcoal modest tunic, Konoha forehead protector. Quiet poised strategist, simple finger hand-seal at lower chest, one coherent pair of hands, subtle ink-like shadow tendrils only at bottom of circle. Slate and forest-green subdued background.",
+    "source": "masters/tokens/shizuka.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/shuhei",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Inaba Shûhei: cheerful slightly absent-minded 24-year-old MAN, tousled dark brown hair, warm brown eyes, easy lopsided smile. Konoha/Leaf forehead protector worn slightly crooked, olive green chunin flak jacket carelessly half fastened over navy ninja clothing, practical shinobi outfit. One eyebrow lifted in amiable confidence, no injury or poison signs. Muted sunlit forest olive backdrop.",
+    "source": "masters/tokens/shuhei.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/tetsu",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Tetsu: 8-year-old Japanese BOY, clearly small child, short messy dark hair, wide curious dark eyes, brave but slightly apprehensive bright smile, plain homemade BLUE CLOTH forehead band with a clumsily drawn simple leaf symbol, NO metal ninja plate. Blue patched fisher child's tunic with simple off-white scarf. Chest-up youthful round face, not teenager. Muted blue-green lake and reed backdrop.",
+    "source": "masters/tokens/tetsu.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/tsumugi",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Fûma Tsumugi: 13-year-old GIRL, LIGHT BROWN hair in TWO BRAIDS ending with small round brass BELLS, GREEN eyes, curious welcoming confident smile, teal ninja tunic with olive protective flak vest, Konoha forehead protector. A large folded four-bladed fuma shuriken slung diagonally on back, one blade visible beside shoulder. Natural modest child proportions. Muted jade and teal forest background.",
+    "source": "masters/tokens/tsumugi.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  },
+  {
+    "key": "tokens/uramaru",
+    "prompt": "Use case: stylized-concept. Asset type: FINAL single circular portrait token for Foundry VTT, Les Feux Follets de Kawabe, Naruto adventure. Square canvas. Genuine transparent background outside the circular ring. A narrow brushed dark antique-brass circular ring almost fills the square, all four outer corners transparent, no decorations outside ring. All art clipped inside ring. Centered chest-up character, face large and expressive for 100px display, whole head and hairstyle visible. Finished Naruto anime illustration: crisp expressive dark ink linework, sophisticated clean cel shadows, painted detail on fabric and metal, warm directional light, restrained atmospheric backdrop. Match professional Naruto character portrait styling, original character. Modest practical clothing; children clearly look their actual young age. No text, no nameplate, no watermark, no UI, no photorealism or 3D.  Subject: Uramaru Hisame, the Ghost of the Lake: 30-year-old Japanese MAN, short layered GREY-BLUE hair, pale cold skin, narrow ice-grey eyes, thin healed SCAR ON CHIN, calm contemptuous expression. Pale ivory high-collared shinobi cloak over indigo ninja clothing, Kirigakure metal forehead protector engraved with THREE short WAVES crossed by a long diagonal deserter scratch. Smooth simple WHITE ghost mask pushed to side of head beside temple, leaving BOTH EYES and chin scar clearly visible. A little cyan chakra mist curls at bottom of circle; deep indigo lake mist backdrop with sparse blue will-o'-wisps, cold moonlit rim light. Dangerous composed antagonist, no grin. No red clouds or Akatsuki cloak.",
+    "source": "masters/tokens/uramaru.png",
+    "mode": "built-in image_gen",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_mode": "RGBA"
+  }
+]

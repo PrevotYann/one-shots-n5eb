@@ -1,0 +1,257 @@
+{
+  "status": "final",
+  "generation": "Built-in image_gen (22 raster illustrations); native SVG for documents, item icons and numbered map pins.",
+  "raster_source_note": "Generated masters retained in ../art-source/masters. Maps resized to the existing 100-pixel grid dimensions; source dimensions are in art-source/prompts.json.",
+  "assets": [
+    {
+      "path": "assets/maps/carte-voyage.webp",
+      "sha256": "a54cabc89cb3ff403a42bdfbca04244438def86afbd05395eff38b14ca612231",
+      "width": 2400,
+      "height": 1600,
+      "alpha": false
+    },
+    {
+      "path": "assets/maps/pont-gorge.webp",
+      "sha256": "ab9c3d3b42c23654575417c85252e91cbddeb101b31975b3273ba46dd16a3bb7",
+      "width": 3000,
+      "height": 2000,
+      "alpha": false
+    },
+    {
+      "path": "assets/maps/village-kawabe.webp",
+      "sha256": "5a0cc8073a7e6b1262406dbe02b5adb6a493af10c70f7c1d1ece3eb11fab1149",
+      "width": 4000,
+      "height": 3000,
+      "alpha": false
+    },
+    {
+      "path": "assets/maps/ile-lucioles.webp",
+      "sha256": "3f9cb2d212f3754d4ab490b82b290f5d0647a704e1cc19c33a674a7ee5258936",
+      "width": 3600,
+      "height": 3000,
+      "alpha": false
+    },
+    {
+      "path": "assets/tokens/bunta.webp",
+      "sha256": "2f759374fb25738f0dc9911bbe9be0977027abf3624a411574dfa8bfb51382fc",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/kaito.webp",
+      "sha256": "3026dc2a979b169f7256c064b526e32b60222328595f2e5c1d55ec2a90d07b10",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/shizuka.webp",
+      "sha256": "52e039eace12b63120c51db5423e8e2383ec421b2a8a81b84de40e604d15f0de",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/tsumugi.webp",
+      "sha256": "25f0a4cf081777b6ed42ce9d607091226d407054aa80188adfa26b6e5a51e76e",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/momo.webp",
+      "sha256": "9b7ac2a1b0b6257cfe8d8eb4db0ae85dee32e9592ae7e4b88727820f8c52e87f",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/shuhei.webp",
+      "sha256": "633b3ff3c92c5d1a1b438fbd7ed5c6a2ae4959b3ad2fe781ee1c282d4fae1ebe",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/oume.webp",
+      "sha256": "620a85bf191e8582067c399e53689a764830ec4d3062f1210fe75c157327d724",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/sachi.webp",
+      "sha256": "2293f37a5e10250a0ed8a9be6f33d35662e42c7c2abdb82473d59319aada902a",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/tetsu.webp",
+      "sha256": "fef2670c7fc3fa2711afb0cfe8655945cb9cd69a461a99d0b485a34d2ac4bbb6",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/genji.webp",
+      "sha256": "7f1cfc47a6a673e8f581709c6583e4792d87b862e4546b8d06b763d163c90612",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/ayame.webp",
+      "sha256": "a569965aba29e2d6d6bca59e0b6e95b6caabdfa440f5c8f465f48e41dfe289a2",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/kaneda.webp",
+      "sha256": "33ce8f0c7d3dd0bf113064d153242813f347ac1e1f576f7b43a87111266a63f3",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/mosuke.webp",
+      "sha256": "9d442f4952d7c727ddc32554d17affb6ec48190d1e679800412cee0a74895e68",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/brigand.webp",
+      "sha256": "3823b8e3477d44857687183b433fb50585c6b2dcf047e8d504aabb70853f727f",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/gonza.webp",
+      "sha256": "2c9d045dc97e735c2033b241febd26430ebfb6838d712d13968a6a2c59469b42",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/clone.webp",
+      "sha256": "53f16594317010932205070deeefe6cc7bc84470e0f7996a5ce3b67dc7875886",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/tokens/uramaru.webp",
+      "sha256": "038eba99818266ed1189fcdbf95a38a4c256e80007709e2b61e530ec166aca8d",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "path": "assets/items/onigiri.svg",
+      "sha256": "c32c79fc21122d2a7fb870f299a7e46c3b37812296dc96c9aa150a4626288959"
+    },
+    {
+      "path": "assets/items/talisman.svg",
+      "sha256": "ba6367e2518f9271ff24739eedf5a718bed3664bfbd715f167dfc48a478825fe"
+    },
+    {
+      "path": "assets/items/bandeau.svg",
+      "sha256": "7ae35d4ef827a235ba4217ca0494e039d6d50063974023876ab7097c4277d24d"
+    },
+    {
+      "path": "assets/items/registre.svg",
+      "sha256": "4ed01ad0b9a54ad9e300fb8110a4231d5c395a8ae36c67125633e9033f8104d4"
+    },
+    {
+      "path": "assets/items/carte_ile.svg",
+      "sha256": "532643bfc5721ba93f8bd6b04a8eb3a5517aa65e915ad26ad343f4c8ec5ded28"
+    },
+    {
+      "path": "assets/items/tresor.svg",
+      "sha256": "38db12e85b89e844ee8417b3323be54f25137ae95754d5b943763143de1d97af"
+    },
+    {
+      "path": "assets/items/insigne.svg",
+      "sha256": "b0930f45e31b784a6730ac697e1fd0ccae5c5e495903a8bc446b2ad7cd5b8a69"
+    },
+    {
+      "path": "assets/items/poison.svg",
+      "sha256": "057c0c12d942c40ed9b7ab32fd8f2cafc5ab5c65216b42f32edd5c5632a0edf9"
+    },
+    {
+      "path": "assets/items/eau.svg",
+      "sha256": "a89c4561d7d4f1d040285445ef9b396657b296f6da2fb1791ef034f91bfb5696"
+    },
+    {
+      "path": "assets/items/lumiere.svg",
+      "sha256": "928ea777d5e468adf47fb48bb9799bff276e3d7049281cd1fc799352b36c2f33"
+    },
+    {
+      "path": "assets/items/capacite.svg",
+      "sha256": "7aa1a9f1e9ee90ae871b7b73b78f39dca39841363474c002dd86c78fcdbd9ab7"
+    },
+    {
+      "path": "assets/icons/note-1.svg",
+      "sha256": "876fe6cfae4327801fd9f14574431ce78e53cff9b0084e2b964beff958f34167"
+    },
+    {
+      "path": "assets/icons/note-2.svg",
+      "sha256": "2615c8942be79ccb373594d2975c2ccdc5f3cbb898d490fef2815fbbd6dc6f3d"
+    },
+    {
+      "path": "assets/icons/note-3.svg",
+      "sha256": "f873d7da3a8c0eafb882fca81405a4340425d9ae677a676a0f28cdf5f9b9f55d"
+    },
+    {
+      "path": "assets/icons/note-4.svg",
+      "sha256": "7713b279b3f9d89221fcd7909cd19394cbd31fe97550fbe254aaab669852dd42"
+    },
+    {
+      "path": "assets/icons/note-5.svg",
+      "sha256": "ef8c21dfc67e0c9179fcef7143535831741584e654df350f6ab0908ccd0c07dc"
+    },
+    {
+      "path": "assets/icons/note-6.svg",
+      "sha256": "ba653320aa3dd5d392e437a8de912162c1e77be0ad3426ff1cffff7bb07b46cb"
+    },
+    {
+      "path": "assets/icons/note-7.svg",
+      "sha256": "5055508422c98266d133c875ba005069d5032181d6b06ad3b347167d311943f4"
+    },
+    {
+      "path": "assets/icons/note-8.svg",
+      "sha256": "c63207a71cb1691be9e7996519967aea97633c707bc6e65b2d3085be523d942f"
+    },
+    {
+      "path": "assets/icons/note-9.svg",
+      "sha256": "ebf2aed1ab5be6aac543b42329aa25628c890046d0aa5661266094b8f8390a59"
+    },
+    {
+      "path": "assets/handouts/ordre-mission.svg",
+      "sha256": "5d7d8e76c7972f91157a955ad9071308edfab1ae876c392424b3fa53b74ad1cb"
+    },
+    {
+      "path": "assets/handouts/legende-kagami.svg",
+      "sha256": "3dbd3c929606d05e4707e4f716bc1eff912579a0f1a81094d96c6fb5c111a704"
+    },
+    {
+      "path": "assets/handouts/registre-kaneda.svg",
+      "sha256": "45d61bf6b12b27b64614d7712f68469ec802a3a914e5ce4c6f74e4b8d717fafe"
+    },
+    {
+      "path": "assets/handouts/plan-ile.svg",
+      "sha256": "9c63cc56f7998b2482a8941eb5f09bdb3eef1f7037af5418202c119cea547fd9"
+    },
+    {
+      "path": "assets/handouts/bandeau-kiri.webp",
+      "sha256": "11b721dc2eb23354b7b1d73556dfa54b28556bd92b3101ceae672a4235b80577",
+      "width": 1600,
+      "height": 640,
+      "alpha": false
+    }
+  ]
+}

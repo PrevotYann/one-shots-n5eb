@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#2b3a2a"/>
+  <text x="400" y="60" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#f4e7c5" text-anchor="middle">Morceau de bandeau trouvé dans les roseaux</text>
+  <path d="M60 160 L700 140 L740 360 L90 380 Z" fill="#26324a"/>
+  <rect x="200" y="170" width="380" height="170" rx="16" fill="#b9c0c7" stroke="#6b7480" stroke-width="8"/>
+  <path d="M250 255 q35 -40 70 0 t70 0 t70 0 t70 0" stroke="#4a525c" stroke-width="12" fill="none"/>
+  <path d="M250 300 q35 -40 70 0 t70 0 t70 0 t70 0" stroke="#4a525c" stroke-width="12" fill="none"/>
+  <path d="M250 210 q35 -40 70 0 t70 0 t70 0 t70 0" stroke="#4a525c" stroke-width="12" fill="none"/>
+  <line x1="215" y1="330" x2="565" y2="185" stroke="#2a2a2a" stroke-width="14"/>
+  <text x="400" y="440" font-family="Georgia, serif" font-size="26" fill="#f4e7c5" text-anchor="middle">Le symbole est rayé d'un grand trait : la marque d'un ninja déserteur.</text>
+</svg>
